@@ -1,26 +1,573 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pintro Demo</title>
+    <title>Pintro - 附近心动地点提醒</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
             background-color: #f5f5f5;
         }
         h1 {
-            font-size: 4rem;
             color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .setting-group {
+            margin-bottom: 15px;
+        }
+        .setting-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #555;
+}
+        .radio-group {
+            display: flex;
+            gap: 15px;
+        }
+        .radio-group label {
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 50px;
+            height: 24px;
+        }
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 24px;
+        }
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 16px;
+            width: 16px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+        .places-list {
+            margin-top: 15px;
+        }
+        .place-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .place-item:last-child {
+            border-bottom: none;
+        }
+        .place-info h3 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 4px;
+        }
+        .place-info p {
+            font-size: 14px;
+            color: #666;
+        }
+        .btn {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .btn-add {
+            background-color: #2196F3;
+            color: white;
+        }
+        .btn-remove {
+            background-color: #f44336;
+            color: white;
+        }
+        .btn-refresh {
+            background-color: #4CAF50;
+            color: white;
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+        }
+        .btn:hover {
+            opacity: 0.8;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border-radius: 12px;
+            max-width: 80%;
+            width: fit-content;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+        .modal-close {
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            color: #aaa;
+            cursor: pointer;
+        }
+        .modal-close:hover {
+            color: #333;
+        }
+        .modal-title {
+            margin-bottom: 15px;
+            padding-right: 20px;
+        }
+        .alert {
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .alert-info {
+            background-color: #d1ecf1;
+            color: #0c5460;
+        }
+        .alert-warning {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .distance {
+            font-size: 12px;
+            color: #888;
+            margin-top: 2px;
+        }
+        .my-collection {
+            margin-top: 20px;
+        }
+        .my-collection h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .empty-collection {
+            color: #888;
+            text-align: center;
+            padding: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Pintro</h1>
+    <h1>Pintro 附近心动地点提醒</h1>
+
+    <div class="card">
+        <h2>设置</h2>
+        <div class="setting-group">
+            <label>功能开关</label>
+            <label class="switch">
+                <input type="checkbox" id="featureToggle" checked>
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="setting-group">
+            <label>触发距离</label>
+            <div class="radio-group">
+                <label><input type="radio" name="distance" value="500" checked> 500米</label>
+                <label><input type="radio" name="distance" value="1000"> 1公里</label>
+                <label><input type="radio" name="distance" value="1500"> 1.5公里</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>可选测试地点</h2>
+        <div class="places-list" id="testPlaces"></div>
+    </div>
+
+    <div class="card my-collection">
+        <h2>我的收藏</h2>
+        <div id="myCollection"></div>
+    </div>
+
+    <div class="card">
+        <button class="btn btn-refresh" id="refreshBtn">重新检查附近地点</button>
+    </div>
+
+    <!-- 提醒弹窗 -->
+    <div id="alertModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-title">
+                <h2 id="modalTitle"></h2>
+            </div>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script>
+        // 内置10个测试地点（以上海为例）
+        const TEST_PLACES = [
+            { id: 1, name: "老上海面馆", description: "本帮面特色餐厅", lat: 31.2304, lng: 121.4737 },
+            { id: 2, name: "愚园路网红咖啡馆", description: "文艺青年聚集地", lat: 31.2222, lng: 121.4420 },
+            { id: 3, name: "武康大楼打卡点", description: "上海著名历史建筑", lat: 31.2188, lng: 121.4510 },
+            { id: 4, name: "安福路街角书店", description: "独立人文书店", lat: 31.2210, lng: 121.4530 },
+            { id: 5, name: "上海博物馆", description: "中国古代艺术博物馆", lat: 31.2304, lng: 121.4810 },
+            { id: 6, name: "新天地南里商场", description: "时尚购物餐饮区", lat: 31.2250, lng: 121.4840 },
+            { id: 7, name: "田子坊艺术街区", description: "老弄堂文艺街区", lat: 31.2080, lng: 121.4630 },
+            { id: 8, name: "思南公馆花园洋房", description: "历史花园洋房区", lat: 31.2180, lng: 121.4720 },
+            { id: 9, name: "静安嘉里中心", description: "高端购物中心", lat: 31.2300, lng: 121.4450 },
+            { id: 10, name: "南京东路步行街", description: "上海标志性商业街", lat: 31.2360, lng: 121.4780 }
+        ];
+
+        // localStorage 键
+        const STORAGE_KEYS = {
+            COLLECTION: 'pintro_collection',
+            LAST_TRIGGER: 'pintro_last_trigger',
+            SETTINGS: 'pintro_settings'
+        };
+
+        // 初始化
+        let settings = {
+            enabled: true,
+            triggerDistance: 500
+        };
+
+        // 加载设置
+        function loadSettings() {
+            const saved = localStorage.getItem(STORAGE_KEYS.SETTINGS);
+            if (saved) {
+                settings = JSON.parse(saved);
+                document.getElementById('featureToggle').checked = settings.enabled;
+                document.querySelector(`input[name="distance"][value="${settings.triggerDistance}"]`).checked = true;
+            }
+        }
+
+        // 保存设置
+        function saveSettings() {
+            localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(settings));
+        }
+
+        // 获取收藏列表
+        function getCollection() {
+            const saved = localStorage.getItem(STORAGE_KEYS.COLLECTION);
+            return saved ? JSON.parse(saved) : [];
+        }
+
+        // 保存收藏列表
+        function saveCollection(collection) {
+            localStorage.setItem(STORAGE_KEYS.COLLECTION, JSON.stringify(collection));
+        }
+
+        // 添加到收藏
+        function addToCollection(placeId) {
+            const collection = getCollection();
+            if (!collection.includes(placeId)) {
+                collection.push(placeId);
+                saveCollection(collection);
+                renderCollection();
+            }
+        }
+
+        // 从收藏移除
+        function removeFromCollection(placeId) {
+            let collection = getCollection();
+            collection = collection.filter(id => id !== placeId);
+            saveCollection(collection);
+            renderCollection();
+        }
+
+        // 计算两点之间距离（Haversine公式，单位：米）
+        function calculateDistance(lat1, lng1, lat2, lng2) {
+            const R = 6371e3; // 地球半径（米）
+            const φ1 = lat1 * Math.PI / 180;
+            const φ2 = lat2 * Math.PI / 180;
+            const Δφ = (lat2 - lat1) * Math.PI / 180;
+            const Δλ = (lng2 - lng1) * Math.PI / 180;
+
+            const a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
+                    Math.cos(φ1) * Math.cos(φ2) *
+                    Math.sin(Δλ/2) * Math.sin(Δλ/2);
+            const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+
+            return R * c; // 距离（米）
+        }
+
+        // 检查是否可以触发提醒（24小时内不重复）
+        function canTrigger(placeId) {
+            const saved = localStorage.getItem(STORAGE_KEYS.LAST_TRIGGER);
+            if (!saved) return true;
+            
+            const lastTrigger = JSON.parse(saved);
+            const lastTime = lastTrigger[placeId];
+            if (!lastTime) return true;
+
+            const now = Date.now();
+            const hoursPassed = (now - lastTime) / (1000 * 60 * 60);
+            return hoursPassed >= 24;
+        }
+
+        // 记录触发时间
+        function recordTrigger(placeId) {
+            const saved = localStorage.getItem(STORAGE_KEYS.LAST_TRIGGER);
+            const lastTrigger = saved ? JSON.parse(saved) : {};
+            lastTrigger[placeId] = Date.now();
+            localStorage.setItem(STORAGE_KEYS.LAST_TRIGGER, JSON.stringify(lastTrigger));
+        }
+
+        // 获取当前位置并检查
+        function checkNearbyPlaces() {
+            if (!settings.enabled) {
+                return;
+            }
+
+            if (!navigator.geolocation) {
+                alert("您的浏览器不支持地理定位");
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(position => {
+                const currentLat = position.coords.latitude;
+                const currentLng = position.coords.longitude;
+                const collection = getCollection();
+                const triggerDistance = settings.triggerDistance;
+
+                const nearbyPlaces = [];
+
+                collection.forEach(placeId => {
+                    if (!canTrigger(placeId)) return;
+
+                    const place = TEST_PLACES.find(p => p.id === placeId);
+                    if (!place) return;
+
+                    const distance = calculateDistance(currentLat, currentLng, place.lat, place.lng);
+                    if (distance <= triggerDistance) {
+                        nearbyPlaces.push({...place, distance: Math.round(distance)});
+                        recordTrigger(placeId);
+                    }
+                });
+
+                if (nearbyPlaces.length === 0) {
+                    showInfoAlert("附近没有发现你收藏的心动地点");
+                    return;
+                }
+
+                showAlertModal(nearbyPlaces);
+            }, error => {
+                let errorMsg = "获取位置失败，请检查位置权限";
+                switch(error.code) {
+                    case error.PERMISSION_DENIED:
+                        errorMsg = "位置权限被拒绝，请在浏览器设置中允许位置访问";
+                        break;
+                    case error.POSITION_UNAVAILABLE:
+                        errorMsg = "位置信息不可用";
+                        break;
+                    case error.TIMEOUT:
+                        errorMsg = "获取位置超时，请重试";
+                        break;
+                }
+                alert(errorMsg);
+            }, {
+                enableHighAccuracy: false,
+                timeout: 10000,
+                maximumAge: 300000
+            });
+        }
+
+        // 显示提醒弹窗
+        function showAlertModal(places) {
+            const modal = document.getElementById('alertModal');
+            const title = document.getElementById('modalTitle');
+            const body = document.getElementById('modalBody');
+
+            if (places.length === 1) {
+                const place = places[0];
+                title.textContent = `发现附近心动地点`;
+                body.innerHTML = `
+                    <div class="alert alert-success">
+                        <strong>${place.name}</strong> 就在你附近 ${place.distance} 米处
+                        <p style="margin-top: 8px; font-size: 14px;">${place.description}</p>
+                    </div>
+                `;
+            } else {
+                title.textContent = `发现${places.length}个附近心动地点`;
+                let html = '';
+                places.forEach(place => {
+                    html += `
+                        <div class="alert alert-success">
+                            <strong>${place.name}</strong> - ${place.distance} 米
+                            <p style="margin-top: 4px; font-size: 14px;">${place.description}</p>
+                        </div>
+                    `;
+                });
+                body.innerHTML = html;
+            }
+
+            modal.style.display = "block";
+        }
+
+        // 关闭弹窗
+        function closeModal() {
+            document.getElementById('alertModal').style.display = "none";
+        }
+
+        // 显示普通信息弹窗
+        function showInfoAlert(message) {
+            const modal = document.getElementById('alertModal');
+            const title = document.getElementById('modalTitle');
+            const body = document.getElementById('modalBody');
+            title.textContent = "检查完成";
+            body.innerHTML = `<div class="alert alert-info">${message}</div>`;
+            modal.style.display = "block";
+        }
+
+        // 渲染测试地点列表
+        function renderTestPlaces() {
+            const container = document.getElementById('testPlaces');
+            const collection = getCollection();
+            let html = '';
+
+            TEST_PLACES.forEach(place => {
+                const isCollected = collection.includes(place.id);
+                html += `
+                    <div class="place-item">
+                        <div class="place-info">
+                            <h3>${place.name}</h3>
+                            <p>${place.description}</p>
+                        </div>
+                        ${isCollected 
+                            ? `<button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderTestPlaces();">移除收藏</button>`
+                            : `<button class="btn btn-add" onclick="addToCollection(${place.id}); renderTestPlaces();">添加收藏</button>`
+                        }
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        // 渲染我的收藏
+        function renderCollection() {
+            const container = document.getElementById('myCollection');
+            const collection = getCollection();
+
+            if (collection.length === 0) {
+                container.innerHTML = '<div class="empty-collection">还没有添加任何收藏地点</div>';
+                return;
+            }
+
+            let html = '';
+            collection.forEach(placeId => {
+                const place = TEST_PLACES.find(p => p.id === placeId);
+                if (!place) return;
+                html += `
+                    <div class="place-item">
+                        <div class="place-info">
+                            <h3>${place.name}</h3>
+                            <p>${place.description}</p>
+                        </div>
+                        <button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderCollection(); renderTestPlaces();">移除</button>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        // 绑定事件
+        function bindEvents() {
+            // 功能开关
+            document.getElementById('featureToggle').addEventListener('change', e => {
+                settings.enabled = e.target.checked;
+                saveSettings();
+            });
+
+            // 距离选择
+            document.querySelectorAll('input[name="distance"]').forEach(radio => {
+                radio.addEventListener('change', e => {
+                    settings.triggerDistance = parseInt(e.target.value);
+                    saveSettings();
+                });
+            });
+
+            // 重新检查按钮
+            document.getElementById('refreshBtn').addEventListener('click', () => {
+                checkNearbyPlaces();
+            });
+
+            // 点击遮罩关闭弹窗
+            document.getElementById('alertModal').addEventListener('click', e => {
+                if (e.target.id === 'alertModal') {
+                    closeModal();
+                }
+            });
+        }
+
+        // 初始化页面
+        function init() {
+            loadSettings();
+            renderTestPlaces();
+            renderCollection();
+            bindEvents();
+
+            // 页面加载完成后自动检查一次
+            if (settings.enabled) {
+                setTimeout(() => {
+                    checkNearbyPlaces();
+                }, 500);
+            }
+        }
+
+        // 启动
+        init();
+    </script>
 </body>
 </html>
