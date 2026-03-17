@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0JD21MN0E",
+      "parent": "B001539A1D",
+      "childtype": "201",
+      "name": "库迪咖啡(新世界城店)",
+      "tag": "芒芒生打椰系列,【爆款,全场饮品任选券,流云茉莉轻乳茶,阳光青提系列,【蕉个新朋友,暖咖季香蕉,【茸茸暖咖季,慕斯大红袍生酪拿铁,五常米乳拿铁,生椰拿铁,潘帕斯蓝生酪茉莉拿铁,云顶慕斯新品,【桂人多旺事,富桂酒酿,【柚味臻选,柚见冰沁系列,【浓郁丝滑,流云拿铁,鲜气杨梅新品,橙C新品,纯萃燕麦拿铁,杨枝甘露",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "南京西路2-68号新世界城地下2层(人民广场地铁7号口处)",
+      "location": "121.473496,31.234449",
+      "tel": "13621796115",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621638702",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.473591,31.234437",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 12:38:19",
+      "alias": [],
+      "indoor_map": "1",
+      "indoor_data": {
+        "cpid": "B001539A1D",
+        "floor": "-1",
+        "truefloor": "B1",
+        "cmsid": "47510200100240"
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "10.00",
+        "meal_ordering": "0",
+        "open_time": "08:00-21:00",
+        "opentime2": "周一至周五 08:00-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+        },
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/b3b3f9f296505cb77f6388b13f3cf1f2"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JD21MN0E/comment/efe421cea2211c22ff7ff1ab606b7fa7_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

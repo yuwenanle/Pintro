@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0JDUAMS4Q",
+      "parent": "B00155NEUT",
+      "childtype": "320",
+      "name": "大满咖啡(中福城二期店)",
+      "tag": "下午茶,芝士,coffee",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "浙江中路215弄1号底层",
+      "location": "121.479004,31.233338",
+      "tel": "13621910238;15316007981",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621638800",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.479107,31.233316",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 20:27:31",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "29.00",
+        "meal_ordering": "0",
+        "open_time": [],
+        "opentime2": "周一至周五 09:30-18:00；周六至周日 09:00-19:00 2026-01-01至2026-01-03 周一至周日 09:30-19:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JDUAMS4Q/comment/14bb937451e5ad3761a85b9ddd4d71c6_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JDUAMS4Q/comment/af470bbc5febba1d897163a08e8a8e1a_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JDUAMS4Q/comment/c1867a4a25e34965eb241b97cd392aeb_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

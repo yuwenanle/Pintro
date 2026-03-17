@@ -1,0 +1,1212 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "450",
+  "suggestion": {
+    "keywords": [],
+    "cities": []
+  },
+  "pois": [
+    {
+      "id": "B00155H8SM",
+      "parent": "B00155KKQJ",
+      "childtype": "302",
+      "name": "星巴克(人民公园店)",
+      "type": "餐饮服务;咖啡厅;星巴克咖啡",
+      "typecode": "050501",
+      "biz_type": "diner",
+      "address": "南京西路189号(近人民广场9号出口)",
+      "location": "121.470875,31.231675",
+      "tel": "021-60782939;021-63271930;4008206998",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "42.00",
+        "meal_ordering": "0",
+        "open_time": "06:30-22:00",
+        "opentime2": "周一至周四,周日 06:30-22:00；周五至周六 06:30-22:30"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B00155H8SM/comment/f378b73095702acecbf764cbb83a190b_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B00155H8SM/comment/2F95B28A_5929_4D22_A404_1532F05845FF_L0_001_2000_150_1768301884191_35992115.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B00155H8SM/comment/E77959E9_5A86_46AF_8A6F_767CBEF73C25_L0_001_1500_200_1750997185616_63373122.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "下午茶,卡布奇诺,美式咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0JUTAWJV5",
+      "parent": [],
+      "childtype": [],
+      "name": "Crave Bakery&Coffee",
+      "type": "餐饮服务;糕饼店;糕饼店",
+      "typecode": "050800",
+      "biz_type": "diner",
+      "address": "西藏中路88号(人民广场地铁站1号口步行270米)",
+      "location": "121.477875,31.229975",
+      "tel": "13817025184",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "47.00",
+        "meal_ordering": "0",
+        "open_time": "08:30-20:00",
+        "opentime2": "周一至周日 08:30-20:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JUTAWJV5/comment/dcf268e08aa827f8f7146c4f7b5bef10_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JUTAWJV5/comment/FA08EF1B_66DF_4543_9247_85009A40C415_L0_001_1308_1744_1744442747556_80367834.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JUTAWJV5/comment/566C1E11_4AA3_406F_BFDA_730E92638089_L0_001_1179_138_1763258350183_50314305.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "coffee,堂食,下午茶",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFKKQ5G5",
+      "parent": "B00154DWRN",
+      "childtype": "202",
+      "name": "Tims天好咖啡(中区广场店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "黄陂北路227号中区广场1层02店铺",
+      "location": "121.470685,31.229282",
+      "tel": "021-63353866",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "31.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-22:00",
+        "opentime2": "周一至周五 07:00-22:00；周六至周日 08:00-22:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/query_pic?id=st1a318338-7770-4717-a3c2-d24271293e86&user=search&operate=original"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/051f1ed5300e3f9daaee7cd3e6cf1caf"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/ff6fc28e6adb91190a109bd6eb1d39f3"
+        }
+      ],
+      "building": [],
+      "atag": "拿铁,巴旦木炼乳拿铁,巴旦木炼乳澳白,全麦贝果,柠檬气泡饮,鲜萃奶咖,不止拿铁,农夫卷,美式,无肉也欢火腿蛋贝果三明治,牛油果生椰冷萃,鸡肉,下午茶,奶咖,美式咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0G271GLCM",
+      "parent": [],
+      "childtype": [],
+      "name": "八角屿octacoffee",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "黄陂北路195号-1(人民广场地铁站11号口步行410米)",
+      "location": "121.471005,31.228985",
+      "tel": "13122426991",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "27.00",
+        "meal_ordering": "0",
+        "open_time": [],
+        "opentime2": "周六08:30-17:00,周一至周五07:30-16:00,2026-02-15至2026-02-23休息2026-02-2807:30-16:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G271GLCM/comment/99a3f66e2f19c5a044d33113f55a17b2_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G271GLCM/comment/content_media_external_file_27384_ss__1762317538388_64740181.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G271GLCM/comment/E553CB5F_D4D0_438B_9293_57F1881D2CD4_L0_001_2016_151_1755769718181_98830078.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "coffee",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0I2MLHVE6",
+      "parent": "B00151BEEE",
+      "childtype": "202",
+      "name": "BeanStar比星咖啡(上海人广来福士店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "西藏中路268号人广来福士七层07-07室",
+      "location": "121.476524,31.232165",
+      "tel": "18939852052",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.3",
+        "cost": "17.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-18:30",
+        "opentime2": "周一至周日 07:30-18:30"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/4595cdea692fb507f9645b6769c2fbf5"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0I2MLHVE6/comment/7319B46E_3A9B_4EE2_BAB4_D6B72B9994D8_L0_001_969_93_1757042050928_97901771.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0I2MLHVE6/comment/content_media_external_file_78653_ss__1761727680240_57116134.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "美式咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0HKOAD2KK",
+      "parent": [],
+      "childtype": [],
+      "name": "Marmalade",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "北海路261号(人民广场地铁站1号口步行270米)",
+      "location": "121.478140,31.230262",
+      "tel": "18555966310",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "29.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-18:00",
+        "opentime2": "周一至周日 07:30-18:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0HKOAD2KK/comment/3FF6147A_D547_4B63_A18D_44DD68D7E73E_L0_001_1512_201_1757771774036_59167189.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0HKOAD2KK/comment/eb8da2dacf755de4a1a53a18ea19b283_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0HKOAD2KK/comment/AB6DF4BA_0735_4BC6_AB17_E88F4F3D0658_L0_001_1512_201_1757771773998_36291562.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "奶咖,柠檬,下午茶,点心,热饮",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B00156EVJJ",
+      "parent": "B00155KKQJ",
+      "childtype": "302",
+      "name": "星巴克(西藏路店)",
+      "type": "餐饮服务;咖啡厅;星巴克咖啡",
+      "typecode": "050501",
+      "biz_type": "diner",
+      "address": "西藏中路289号1楼(人民广场地铁站20号口步行70米)",
+      "location": "121.474593,31.233311",
+      "tel": "021-31836131",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "31.00",
+        "meal_ordering": "0",
+        "open_time": "06:45-22:00",
+        "opentime2": "周一至周日 06:45-22:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B00156EVJJ/comment/%5B2026-03-02-19-28-01%5D9B506BA8-1FC6-4CC3-9CEB-85B1EB405C5_1772450894669_86858503.jpg"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+        }
+      ],
+      "building": [],
+      "atag": "抹茶星冰乐,拿铁,可可碎片星冰乐,摩卡,太妃榛果拿铁,抹茶拿铁,香草星冰乐,馥芮白,薯条,美式咖啡,冰美式,星冰乐",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0JD21MN0E",
+      "parent": "B001539A1D",
+      "childtype": "201",
+      "name": "库迪咖啡(新世界城店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "南京西路2-68号新世界城地下2层(人民广场地铁7号口处)",
+      "location": "121.473496,31.234449",
+      "tel": "13621796115",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "10.00",
+        "meal_ordering": "0",
+        "open_time": "08:00-21:00",
+        "opentime2": "周一至周五 08:00-21:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/7b0db620ddccbe9ff42ce59100617216?operate=original?operate=original?operate=original?operate=original"
+        },
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/b3b3f9f296505cb77f6388b13f3cf1f2"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JD21MN0E/comment/efe421cea2211c22ff7ff1ab606b7fa7_2048_2048_80.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "芒芒生打椰系列,【爆款,全场饮品任选券,流云茉莉轻乳茶,阳光青提系列,【蕉个新朋友,暖咖季香蕉,【茸茸暖咖季,慕斯大红袍生酪拿铁,五常米乳拿铁,生椰拿铁,潘帕斯蓝生酪茉莉拿铁,云顶慕斯新品,【桂人多旺事,富桂酒酿,【柚味臻选,柚见冰沁系列,【浓郁丝滑,流云拿铁,鲜气杨梅新品,橙C新品,纯萃燕麦拿铁,杨枝甘露",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0J1SCYZ4M",
+      "parent": "B00151BEEE",
+      "childtype": "201",
+      "name": "CARINO BAKERY&CAFE(上海来福士广场店)",
+      "type": "餐饮服务;糕饼店;糕饼店",
+      "typecode": "050800",
+      "biz_type": "diner",
+      "address": "西藏中路268号上海来福士广场B1层B1-17",
+      "location": "121.476562,31.232425",
+      "tel": "17701623831",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "36.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-22:00",
+        "opentime2": "周一至周五 08:00-22:00；周六至周日 10:00-22:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1SCYZ4M/comment/EA95EAFF_3644_48BF_8640_0E383D729EBD_L0_001_1500_2000_1732729308140_80078352.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1SCYZ4M/comment/14b58355dfcf689b9e5d40ebb63930ab_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1SCYZ4M/comment/content_media_external_file_32028_ss__1747386058600_97887958.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "奶油,巧克力,黄油,下午茶,点心,芋泥",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "面包"
+    },
+    {
+      "id": "B0GKZ46WMF",
+      "parent": "B00155KKQJ",
+      "childtype": "302",
+      "name": "贝瑞咖啡(人民公园店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "地铁站17-18号口方向",
+      "location": "121.474158,31.233227",
+      "tel": "15026716914;19301276401",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.2",
+        "cost": "19.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-20:30",
+        "opentime2": "周一至周日 07:00-20:30"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0GKZ46WMF/comment/content_media_external_images_media_1000017957_ss__1743056213220_62714794.jpg"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0GKZ46WMF/comment/content_media_external_images_media_1000026602_ss__1726584789810_05157337.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "榴莲千层蛋糕,柠檬茶,三明治,手打柠檬茶",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFL645J5",
+      "parent": "B00155LZ5G",
+      "childtype": "320",
+      "name": "石藤咖啡(人民广场店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "威海路12弄2-44号江阴小区",
+      "location": "121.470765,31.228401",
+      "tel": "18721439961",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "35.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-18:30",
+        "opentime2": "周一至周日 07:30-18:30"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/b9458cf2fd6bc5430000000656724927?type=pic"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/9ae6a3915f38737c9fb08c143af26e05"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFL645J5/comment/1758818a29bba7e53cda4755fe60da5c_2048_2048_80.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "提拉米苏,下午茶,奶咖,卡布奇诺,奶油",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0J0P9AQCJ",
+      "parent": "B0G3SRWQQ3",
+      "childtype": "202",
+      "name": "Peet's Coffee 皮爷咖啡(南京路步行街店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "六合路69号第一百货商业中心B馆F1层",
+      "location": "121.474325,31.235749",
+      "tel": "17887908099",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "33.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-22:00",
+        "opentime2": "周一至周日 07:30-22:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/e68c1817ee7e4e76578fa38bf4c39156"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J0P9AQCJ/comment/content_media_external_images_media_306350_ss__1764225182512_02809171.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J0P9AQCJ/comment/1DA2E878_E755_4F77_BAF9_2ECE800742ED_L0_001_1205_119_1768892768540_66254036.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "航海花蜜榛果风味拿铁,下午茶,coffee",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFJBC1V8",
+      "parent": "B00151BEEE",
+      "childtype": "202",
+      "name": "星巴克(来福士2F店)",
+      "type": "餐饮服务;咖啡厅;星巴克咖啡",
+      "typecode": "050501",
+      "biz_type": "diner",
+      "address": "西藏中路268号来福士广场02-05室",
+      "location": "121.476594,31.231892",
+      "tel": "021-63353210",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "40.00",
+        "meal_ordering": "0",
+        "open_time": "09:45-22:00",
+        "opentime2": "周一至周日 09:45-22:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFJBC1V8/comment/789df8e72964b55616debee2149d53f7_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFJBC1V8/comment/0ba1dcf4bd85e40beae344d16704edaa_2048_2048_80.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "抹茶星冰乐,焦糖玛奇朵,摩卡,香草拿铁,卡布奇诺,太妃榛果拿铁,抹茶拿铁,馥芮白,奶油,星冰乐,巧克力",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFGD0QWA",
+      "parent": "B00155FICR",
+      "childtype": "202",
+      "name": "梵高艺术咖啡馆·Van Gogh SENSES Cafe(明天广场店)",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "南京西路389号明天广场F2层",
+      "location": "121.470094,31.230243",
+      "tel": "13916388836;18901901799",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "61.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-19:00",
+        "opentime2": "周一至周日 10:00-19:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFGD0QWA/comment/content_media_external_file_1000038833_ss__1761266681679_09117702.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFGD0QWA/comment/51017615_28EE_4F4E_ADE6_F2C591F729D9_L0_001_1500_200_1758294664958_49444597.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFGD0QWA/comment/23CC75C3_BE2F_4183_8C02_52392CB92446_L0_001_1512_201_1768880990740_11844204.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "下午茶",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0H32547UG",
+      "parent": "B00151BEEE",
+      "childtype": "201",
+      "name": "Manner Coffee(上海来福士广场店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "西藏中路268号01层101D",
+      "location": "121.477160,31.232272",
+      "tel": [],
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "20.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-18:30",
+        "opentime2": "周一至周五 07:00-18:30；周六至周日 07:30-20:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H32547UG/comment/IMG_20250429_153549_tem_1745912191207_30271445.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H32547UG/comment/07084F87_F02D_4447_8E96_5FD859FAE311_L0_001_1500_200_1766296399006_08593025.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H32547UG/comment/content_media_external_images_media_1000039286_ss__1742028947786_13036597.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "烤坚果拿铁,海盐焦糖拿铁,coffee",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFJ8Z091",
+      "parent": "B00156NW3U",
+      "childtype": "202",
+      "name": "luckin coffee 瑞幸咖啡(长江新能源店)",
+      "type": "餐饮服务;休闲餐饮场所;休闲餐饮场所",
+      "typecode": "050400",
+      "biz_type": "diner",
+      "address": "九江路675-685号长江新能源大厦1层",
+      "location": "121.477585,31.234182",
+      "tel": "4000100100",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "17.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-20:00",
+        "opentime2": "周一至周五,周日 07:00-20:00；周六 07:00-21:30"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/04b09f7ce7b3b29aa31415d6f090fdb2"
+        }
+      ],
+      "building": [],
+      "atag": "美式,菠萝的海瑞纳冰,牛油果森林瑞纳冰,SOE耶加雪菲美式,陨石厚乳拿铁,陨石拿铁,陨石拿铁瑞纳冰,冰镇杨梅瑞纳冰,厚乳拿铁,海盐芝士厚乳拿铁,小火山黑糖厚乳,秋香厚乳拿铁,圣诞甜心厚乳拿铁,如梦令·功夫轻乳茶,生椰拿铁yyds,拿铁,夏日桃桃冰,椰子OK瑞纳冰,西柚冰萃咖啡,小陨石抹茶厚乳,杨枝甘露瑞纳冰,杨枝甘露,coffee,生椰拿铁",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "奶茶/茶饮"
+    },
+    {
+      "id": "B0FFJI2YLL",
+      "parent": "B0J1AH4COS",
+      "childtype": "312",
+      "name": "国际饭店大堂咖啡吧",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "国际饭店大堂(人民广场地铁站9号口步行80米)",
+      "location": "121.471450,31.232590",
+      "tel": "021-63275225",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.1",
+        "cost": "82.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-23:00",
+        "opentime2": "周一至周日 07:00-23:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/25b220ae7b0a605794ddc53bb59e661f"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/dc2438daa76d984c41e9ffc57af50436"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/95af3441e9d9375a8ed80a95a2625b20"
+        }
+      ],
+      "building": [],
+      "atag": "拿破仑,提拉米苏",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0L19BFIEO",
+      "parent": "B00151BEEE",
+      "childtype": "202",
+      "name": "肯悦咖啡和平店",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "西藏中路290号",
+      "location": "121.476050,31.232751",
+      "tel": "021-63527287",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.1",
+        "cost": "13.00",
+        "meal_ordering": "0",
+        "open_time": "06:30-23:00",
+        "opentime2": "周一至周日 06:30-23:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/ff0d84a6e8398bfae30eb82e3314559f"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0L19BFIEO/comment/content_media_external_file_91972_ss__1766847420377_82649071.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0L19BFIEO/comment/FE20F17B_D977_4ACA_81DF_4D87E399B9BC_L0_001_1500_200_1769751199459_52575452.jpg"
+        }
+      ],
+      "building": [],
+      "atag": [],
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFGYUGT8",
+      "parent": "B00155IVIY",
+      "childtype": "202",
+      "name": "星巴克咖啡(迪美广场店)",
+      "type": "餐饮服务;咖啡厅;星巴克咖啡",
+      "typecode": "050501",
+      "biz_type": "diner",
+      "address": "人民大道221号B1层236-238号单元",
+      "location": "121.473389,31.228141",
+      "tel": "021-60782939;021-63231589;4008206998",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.3",
+        "cost": "40.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00",
+        "opentime2": "周一至周日 10:00-21:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+        }
+      ],
+      "building": [],
+      "atag": "抹茶星冰乐,摩卡星冰乐,可可碎片星冰乐,摩卡,香草拿铁,热巧克力,下午茶",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFG0Z4RZ",
+      "parent": "B0FFF5VNSV",
+      "childtype": "324",
+      "name": "Costa Coffee(上海华美达店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "南京东路719号南新雅大酒店1层(近贵州路)",
+      "location": "121.476796,31.234550",
+      "tel": "021-63512916",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "45.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-21:00",
+        "opentime2": "周一至周日 07:30-21:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/a8787c7669aa1495f120b1530605be9f"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7c95ba48fd70fcf03f76e3b4cd86e9ae"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/dfc474a89a95ea20fe6d3f27399af081"
+        }
+      ],
+      "building": [],
+      "atag": "焦糖拿铁酷乐,摩卡酷乐,远古森林提拉米苏,Cappuccino,焦糖布蕾拿铁,黑森林热巧克力,热美式,巧克力酥卷,巧克力曲奇拿铁,香草味拿铁,tuna三明治,香草融融冰,榛子味卡布奇诺,Espresso,美式咖啡,下午茶,生椰拿铁,coffee",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0G0DXG32G",
+      "parent": "B0FFIB5FOX",
+      "childtype": "202",
+      "name": "Manner Coffee(腾飞元创大厦店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "九江路686号腾飞元创大厦F1层",
+      "location": "121.477592,31.234463",
+      "tel": "15221320076",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "20.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-19:00",
+        "opentime2": "周一至周五 07:30-19:00；周六至周日 08:00-20:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/cd32c3eb68733b225b1367704897899f"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G0DXG32G/comment/%5B2026-01-25-11-25-21%5D0DEE6209-0243-47A7-BF27-5D8F7EF9A0F_1769311529107_37834462.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G0DXG32G/comment/6e342081f23e4396602d68d4d51d0180_2048_2048_80.jpg"
+        }
+      ],
+      "building": [],
+      "atag": "烤坚果拿铁,海盐焦糖拿铁,冰美式,coffee",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFKSCT97",
+      "parent": "B00156EVNM",
+      "childtype": "202",
+      "name": "瑞幸咖啡(鸿祥大厦店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "黄河路21号鸿祥大厦一层102室",
+      "location": "121.471008,31.233594",
+      "tel": "4000100100",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.3",
+        "cost": "18.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-20:00",
+        "opentime2": "周一至周五 07:00-20:00；周六至周日 08:00-18:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/c287706810a95e84ab635a931ccf264d?operate=original"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/986c1bc17332807d62419ab9dcc2e9f5"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/8b13c4f6abd52b9b36c0ac1f8ffdc367"
+        }
+      ],
+      "building": [],
+      "atag": "拿铁,夏日桃桃冰,椰子OK瑞纳冰,西柚冰萃咖啡,小陨石抹茶厚乳,杨枝甘露瑞纳冰,陨石拿铁,陨石拿铁瑞纳冰,冰镇杨梅瑞纳冰,厚乳拿铁,海盐芝士厚乳拿铁,小火山黑糖厚乳,秋香厚乳拿铁,生椰拿铁yyds,美式,菠萝的海瑞纳冰,牛油果森林瑞纳冰,SOE耶加雪菲美式,陨石厚乳拿铁,生椰拿铁,杨枝甘露",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFIHLPLG",
+      "parent": "B0FFFVKFUO",
+      "childtype": "202",
+      "name": "由心咖啡(来福士广场店)",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "西藏中路268号来福士办公楼2F",
+      "location": "121.476742,31.233084",
+      "tel": "021-61768193",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.2",
+        "cost": "23.00",
+        "meal_ordering": "0",
+        "open_time": "08:30-17:00",
+        "opentime2": "周一至周五 07:30-19:00；周六至周日 08:30-17:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/82fcb28722173b371767bbe06c6fb3c3"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFIHLPLG/comment/0b79eb72fd3cb6bc5efa3c1eaf7eadc9_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/9661db26d66413eb27d6922617c342b1"
+        }
+      ],
+      "building": [],
+      "atag": "下午茶,美式咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0I3VOEJP3",
+      "parent": "B00156NW3U",
+      "childtype": "202",
+      "name": "分号咖啡(人民广场店)",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "九江路675号长江新能源大厦广西北路门",
+      "location": "121.477615,31.233870",
+      "tel": "13002143661",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "30.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-01:00",
+        "opentime2": "周一至周五 07:30-01:00；周六至周日 08:00-01:00"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0I3VOEJP3/comment/file_media_Photo_14274_IMG_1763627069_11926_IMG_20251120_162249_jpg_ss__1764215280744_88430616.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0I3VOEJP3/comment/83a344e8f8a98919797f808efc1736ff_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0I3VOEJP3/comment/file_media_Photo_14277_IMG_1763627178_11929_IMG_20251120_162438_jpg_ss__1764215280542_58865605.jpg"
+        }
+      ],
+      "building": [],
+      "atag": [],
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    },
+    {
+      "id": "B0FFFGVNFE",
+      "parent": "B0FFFVKFUO",
+      "childtype": "202",
+      "name": "星巴克(来福士办公楼店)",
+      "type": "餐饮服务;咖啡厅;星巴克咖啡",
+      "typecode": "050501",
+      "biz_type": "diner",
+      "address": "西藏中路268号来福士广场办公楼2层大堂L1-02",
+      "location": "121.476998,31.232645",
+      "tel": "021-33311357",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "distance": [],
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "41.00",
+        "meal_ordering": "0",
+        "open_time": "06:45-20:00",
+        "opentime2": "周一至周五 06:45-20:00；周六至周日 08:00-18:30"
+      },
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/15168b6672c6a72e61c28b0f4ee3a51c"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+        }
+      ],
+      "building": [],
+      "atag": "卡布奇诺,美式咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

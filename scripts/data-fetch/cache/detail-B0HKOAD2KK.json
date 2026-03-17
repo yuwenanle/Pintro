@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0HKOAD2KK",
+      "parent": [],
+      "childtype": [],
+      "name": "Marmalade",
+      "tag": "奶咖,柠檬,下午茶,点心,热饮",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "北海路261号(人民广场地铁站1号口步行270米)",
+      "location": "121.478140,31.230262",
+      "tel": "18555966310",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621637810",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.478194,31.230324",
+      "business_area": "淮海路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-13 22:00:31",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "29.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-18:00",
+        "opentime2": "周一至周日 07:30-18:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0HKOAD2KK/comment/3FF6147A_D547_4B63_A18D_44DD68D7E73E_L0_001_1512_201_1757771774036_59167189.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0HKOAD2KK/comment/eb8da2dacf755de4a1a53a18ea19b283_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0HKOAD2KK/comment/AB6DF4BA_0735_4BC6_AB17_E88F4F3D0658_L0_001_1512_201_1757771773998_36291562.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

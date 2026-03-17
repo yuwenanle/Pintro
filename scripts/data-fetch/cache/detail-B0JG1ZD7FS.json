@@ -1,0 +1,83 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0JG1ZD7FS",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园(露营主题店)",
+      "tag": [],
+      "type": "体育休闲服务;休闲场所;休闲场所",
+      "typecode": "080500",
+      "biz_type": [],
+      "address": "洪运路398号",
+      "location": "121.687072,30.920035",
+      "tel": "15316791921",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310120",
+      "adname": "奉贤区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621350412",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": [],
+      "business_area": "中国(上海)自由贸易试验区临港新片区",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-15 05:03:18",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "92.00",
+        "open_time": "11:00-19:00 11:00-15:00",
+        "opentime2": "11:00-19:00,2026-02-1611:00-15:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/86c9aab862a2554ffcc6df547771c95a"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JG1ZD7FS/comment/8A08B5DB_2D68_4300_84E4_C01EBD7FE4BC_L0_001_IMG_8341_1699341413758_2f7319f8.JPG"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JG1ZD7FS/comment/b7047e984c10692acb661d7932bd11f5_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

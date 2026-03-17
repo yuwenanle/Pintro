@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0K3AH985V",
+      "parent": "B00155NMAN",
+      "childtype": "302",
+      "name": "一尺花园(乡悦华亭店)",
+      "tag": [],
+      "type": "购物服务;花鸟鱼虫市场;花卉市场|餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "060501|050500",
+      "biz_type": [],
+      "address": "霜竹公路518号华亭人家",
+      "location": "121.291466,31.485280",
+      "tel": "19370640061",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310114",
+      "adname": "嘉定区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4721128300",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.292001,31.485751",
+      "business_area": [],
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-11 12:24:41",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "58.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-20:00",
+        "opentime2": "周一至周日 10:00-20:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0K3AH985V/comment/2C903C19_67FD_4366_99DC_EEC0768C5762_L0_001_1500_2000_1745244849220_44292103.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0K3AH985V/comment/D7B68E3B_08C4_4E0A_8887_B04AA4963392_L0_001_2000_150_1763440744649_37170155.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0K3AH985V/comment/C06027B0_01B6_438A_B604_9A4AA36B8210_L0_001_1998_1498_1745244849220_84034456.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

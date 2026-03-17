@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0L19BFIEO",
+      "parent": "B00151BEEE",
+      "childtype": "202",
+      "name": "肯悦咖啡和平店",
+      "tag": [],
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "西藏中路290号",
+      "location": "121.476050,31.232751",
+      "tel": "021-63527287",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "gridcode": "4621637820",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.475759,31.232614",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-16 10:17:16",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.1",
+        "cost": "13.00",
+        "meal_ordering": "0",
+        "open_time": "06:30-23:00",
+        "opentime2": "周一至周日 06:30-23:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/ff0d84a6e8398bfae30eb82e3314559f"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0L19BFIEO/comment/content_media_external_file_91972_ss__1766847420377_82649071.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0L19BFIEO/comment/FE20F17B_D977_4ACA_81DF_4D87E399B9BC_L0_001_1500_200_1769751199459_52575452.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

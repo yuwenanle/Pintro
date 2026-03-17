@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B00156EVJJ",
+      "parent": "B00155KKQJ",
+      "childtype": "302",
+      "name": "星巴克(西藏路店)",
+      "tag": "抹茶星冰乐,拿铁,可可碎片星冰乐,摩卡,太妃榛果拿铁,抹茶拿铁,香草星冰乐,馥芮白,薯条,美式咖啡,冰美式,星冰乐",
+      "type": "餐饮服务;咖啡厅;星巴克咖啡",
+      "typecode": "050501",
+      "biz_type": "diner",
+      "address": "西藏中路289号1楼(人民广场地铁站20号口步行70米)",
+      "location": "121.474593,31.233311",
+      "tel": "021-31836131",
+      "postcode": [],
+      "website": "www.starbucks.cn",
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "1",
+      "poiweight": [],
+      "gridcode": "4621637722",
+      "distance": [],
+      "navi_poiid": "H51F010012_508022",
+      "entr_location": "121.474939,31.233684",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 12:57:54",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "31.00",
+        "meal_ordering": "0",
+        "open_time": "06:45-22:00",
+        "opentime2": "周一至周日 06:45-22:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B00156EVJJ/comment/%5B2026-03-02-19-28-01%5D9B506BA8-1FC6-4CC3-9CEB-85B1EB405C5_1772450894669_86858503.jpg"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/f801223eb868543fc52075d18c1b10a4"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7a492af95612b03ed9a7ed7fc858f461"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

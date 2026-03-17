@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0JG1A7GAP",
+      "parent": "B0FFLCHO8V",
+      "childtype": "320",
+      "name": "一尺花园(筒仓店)",
+      "tag": [],
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "中南朱里雅集北庐9号楼1层",
+      "location": "121.058527,31.113611",
+      "tel": "19370650512",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310118",
+      "adname": "青浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621503412",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.058491,31.113683",
+      "business_area": "朱家角镇",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-16 13:01:03",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "3.9",
+        "cost": "72.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00",
+        "opentime2": "周一至周日 10:00-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JG2MADY4/comment/e1e55f81ad78639664500e2290795ad7_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JG2MADY4/comment/6bcdf5f7974a323b9c12a47245896133_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/comment/content_service__1770737054352_98211285_1770737136737_89780453.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

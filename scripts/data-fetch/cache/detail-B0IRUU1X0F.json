@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0IRUU1X0F",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园鲜酿工坊",
+      "tag": [],
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "茸兴路101号(门店地面停车场)",
+      "location": "121.250348,31.032672",
+      "tel": "19117316761",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310117",
+      "adname": "松江区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621423020",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.250559,31.032594",
+      "business_area": [],
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 14:01:08",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.7",
+        "cost": "70.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00",
+        "opentime2": "周一至周日 10:00-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0IRUU1X0F/comment/68871e37c8b30305c4ff70775beb6a65_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0IRUU1X0F/comment/content_media_external_file_1000035107_ss__1762582173478_55868259.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0IRUU1X0F/comment/file_media_Photo_2807_IMG_1759808177_2719_IMG_20251007_113437_jpg_ss_2.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

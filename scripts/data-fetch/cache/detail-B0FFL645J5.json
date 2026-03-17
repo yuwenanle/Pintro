@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0FFL645J5",
+      "parent": "B00155LZ5G",
+      "childtype": "320",
+      "name": "石藤咖啡(人民广场店)",
+      "tag": "提拉米苏,下午茶,奶咖,卡布奇诺,奶油",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "威海路12弄2-44号江阴小区",
+      "location": "121.470765,31.228401",
+      "tel": "18721439961",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621637711",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.470901,31.228361",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 14:56:05",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "35.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-18:30",
+        "opentime2": "周一至周日 07:30-18:30"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/b9458cf2fd6bc5430000000656724927?type=pic"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/9ae6a3915f38737c9fb08c143af26e05"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0FFL645J5/comment/1758818a29bba7e53cda4755fe60da5c_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

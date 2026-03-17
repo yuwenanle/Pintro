@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0FFG0Z4RZ",
+      "parent": "B0FFF5VNSV",
+      "childtype": "324",
+      "name": "Costa Coffee(上海华美达店)",
+      "tag": "焦糖拿铁酷乐,摩卡酷乐,远古森林提拉米苏,Cappuccino,焦糖布蕾拿铁,黑森林热巧克力,热美式,巧克力酥卷,巧克力曲奇拿铁,香草味拿铁,tuna三明治,香草融融冰,榛子味卡布奇诺,Espresso,美式咖啡,下午茶,生椰拿铁,coffee",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "南京东路719号南新雅大酒店1层(近贵州路)",
+      "location": "121.476796,31.234550",
+      "tel": "021-63512916",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621638800",
+      "distance": [],
+      "navi_poiid": "H51F010012_590130",
+      "entr_location": "121.476661,31.234527",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 20:08:14",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "45.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-21:00",
+        "opentime2": "周一至周日 07:30-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/a8787c7669aa1495f120b1530605be9f"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/7c95ba48fd70fcf03f76e3b4cd86e9ae"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/dfc474a89a95ea20fe6d3f27399af081"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

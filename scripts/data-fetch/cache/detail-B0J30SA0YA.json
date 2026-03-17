@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0J30SA0YA",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园(上海金桥店)",
+      "tag": "下午茶,coffee,薯条",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "金桥路535号EKA天物第19幢",
+      "location": "121.576833,31.265278",
+      "tel": "15316525157",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621741620",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.576801,31.265265",
+      "business_area": "金桥",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-16 23:08:29",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "73.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-22:00",
+        "opentime2": "周一至周日 10:00-22:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J30SA0YA/comment/9918f441c4d4a54863b7da8c98c8a5b7_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J30SA0YA/comment/633275b6f2199b60725340a3360c5243_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J30SA0YA/comment/6E8CFF2C_BE24_4C6F_8D10_98BE6C2FBFCB_L0_001_1080_192_1769836795250_55927005.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

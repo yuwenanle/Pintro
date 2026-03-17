@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0IK3MPJNK",
+      "parent": "B00154DUI6",
+      "childtype": "302",
+      "name": "一尺花园(世纪公园店)",
+      "tag": "鸡翅,下午茶,披萨",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "花木路809号世纪公园内(近7号门,步行至门店三到五分钟)",
+      "location": "121.548384,31.211988",
+      "tel": "19370710151",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621645312",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.55036,31.21083",
+      "business_area": [],
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-13 12:51:14",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.7",
+        "cost": "84.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00 10:00-15:00",
+        "opentime2": "10:00-21:00,2026-02-1610:00-15:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0IK3MPJNK/comment/6603cd1974fb1e59aeceb2c07a5056c6_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0IK3MPJNK/comment/8DEF6F03_4824_4F20_99C3_5708AC870F1F_L0_001_1500_200_1755576349984_50406114.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0IK3MPJNK/comment/content_media_external_file_100005013_1764886571846_58404674.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

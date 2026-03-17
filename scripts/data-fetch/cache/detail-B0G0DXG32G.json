@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0G0DXG32G",
+      "parent": "B0FFIB5FOX",
+      "childtype": "202",
+      "name": "Manner Coffee(腾飞元创大厦店)",
+      "tag": "烤坚果拿铁,海盐焦糖拿铁,冰美式,coffee",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "九江路686号腾飞元创大厦F1层",
+      "location": "121.477592,31.234463",
+      "tel": "15221320076",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621638800",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.477579,31.234339",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-13 02:04:06",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "20.00",
+        "meal_ordering": "0",
+        "open_time": "07:30-19:00",
+        "opentime2": "周一至周五 07:30-19:00；周六至周日 08:00-20:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/cd32c3eb68733b225b1367704897899f"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G0DXG32G/comment/%5B2026-01-25-11-25-21%5D0DEE6209-0243-47A7-BF27-5D8F7EF9A0F_1769311529107_37834462.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0G0DXG32G/comment/6e342081f23e4396602d68d4d51d0180_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

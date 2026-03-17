@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0FFJI2YLL",
+      "parent": "B0J1AH4COS",
+      "childtype": "312",
+      "name": "国际饭店大堂咖啡吧",
+      "tag": "拿破仑,提拉米苏",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "国际饭店大堂(人民广场地铁站9号口步行80米)",
+      "location": "121.471450,31.232590",
+      "tel": "021-63275225",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621637722",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": [],
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 03:00:13",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.1",
+        "cost": "82.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-23:00",
+        "opentime2": "周一至周日 07:00-23:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/25b220ae7b0a605794ddc53bb59e661f"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/dc2438daa76d984c41e9ffc57af50436"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/95af3441e9d9375a8ed80a95a2625b20"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

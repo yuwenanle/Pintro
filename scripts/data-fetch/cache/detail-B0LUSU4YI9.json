@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0LUSU4YI9",
+      "parent": [],
+      "childtype": [],
+      "name": "One Step Coffee一尺之间(刘海粟美术馆)",
+      "tag": "coffee",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "延安西路1609号刘海粟美术馆内",
+      "location": "121.419427,31.209507",
+      "tel": "17744464989",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310105",
+      "adname": "长宁区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621635301",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.419433,31.209480",
+      "business_area": "中山公园",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 09:48:36",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.3",
+        "cost": "31.00",
+        "meal_ordering": "0",
+        "open_time": "09:00-17:00",
+        "opentime2": "周二至周日 09:00-17:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0LUSU4YI9/comment/content_media_external_images_media_447363_ss__1772184721378_93441153.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/d73d349ac5ac2a907b33e415775094ed"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/36b86fea355e99efe74ec3a9028e9fe9"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

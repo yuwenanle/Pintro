@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0KRFCSBH3",
+      "parent": "B0IBM5Y2V1",
+      "childtype": "302",
+      "name": "一尺花园(滨江森林公园店)",
+      "tag": "下午茶,沙拉,果茶,卡布奇诺,芝士",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "崇景路9号滨江森林公园二期内",
+      "location": "121.531658,31.377694",
+      "tel": "19352140169",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4721045201",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": [],
+      "business_area": [],
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 11:47:41",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.7",
+        "cost": "74.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-19:00",
+        "opentime2": "周一至周日 10:00-19:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KRFCSBH3/comment/8B24688C_9A74_43AB_AF2A_3F134553EC54_L0_001_3072_409_1758341632060_09680247.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KRFCSBH3/comment/20260303-09bec21ce7523350a7c43c90-AgUQbdZTXHgAJqkwCKEhjj.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KRFCSBH3/comment/content_media_external_file_1000032319_ss__1773122423210_79091389.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

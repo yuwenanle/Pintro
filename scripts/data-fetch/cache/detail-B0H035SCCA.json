@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0H035SCCA",
+      "parent": "B00155LDVQ",
+      "childtype": "320",
+      "name": "一尺花园(安和花园店)",
+      "tag": "薯条,下午茶",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "新华路179弄(近上影国际立体停车场)",
+      "location": "121.428934,31.202199",
+      "tel": "021-68538765",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310105",
+      "adname": "长宁区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621634400",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.428742,31.202375",
+      "business_area": "湖南路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-13 03:53:57",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.7",
+        "cost": "71.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-22:00 10:00-15:00",
+        "opentime2": "10:00-22:00,2026-02-1610:00-15:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H035SCCA/comment/57244b8fed27345d4ae210304eeb2952_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H035SCCA/comment/c162b3e82c254a9f4cd4fa1ed4b5d5e8_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H035SCCA/comment/C7D32CB9_3F6E_464E_A1EB_4B1394186898_L0_001_1512_201_1772787203373_06578499.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

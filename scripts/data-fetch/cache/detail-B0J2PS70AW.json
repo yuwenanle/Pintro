@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0J2PS70AW",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园(宝伦堂店)",
+      "tag": "意面,沙拉,烤鸡,卡布奇诺,披萨,牛排,薯条,鸡翅",
+      "type": "餐饮服务;餐饮相关场所;餐饮相关",
+      "typecode": "050000",
+      "biz_type": "diner",
+      "address": "开江中路368号",
+      "location": "121.276006,31.111649",
+      "tel": "15316760161",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310117",
+      "adname": "松江区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621523210",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": [],
+      "business_area": "泗泾旅游片区",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-11 01:48:39",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "64.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00",
+        "opentime2": "周一至周日 10:00-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/91088a5897954f9ba1d1cc57e3cd682e"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J2PS70AW/comment/6F8139C0_8D38_405B_B679_67AA35DF90F0_L0_001_3024_403_1757947404075_24104853.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J2PS70AW/comment/content_media_external_file_32726_ss__1760166381136_61860281.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

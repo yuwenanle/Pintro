@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0J29C695P",
+      "parent": "B001510563",
+      "childtype": "302",
+      "name": "One Step Coffee一尺之间(和平公园店)",
+      "tag": "coffee,提拉米苏",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "大连路与控江路交叉口和平公园三号出入口旁(近和平公园停车场)",
+      "location": "121.506072,31.270511",
+      "tel": "15301676075",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310109",
+      "adname": "虹口区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621742011",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.505907,31.270486",
+      "business_area": "鞍山新村",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-11 11:47:11",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "54.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-17:30 10:00-18:00",
+        "opentime2": "10:00-17:30,2026-02-16休息2026-02-17至2026-02-2410:00-18:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J29C695P/comment/10876b7d764c63bd731fc4f052551229_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J29C695P/comment/448279b4d57fd37796ed89424b500142_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J29C695P/comment/file_media_Photo_9493_IMG_1757645352_8033_IMG_20250912_104732_jpg_ss__1762064224100_53580878.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

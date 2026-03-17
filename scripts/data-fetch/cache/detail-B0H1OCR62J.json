@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0H1OCR62J",
+      "parent": "B0FFF0JR9H",
+      "childtype": "302",
+      "name": "一尺花园(广富林店)",
+      "tag": "下午茶,牛肉,薯条,鸡肉",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "广富林路3260弄朱雀门集贤坊01-03栋",
+      "location": "121.195143,31.060070",
+      "tel": "021-57723500;17717239035",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310117",
+      "adname": "松江区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621417501",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.195163,31.060243",
+      "business_area": "广富林度假区",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-11 01:30:53",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.8",
+        "cost": "83.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00 10:00-21:00",
+        "opentime2": "周一至周日 10:00-21:00 2026-02-16至2026-02-23 周一至周日 10:00-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H1OCR62J/comment/45a66f4da40cef066d2cb46db16bf8eb_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H1OCR62J/comment/ED0A008E_35BE_4ADF_AD19_008468BB892A_L0_001_1500_200_1766203218286_42266923.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0H1OCR62J/comment/c75cd121630b18154c851b4018339921_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

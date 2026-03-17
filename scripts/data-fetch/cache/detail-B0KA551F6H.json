@@ -1,0 +1,83 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0KA551F6H",
+      "parent": "B00155QITJ",
+      "childtype": "302",
+      "name": "一尺花园(周浦文化公园店)",
+      "tag": "卡布奇诺,冰沙",
+      "type": "购物服务;花鸟鱼虫市场;花卉市场",
+      "typecode": "060501",
+      "biz_type": [],
+      "address": "周邓公路6851号(2号门直行100米到中心广场后右转直行约300米)",
+      "location": "121.595832,31.111898",
+      "tel": "15301916059",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621543711",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.595920,31.111931",
+      "business_area": "周浦",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-15 05:51:18",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "84.00",
+        "open_time": "10:00-20:00",
+        "opentime2": "周一至周日 10:00-20:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KA551F6H/comment/file_media_Photo_14598_IMG_1763794868_14384_IMG_20251122_145928_jpg_ss__1763797676076_89018314.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KA551F6H/comment/content_media_external_images_media_11989_ss__1738155167408_32836876.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KA551F6H/comment/40152906_FCB1_418C_812F_79EF5B6CA531_L0_001_1179_149_1764129846554_23561737.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

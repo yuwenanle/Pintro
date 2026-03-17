@@ -1,0 +1,83 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0LARUBDQX",
+      "parent": "B0FFGFW4NK",
+      "childtype": "302",
+      "name": "一尺花园(前滩休闲公园店)",
+      "tag": [],
+      "type": "购物服务;花鸟鱼虫市场;花卉市场",
+      "typecode": "060501",
+      "biz_type": [],
+      "address": "前滩大道700弄5号6号(休闲公园13号门)",
+      "location": "121.463862,31.149178",
+      "tel": "19352131073",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621537720",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.464209,31.148933",
+      "business_area": "三林",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-10 19:37:11",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.7",
+        "cost": "86.00",
+        "open_time": "10:00-20:00",
+        "opentime2": "周一至周日 10:00-20:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000064345_ss__1760593518556_18068067.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000069788_ss__1751928900857_07301069.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0LARUBDQX/comment/content_media_external_file_1000069786_ss__1751928900848_14247758.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

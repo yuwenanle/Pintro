@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0JB5Z62RQ",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园(清溪府店)",
+      "tag": "下午茶,牛排,薯条",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "西街160号(近高桥西街停车场、第七人民医院停车场)",
+      "location": "121.580508,31.343139",
+      "tel": "19370710156",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4721041601",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.580621,31.343012",
+      "business_area": "高桥",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 05:25:39",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.5",
+        "cost": "55.00",
+        "meal_ordering": "0",
+        "open_time": "11:00-20:00",
+        "opentime2": "周一至周日 11:00-20:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JB5Z62RQ/comment/0ebde20fb2b5a7b4d5a98b0ed0f184f9_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JB5Z62RQ/comment/4f18a2482ef7ef7bb141fb1900fdd2fa_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JB5Z62RQ/comment/content_media_external_file_1000107081_ss__1771128652206_72720696.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

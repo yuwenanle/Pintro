@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0J1ZCORFB",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园(滴水湖东岸店)",
+      "tag": "披萨,下午茶,薯条,意面,鸡爪",
+      "type": "购物服务;花鸟鱼虫市场;花卉市场|餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "060501|050500",
+      "biz_type": [],
+      "address": "环湖东一路510号",
+      "location": "121.954287,30.898762",
+      "tel": "15301963572",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310115",
+      "adname": "浦东新区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621277621",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.954818,30.898741",
+      "business_area": "中国(上海)自由贸易试验区临港新片区",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-11 01:14:07",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.7",
+        "cost": "117.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-21:00",
+        "opentime2": "周一至周日 10:00-21:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1ZCORFB/comment/E2CE104B_84B7_4B3C_9669_C733443E1C88_L0_001_1502_2000_1731210160054_01113048.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/comment/content_service__1768746068251_02713466_1768746147741_50446974.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1ZCORFB/comment/7659728b22036a3c34e04c415f6eb0f1_2048_2048_80.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "饮品",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "饮品"
+    }
+  ]
+}

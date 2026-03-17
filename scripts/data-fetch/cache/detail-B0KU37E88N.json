@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0KU37E88N",
+      "parent": "B00155L7TZ",
+      "childtype": "202",
+      "name": "CUBIC 3 三立方咖啡(福州路店)",
+      "tag": "黄油,热饮,堂食",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "福州路666号华鑫海欣大厦F2层",
+      "location": "121.477793,31.232510",
+      "tel": "19302173559",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621637820",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": [],
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-17 20:27:37",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.3",
+        "cost": "17.00",
+        "meal_ordering": "0",
+        "open_time": "08:00-16:00",
+        "opentime2": "周一至周五 08:00-16:00；周六至周日 09:00-16:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://img.alicdn.com/imgextra/i4/O1CN01el2jgK1QZvgd31hur_!!6000000001991-2-tps-340-255.png"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KU37E88N/comment/7637276B_B056_4400_8143_3144F82419C5_L0_001_2000_150_1761294124781_47378386.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0KU37E88N/comment/34E18A2B_8A38_4E1A_9F7F_DCCA61D21F97_L0_001_2000_150_1761294124781_30325232.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

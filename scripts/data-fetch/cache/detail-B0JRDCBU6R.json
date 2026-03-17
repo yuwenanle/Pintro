@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0JRDCBU6R",
+      "parent": [],
+      "childtype": [],
+      "name": "一尺花园(蔡以台读书楼店)",
+      "tag": "薯条,下午茶",
+      "type": "购物服务;花鸟鱼虫市场;花卉市场|餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "060501|050500",
+      "biz_type": [],
+      "address": "枫泾镇友好街盛家弄4号(近枫泾古镇景区第2停车场)",
+      "location": "121.012233,30.886596",
+      "tel": "15301809382",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310116",
+      "adname": "金山区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621206012",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.012452,30.887289",
+      "business_area": "枫泾",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-13 11:49:37",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.6",
+        "cost": "61.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-20:00 10:00-15:00",
+        "opentime2": "10:00-20:00,2026-02-1610:00-15:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0JRDCBU6R/comment/ce843fd78a4e7c7aa8335573e874a9a6_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/79c809869e39f03ee6ad9cd3dac6e80c"
+        },
+        {
+          "title": [],
+          "url": "https://store.is.autonavi.com/showpic/bc16a0bf0b8ab4eeac4f8d0a7ccc0156"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}

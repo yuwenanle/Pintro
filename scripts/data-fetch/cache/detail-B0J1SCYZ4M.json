@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0J1SCYZ4M",
+      "parent": "B00151BEEE",
+      "childtype": "201",
+      "name": "CARINO BAKERY&CAFE(上海来福士广场店)",
+      "tag": "奶油,巧克力,黄油,下午茶,点心,芋泥",
+      "type": "餐饮服务;糕饼店;糕饼店",
+      "typecode": "050800",
+      "biz_type": "diner",
+      "address": "西藏中路268号上海来福士广场B1层B1-17",
+      "location": "121.476562,31.232425",
+      "tel": "17701623831",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621637820",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.476326,31.231748",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-15 20:49:09",
+      "alias": [],
+      "indoor_map": "1",
+      "indoor_data": {
+        "cpid": "B00151BEEE",
+        "floor": "-1",
+        "truefloor": "B1",
+        "cmsid": "GD0000170200101080"
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.4",
+        "cost": "36.00",
+        "meal_ordering": "0",
+        "open_time": "10:00-22:00",
+        "opentime2": "周一至周五 08:00-22:00；周六至周日 10:00-22:00"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1SCYZ4M/comment/EA95EAFF_3644_48BF_8640_0E383D729EBD_L0_001_1500_2000_1732729308140_80078352.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1SCYZ4M/comment/14b58355dfcf689b9e5d40ebb63930ab_2048_2048_80.jpg"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0J1SCYZ4M/comment/content_media_external_file_32028_ss__1747386058600_97887958.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "面包",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "面包"
+    }
+  ]
+}

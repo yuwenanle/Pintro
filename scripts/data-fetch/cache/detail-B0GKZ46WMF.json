@@ -1,0 +1,84 @@
+{
+  "status": "1",
+  "info": "OK",
+  "infocode": "10000",
+  "count": "1",
+  "pois": [
+    {
+      "id": "B0GKZ46WMF",
+      "parent": "B00155KKQJ",
+      "childtype": "302",
+      "name": "贝瑞咖啡(人民公园店)",
+      "tag": "榴莲千层蛋糕,柠檬茶,三明治,手打柠檬茶",
+      "type": "餐饮服务;咖啡厅;咖啡厅",
+      "typecode": "050500",
+      "biz_type": "diner",
+      "address": "地铁站17-18号口方向",
+      "location": "121.474158,31.233227",
+      "tel": "15026716914;19301276401",
+      "postcode": [],
+      "website": [],
+      "email": [],
+      "pcode": "310000",
+      "pname": "上海市",
+      "citycode": "021",
+      "cityname": "上海市",
+      "adcode": "310101",
+      "adname": "黄浦区",
+      "importance": [],
+      "shopid": [],
+      "shopinfo": "0",
+      "poiweight": [],
+      "gridcode": "4621637722",
+      "distance": [],
+      "navi_poiid": [],
+      "entr_location": "121.470961,31.232054",
+      "business_area": "北京路",
+      "exit_location": [],
+      "match": "0",
+      "recommend": "0",
+      "timestamp": "2026-03-14 09:22:53",
+      "alias": [],
+      "indoor_map": "0",
+      "indoor_data": {
+        "cpid": [],
+        "floor": [],
+        "truefloor": [],
+        "cmsid": []
+      },
+      "groupbuy_num": "0",
+      "discount_num": "0",
+      "biz_ext": {
+        "rating": "4.2",
+        "cost": "19.00",
+        "meal_ordering": "0",
+        "open_time": "07:00-20:30",
+        "opentime2": "周一至周日 07:00-20:30"
+      },
+      "event": [],
+      "children": [],
+      "photos": [
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0GKZ46WMF/comment/content_media_external_images_media_1000017957_ss__1743056213220_62714794.jpg"
+        },
+        {
+          "title": [],
+          "url": "http://store.is.autonavi.com/showpic/ebd08e98e3aa12078b32e63fad8ebdcf"
+        },
+        {
+          "title": [],
+          "url": "https://aos-comment.amap.com/B0GKZ46WMF/comment/content_media_external_images_media_1000026602_ss__1726584789810_05157337.jpg"
+        }
+      ],
+      "updateflag": "0",
+      "building": [],
+      "atag": "咖啡",
+      "featured_reviews": [],
+      "favorite_num": [],
+      "space_num": [],
+      "featured_reviews_remake": [],
+      "keytag": "咖啡"
+    }
+  ]
+}
