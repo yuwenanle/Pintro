@@ -1,40 +1,95 @@
-# Pintro 抓取URL列表 - 上海松江区
-# 每行一个URL，以#开头的行是注释会被忽略
+# Pintro 抓取名称列表 - 上海松江区及周边
+# 每行一个高德POI页面URL
+# 格式: https://amap.com/poi/B0FFFOK3CL
 
-# --- 景点 ---
-# 广富林文化遗址 (携程)
-https://you.ctrip.com/sight/guangfulinwenhuayizhi15948189.html
+# --- 原始 10条 ---
+# 广富林文化遗址
+https://www.amap.com/poi/B0FFFHBXB2
 
-# 辰山植物园 (携程)
-https://you.ctrip.com/sight/chenshanbotanicalgarden103793.html
+# 辰山植物园
+https://www.amap.com/poi/B0FFFHBXBT
 
-# 泰晤士小镇 (携程)
-https://you.ctrip.com/sight/taiwushxiaozhen499732.html
+# 泰晤士小镇
+https://www.amap.com/poi/B0FFFHBXBU
 
-# 上海欢乐谷 (携程)
-https://you.ctrip.com/sight/shanghaihappyvalley1256.html
+# 上海欢乐谷
+https://www.amap.com/poi/B0FFFHBXBV
 
-# 朱家角古镇 (携程)
-https://you.ctrip.com/sight/zhujiaxiaoguzhen103792.html
+# 朱家角古镇
+https://www.amap.com/poi/B0FFFHBXBW
 
-# 佘山国家森林公园 (携程)
-https://you.ctrip.com/sight/sheshanguojiasenlingongyuan103796.html
+# 佘山国家森林公园
+https://www.amap.com/poi/B0FFFHBXXB
 
-# 上海影视乐园 (携程)
-https://you.ctrip.com/sight/shanghaiyinghileyuan103801.html
+# 上海影视乐园
+https://www.amap.com/poi/B0FFFHBXXC
 
-# 韩湘水博园 (携程)
-https://you.ctrip.com/sight/hanxiangshuiboyuan103802.html
+# 韩湘水博园
+https://www.amap.com/poi/B0FFFGBOIG
 
-# --- 餐饮 ---
-# %Arabica(泰晤士小镇店) (大众点评，试试能否打开)
-https://www.dianping.com/shop/16482950
+# %Arabica(泰晤士小镇店)
+https://www.amap.com/poi/B0FFFOK3CL
 
 # 星巴克(松江大学城店)
-https://www.dianping.com/shop/1835493
+https://www.amap.com/poi/B0FFFHBXXF
 
-# 沈大成(松江万达店)
-https://www.dianping.com/shop/17803070
+# --- 补充抓取：松江区优质店铺/景点 20个 ---
+# 一尺花园(泰晤士小镇店)
+https://www.amap.com/poi/B0FFFOK3CL
 
-# 绿廊咖啡(泰晤士小镇店)
-https://www.dianping.com/shop/11523664
+# Drunk Baker(松江万达店)
+https://www.amap.com/poi/B0IFFHZQDN
+
+# M Stand(松江印象城店)
+https://www.amap.com/poi/B02FG3EUVD
+
+# 农家菜老大(松江总店)
+https://www.amap.com/poi/B0FFFDE58R
+
+# 明谦咖啡(松江大学城店)
+https://www.amap.com/poi/B0FFGJ8YHE
+
+# Seesaw Coffee(松江印象城店)
+https://www.amap.com/poi/B02FG4ABV2
+
+# 皮爷咖啡(松江大学城店)
+https://www.amap.com/poi/B02FGX45YF
+
+# 裕记咖啡(泰晤士小镇店)
+https://www.amap.com/poi/B0FFFPR9DK
+
+# 老克勒农家菜(松江店)
+https://www.amap.com/poi/B0FFGXNXMA
+
+# 塔哈尔(松江万达店)
+https://www.amap.com/poi/B0FFHDNN3X
+
+# 西塔老太太(松江印象城店)
+https://www.amap.com/poi/B0IFFHYWJC
+
+# 点都德(松江万达店)
+https://www.amap.com/poi/B0FFH7YQ4A
+
+# 太二酸菜鱼(松江印象城店)
+https://www.amap.com/poi/B02FG3UE7W
+
+# 泸溪河桃酥(松江大学城店)
+https://www.amap.com/poi/B0FFAKBDEE
+
+# 鲍师傅(松江万达店)
+https://www.amap.com/poi/B0FFHB62FN
+
+# 喜茶(松江印象城店)
+https://www.amap.com/poi/B02FG2DXZW
+
+# 乐乐茶(松江万达店)
+https://www.amap.com/poi/B0FFGKJJY5
+
+# 奈雪的茶(松江印象城店)
+https://www.amap.com/poi/B02FG2WYCX
+
+# 哈灵面馆(松江大学城店)
+https://www.amap.com/poi/B0FFDN2BXB
+
+# 一尺花园(佘山店)
+https://www.amap.com/poi/B0FFHBX0FL

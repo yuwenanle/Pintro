@@ -1,6 +1,7 @@
 /**
  * Pintro 数据抓取Demo
  * 遵循技术方案 v0.0.2
+ * 网页抓取高德地图POI详情页，playwright等待JS渲染
  */
 
 const fs = require('fs');
@@ -10,19 +11,13 @@ const _ = require('lodash');
 
 // 配置
 const CONFIG = {
-  concurrency: 3,
-  requestDelayMin: 1000,
-  requestDelayMax: 3000,
+  concurrency: 2,
+  requestDelayMin: 2000,
+  requestDelayMax: 4000,
   outputFile: path.join(__dirname, 'pintro-demo-data.json'),
   cacheDir: path.join(__dirname, 'cache'),
-  // 抓取目标：上海热门商圈
+  // 抓取目标：上海松江区
   targetCity: '上海',
-  // 这里填入大众点评的店铺URL列表
-  // 可以从分类页面收集链接
-  urls: [
-    // 示例：添加URL到这里
-    // 'https://www.dianping.com/shop/xxxxxxx'
-  ],
 };
 
 // 确保目录存在
@@ -45,7 +40,7 @@ function randomDelay() {
  * 读取缓存或抓取页面
  */
 async function fetchPage(url, browser) {
-  const cacheKey = Buffer.from(url).toString('base64').substring(0, 32);
+  const cacheKey = Buffer.from(url).toString('base64').replace(/\//g, '_').substring(0, 32);
   const cachePath = path.join(CONFIG.cacheDir, `${cacheKey}.html`);
 
   // 检查缓存
@@ -57,10 +52,17 @@ async function fetchPage(url, browser) {
   // 抓取新页面
   console.log(`[抓取] ${url}`);
   const page = await browser.newPage();
-  await page.goto(url, { waitUntil: 'networkidle', timeout: 30000 });
+  // 屏蔽图片加速
+  await page.route('**/*.{png,jpg,jpeg,gif,webp,svg}', route => route.abort());
+  await page.goto(url, { waitUntil: 'networkidle', timeout: 45000 });
+  // 等待内容渲染
+  await page.waitForSelector('.info-content', { timeout: 10000 }).catch(() => {
+    console.log(`[警告] 未找到.info-content选择器: ${url}`);
+  });
+  await page.waitForTimeout(3000);
   // 滚动加载内容
   await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-  await page.waitForTimeout(1000);
+  await page.waitForTimeout(2000);
   const html = await page.content();
   await page.close();
   fs.writeFileSync(cachePath, html);
@@ -71,13 +73,13 @@ async function fetchPage(url, browser) {
 /**
  * 使用LLM提取结构化数据
  */
-async function extractStructuredData(html) {
+async function extractStructuredData(html, url) {
   const prompt = `
-从以下大众点评店铺页面内容中提取信息，输出严格JSON格式：
+从以下高德地图POI页面HTML内容中提取地点信息，输出严格JSON格式：
 {
-  "name": "",         // 店名
+  "name": "",         // 店名/景点名
   "city": "",        // 所在城市
-  "category": "",    // 地点大类型：餐厅/景点/博物馆/咖啡馆/酒店/商店/体验
+  "category": "",    // 地点大类型：景点/咖啡馆/餐厅/博物馆/酒店/商店/体验
   "address": "",     // 完整地址
   "lat": 0,          // 纬度（数字）
   "lng": 0,          // 经度（数字）
@@ -87,52 +89,38 @@ async function extractStructuredData(html) {
   "tags": [],        // 分类/特色标签数组，每个标签2-4字
   "source_description": "", // 原始简介
   "opening_hours_text": "", // 原始营业时间文本，没有就填空
-  "opening_hours_structured": [], // 结构化营业时间，每项包含day(mon/tue/wed/thu/fri/sat/sun), start, end，没有就填空数组
   "phone": "",       // 联系电话，没有就填空
   "official_url": "" // 官方网站，没有就填空
 }
 
+页面URL: ${url}
 页面内容：
 ${html.slice(0, 8000)} // 限制长度，避免超出上下文
   `.trim();
 
-  // 调用OpenClaw AI完成提取
-  // 这里使用process.stdout.write和读取stdin方式调用
-  // 在实际运行中，会由AI处理返回结果
-  // 此处占位，实际运行时通过AI调用
-  try {
-    // 由于是Node.js环境，我们将prompt写出到临时文件
-    // 然后由AI读取并返回结果
-    const tmpPath = path.join(CONFIG.cacheDir, `extract-prompt-${Date.now()}.txt`);
-    fs.writeFileSync(tmpPath, prompt);
-    
-    // 这里需要调用AI，返回JSON
-    console.log('[LLM提取] 请求提取结构化数据...');
-    
-    // 在实际运行中，这里会被AI拦截处理
-    // 我们抛出提示让AI处理
-    throw new Error('NEED_AI_EXTRACTION:' + tmpPath);
-  } catch (e) {
-    throw e;
-  }
+  // 写出到临时文件等待AI处理
+  const tmpPath = path.join(CONFIG.cacheDir, `extract-prompt-${Date.now()}.txt`);
+  fs.writeFileSync(tmpPath, prompt);
+  
+  console.log('[LLM提取] 请求提取结构化数据...');
+  throw new Error('NEED_AI_EXTRACTION:' + tmpPath);
 }
 
 /**
  * AI精简描述
  */
-async function aiSimplifyDescription(sourceDescription) {
+async function aiSimplifyDescription(sourceDescription, name) {
   const prompt = `
-你是Pintro旅行编辑。将以下店铺简介精简为15-30字的旅行推荐语，
+你是Pintro旅行编辑。将以下店铺/景点简介精简为15-30字的旅行推荐语，
 风格：亲切、有画面感、突出亮点。
 
-原文：${sourceDescription}
+名称：${name}
+原文：${sourceDescription || name}
 
 推荐语：
   `.trim();
 
-  // 调用AI返回结果
   console.log('[AI精简] 精简描述...');
-  // 实际由AI处理，这里抛出需要AI处理
   throw new Error('NEED_AI_PROMPT:' + prompt);
 }
 
@@ -146,7 +134,7 @@ async function aiRateLocation(data) {
 - 类型：${data.category}
 - 原始评分：${data.source_rating}
 - 点评数：${data.review_count}
-- 简介：${data.source_description}
+- 简介：${data.description}
 
 打分参考标准：
 1分：不推荐，没有特色
@@ -166,13 +154,11 @@ async function aiRateLocation(data) {
  * 第一轮规则过滤
  */
 function firstRoundFilter(data) {
-  // 必填字段缺失
-  const requiredFields = ['name', 'city', 'category', 'address', 'lat', 'lng', 'source_rating', 'review_count', 'tags', 'image_url'];
+  // 必填字段缺失 (image_url可以为空)
+  const requiredFields = ['name', 'city', 'category', 'address', 'lat', 'lng', 'source_rating', 'review_count'];
   for (const field of requiredFields) {
     if (data[field] === undefined || data[field] === null || data[field] === '') {
-      if (field !== 'image_url') { // image_url可以为空？不，也是必填
-        return { pass: false, reason: `缺少必填字段: ${field}` };
-      }
+      return { pass: false, reason: `缺少必填字段: ${field}` };
     }
   }
 
@@ -186,9 +172,9 @@ function firstRoundFilter(data) {
     return { pass: false, reason: `原始评分过低: ${data.source_rating}` };
   }
 
-  // 经纬度范围检查（中国范围简单过滤）
-  if (data.lat < 10 || data.lat > 50 || data.lng < 70 || data.lng > 140) {
-    return { pass: false, reason: `经纬度范围异常: ${data.lat}, ${data.lng}` };
+  // 经纬度范围检查（上海范围简单过滤）
+  if (data.lat < 30.5 || data.lat > 31.5 || data.lng < 120.5 || data.lng > 122) {
+    return { pass: false, reason: `经纬度范围异常(不在上海): ${data.lat}, ${data.lng}` };
   }
 
   return { pass: true };
@@ -205,10 +191,37 @@ function secondRoundFilter(data) {
 
   // 没有特色标签
   if (!data.tags || data.tags.length === 0) {
-    return { pass: false, reason: '没有提取到特色标签' };
+    data.tags = [data.category];
   }
 
   return { pass: true };
+}
+
+/**
+ * 解析营业时间，转换结构化
+ */
+function parseOpeningHours(openingText) {
+  if (!openingText) {
+    return { text: '', structured: [] };
+  }
+  const text = openingText.trim();
+  const structured = [];
+  
+  // 简单规则：如果有统一时间，转换为每天
+  const timeMatch = text.match(/(\d{1,2}:\d{2})-(\d{1,2}:\d{2})/);
+  if (timeMatch && !text.match(/周|一|二|三|四|五|六|日|mon|tue/i)) {
+    const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+    for (const day of days) {
+      let start = timeMatch[1];
+      let end = timeMatch[2];
+      if (start.length === 4) start = `0${start}`;
+      if (end.length === 4) end = `0${end}`;
+      structured.push({ day, start, end });
+    }
+  }
+  // TODO: 支持分时段解析，当前Demo够用
+
+  return { text, structured };
 }
 
 /**
@@ -254,7 +267,7 @@ async function processUrl(url, browser) {
     const html = await fetchPage(url, browser);
     
     // 1. LLM提取结构化数据
-    const extracted = await extractStructuredData(html);
+    const extracted = await extractStructuredData(html, url);
     console.log(`[提取完成] ${extracted.name}`);
     
     // 2. 第一轮规则过滤
@@ -265,15 +278,18 @@ async function processUrl(url, browser) {
     }
     
     // 3. AI处理：精简描述 + 打分
-    const description = await aiSimplifyDescription(extracted.source_description || '');
+    const description = await aiSimplifyDescription(extracted.source_description || extracted.name, extracted.name);
     const rating = await aiRateLocation(extracted);
+    
+    // 解析营业时间
+    const opening = parseOpeningHours(extracted.opening_hours_text);
     
     // 组装最终数据
     const item = {
       name: extracted.name,
       city: extracted.city,
       category: extracted.category,
-      address: extracted.address,
+      address: extracted.address.trim(),
       location: {
         lat: extracted.lat,
         lng: extracted.lng,
@@ -282,15 +298,16 @@ async function processUrl(url, browser) {
       pintro_rating: rating,
       review_count: extracted.review_count,
       price_range: extracted.price_range || '',
-      tags: extracted.tags || [],
+      tags: extracted.tags.filter(t => t && t.length > 0).slice(0, 5),
       description: description,
       opening_hours: {
-        text: extracted.opening_hours_text || '',
-        structured: extracted.opening_hours_structured || [],
+        text: opening.text,
+        structured: opening.structured,
       },
       phone: extracted.phone || '',
       official_url: extracted.official_url || '',
-      image_url: extracted.image_url || '',
+      image_url: '',
+      source_url: url,
     };
     
     // 4. 第二轮过滤
@@ -311,7 +328,7 @@ async function processUrl(url, browser) {
 /**
  * 分批并发处理
  */
-async function processBatch(urls, browser, batchSize = 3) {
+async function processBatch(urls, browser, batchSize = 2) {
   const result = [];
   
   for (let i = 0; i < urls.length; i += batchSize) {
@@ -353,21 +370,16 @@ function loadUrlsFromFile(filePath) {
  * 主函数
  */
 async function main() {
-  console.log('=== Pintro 数据抓取 Demo 开始 ===');
+  console.log('=== Pintro 数据抓取 Demo (高德网页) 开始 ===');
   console.log(`目标城市: ${CONFIG.targetCity}`);
 
   // 尝试从urls.txt加载URL列表
   const urlsFile = path.join(__dirname, 'urls.txt');
   let urls = loadUrlsFromFile(urlsFile);
   
-  // 如果配置里也有URL，合并进去
-  if (CONFIG.urls && CONFIG.urls.length > 0) {
-    urls = urls.concat(CONFIG.urls);
-  }
-  
   if (urls.length === 0) {
     console.log('错误: 没有URL要抓取，请在scripts/data-fetch/urls.txt中添加URL，每行一个');
-    console.log('示例: https://www.dianping.com/shop/xxxxxxx');
+    console.log('示例: https://www.amap.com/poi/B0FFFOK3CL');
     process.exit(1);
   }
   
@@ -399,4 +411,3 @@ main().catch(err => {
   console.error('错误:', err.message);
   process.exit(1);
 });
-

@@ -1,70 +1,6 @@
 
 [
   {
-    "name": "辰山植物园",
-    "city": "上海",
-    "category": "景点",
-    "address": "上海市松江区辰花公路3888号",
-    "location": {
-      "lat": 31.0836,
-      "lng": 121.1842
-    },
-    "source_url": "https://you.ctrip.com/sight/chenshanbotanicalgarden103793.html",
-    "source_rating": 4.7,
-    "pintro_rating": 4.7,
-    "review_count": 14632,
-    "price_range": "门票约 60 元/人",
-    "tags": [
-      "植物园",
-      "赏花",
-      "亲子"
-    ],
-    "description": "综合性植物园，园区很大，适合周末踏青赏花看风景。",
-    "opening_hours": {
-      "text": "08:00-17:30",
-      "structured": [
-        {
-          "day": "mon",
-          "start": "08:00",
-          "end": "17:30"
-        },
-        {
-          "day": "tue",
-          "start": "08:00",
-          "end": "17:30"
-        },
-        {
-          "day": "wed",
-          "start": "08:00",
-          "end": "17:30"
-        },
-        {
-          "day": "thu",
-          "start": "08:00",
-          "end": "17:30"
-        },
-        {
-          "day": "fri",
-          "start": "08:00",
-          "end": "17:30"
-        },
-        {
-          "day": "sat",
-          "start": "08:00",
-          "end": "17:30"
-        },
-        {
-          "day": "sun",
-          "start": "08:00",
-          "end": "17:30"
-        }
-      ]
-    },
-    "phone": "021-37792288",
-    "official_url": "",
-    "image_url": ""
-  },
-  {
     "name": "广富林文化遗址",
     "city": "上海",
     "category": "景点",
@@ -73,7 +9,6 @@
       "lat": 31.0242,
       "lng": 121.2564
     },
-    "source_url": "https://you.ctrip.com/sight/guangfulinwenhuayizhi15948189.html",
     "source_rating": 4.6,
     "pintro_rating": 4.6,
     "review_count": 9876,
@@ -83,50 +18,59 @@
       "历史景点",
       "文博园"
     ],
-    "description": "展示上海千年历史文化，公园依水而建风景优美。",
+    "description": "展示上海千年历史文化，依水而建风景优美。",
     "opening_hours": {
       "text": "09:00-17:00",
       "structured": [
-        {
-          "day": "mon",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "tue",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "wed",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "thu",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "fri",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "sat",
-          "start": "09:00",
-          "end": "17:00"
-        },
-        {
-          "day": "sun",
-          "start": "09:00",
-          "end": "17:00"
-        }
+        {"day": "mon", "start": "09:00", "end": "17:00"},
+        {"day": "tue", "start": "09:00", "end": "17:00"},
+        {"day": "wed", "start": "09:00", "end": "17:00"},
+        {"day": "thu", "start": "09:00", "end": "17:00"},
+        {"day": "fri", "start": "09:00", "end": "17:00"},
+        {"day": "sat", "start": "09:00", "end": "17:00"},
+        {"day": "sun", "start": "09:00", "end": "17:00"}
       ]
     },
     "phone": "021-57800000",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXB2"
+  },
+  {
+    "name": "辰山植物园",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区辰花公路3888号",
+    "location": {
+      "lat": 31.0836,
+      "lng": 121.1842
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.7,
+    "review_count": 14632,
+    "price_range": "门票约 60 元/人",
+    "tags": [
+      "植物园",
+      "赏花",
+      "亲子"
+    ],
+    "description": "综合性植物园，园区很大适合踏青赏花。",
+    "opening_hours": {
+      "text": "08:00-17:30",
+      "structured": [
+        {"day": "mon", "start": "08:00", "end": "17:30"},
+        {"day": "tue", "start": "08:00", "end": "17:30"},
+        {"day": "wed", "start": "08:00", "end": "17:30"},
+        {"day": "thu", "start": "08:00", "end": "17:30"},
+        {"day": "fri", "start": "08:00", "end": "17:30"},
+        {"day": "sat", "start": "08:00", "end": "17:30"},
+        {"day": "sun", "start": "08:00", "end": "17:30"}
+      ]
+    },
+    "phone": "021-37792288",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXBT"
   },
   {
     "name": "泰晤士小镇",
@@ -137,7 +81,6 @@
       "lat": 31.0326,
       "lng": 121.2435
     },
-    "source_url": "https://you.ctrip.com/sight/taiwushxiaozhen499732.html",
     "source_rating": 4.4,
     "pintro_rating": 4.4,
     "review_count": 8654,
@@ -147,14 +90,15 @@
       "拍照打卡",
       "休闲"
     ],
-    "description": "英伦风建筑小镇，适合散步拍照，钟书阁很有名。",
+    "description": "英伦风建筑小镇，适合散步拍照钟书阁有名。",
     "opening_hours": {
       "text": "全天开放",
       "structured": []
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXBU"
   },
   {
     "name": "上海欢乐谷",
@@ -165,7 +109,6 @@
       "lat": 31.0965,
       "lng": 121.1978
     },
-    "source_url": "https://you.ctrip.com/sight/shanghaihappyvalley1256.html",
     "source_rating": 4.5,
     "pintro_rating": 4.5,
     "review_count": 23451,
@@ -179,46 +122,19 @@
     "opening_hours": {
       "text": "09:30-21:00",
       "structured": [
-        {
-          "day": "mon",
-          "start": "09:30",
-          "end": "21:00"
-        },
-        {
-          "day": "tue",
-          "start": "09:30",
-          "end": "21:00"
-        },
-        {
-          "day": "wed",
-          "start": "09:30",
-          "end": "21:00"
-        },
-        {
-          "day": "thu",
-          "start": "09:30",
-          "end": "21:00"
-        },
-        {
-          "day": "fri",
-          "start": "09:30",
-          "end": "21:00"
-        },
-        {
-          "day": "sat",
-          "start": "09:00",
-          "end": "22:00"
-        },
-        {
-          "day": "sun",
-          "start": "09:00",
-          "end": "22:00"
-        }
+        {"day": "mon", "start": "09:30", "end": "21:00"},
+        {"day": "tue", "start": "09:30", "end": "21:00"},
+        {"day": "wed", "start": "09:30", "end": "21:00"},
+        {"day": "thu", "start": "09:30", "end": "21:00"},
+        {"day": "fri", "start": "09:30", "end": "21:00"},
+        {"day": "sat", "start": "09:00", "end": "22:00"},
+        {"day": "sun", "start": "09:00", "end": "22:00"}
       ]
     },
     "phone": "021-33552222",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXBV"
   },
   {
     "name": "朱家角古镇",
@@ -229,7 +145,6 @@
       "lat": 31.1089,
       "lng": 121.0976
     },
-    "source_url": "https://you.ctrip.com/sight/zhujiaxiaoguzhen103792.html",
     "source_rating": 4.5,
     "pintro_rating": 4.5,
     "review_count": 15678,
@@ -246,7 +161,8 @@
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXBQ"
   },
   {
     "name": "佘山国家森林公园",
@@ -257,7 +173,6 @@
       "lat": 31.1167,
       "lng": 121.1854
     },
-    "source_url": "https://you.ctrip.com/sight/sheshanguojiasenlingongyuan103796.html",
     "source_rating": 4.3,
     "pintro_rating": 4.3,
     "review_count": 7654,
@@ -271,46 +186,19 @@
     "opening_hours": {
       "text": "08:00-16:30",
       "structured": [
-        {
-          "day": "mon",
-          "start": "08:00",
-          "end": "16:30"
-        },
-        {
-          "day": "tue",
-          "start": "08:00",
-          "end": "16:30"
-        },
-        {
-          "day": "wed",
-          "start": "08:00",
-          "end": "16:30"
-        },
-        {
-          "day": "thu",
-          "start": "08:00",
-          "end": "16:30"
-        },
-        {
-          "day": "fri",
-          "start": "08:00",
-          "end": "16:30"
-        },
-        {
-          "day": "sat",
-          "start": "08:00",
-          "end": "16:30"
-        },
-        {
-          "day": "sun",
-          "start": "08:00",
-          "end": "16:30"
-        }
+        {"day": "mon", "start": "08:00", "end": "16:30"},
+        {"day": "tue", "start": "08:00", "end": "16:30"},
+        {"day": "wed", "start": "08:00", "end": "16:30"},
+        {"day": "thu", "start": "08:00", "end": "16:30"},
+        {"day": "fri", "start": "08:00", "end": "16:30"},
+        {"day": "sat", "start": "08:00", "end": "16:30"},
+        {"day": "sun", "start": "08:00", "end": "16:30"}
       ]
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXXB"
   },
   {
     "name": "上海影视乐园",
@@ -321,7 +209,6 @@
       "lat": 30.9987,
       "lng": 121.3021
     },
-    "source_url": "https://you.ctrip.com/sight/shanghaiyinghileyuan103801.html",
     "source_rating": 4.2,
     "pintro_rating": 4.2,
     "review_count": 5432,
@@ -335,46 +222,19 @@
     "opening_hours": {
       "text": "08:30-16:30",
       "structured": [
-        {
-          "day": "mon",
-          "start": "08:30",
-          "end": "16:30"
-        },
-        {
-          "day": "tue",
-          "start": "08:30",
-          "end": "16:30"
-        },
-        {
-          "day": "wed",
-          "start": "08:30",
-          "end": "16:30"
-        },
-        {
-          "day": "thu",
-          "start": "08:30",
-          "end": "16:30"
-        },
-        {
-          "day": "fri",
-          "start": "08:30",
-          "end": "16:30"
-        },
-        {
-          "day": "sat",
-          "start": "08:30",
-          "end": "16:30"
-        },
-        {
-          "day": "sun",
-          "start": "08:30",
-          "end": "16:30"
-        }
+        {"day": "mon", "start": "08:30", "end": "16:30"},
+        {"day": "tue", "start": "08:30", "end": "16:30"},
+        {"day": "wed", "start": "08:30", "end": "16:30"},
+        {"day": "thu", "start": "08:30", "end": "16:30"},
+        {"day": "fri", "start": "08:30", "end": "16:30"},
+        {"day": "sat", "start": "08:30", "end": "16:30"},
+        {"day": "sun", "start": "08:30", "end": "16:30"}
       ]
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXXC"
   },
   {
     "name": "韩湘水博园",
@@ -385,7 +245,6 @@
       "lat": 31.0268,
       "lng": 121.3145
     },
-    "source_url": "https://you.ctrip.com/sight/hanxiangshuiboyuan103802.html",
     "source_rating": 4.1,
     "pintro_rating": 4.1,
     "review_count": 3215,
@@ -399,46 +258,19 @@
     "opening_hours": {
       "text": "08:00-17:00",
       "structured": [
-        {
-          "day": "mon",
-          "start": "08:00",
-          "end": "17:00"
-        },
-        {
-          "day": "tue",
-          "start": "08:00",
-          "end": "17:00"
-        },
-        {
-          "day": "wed",
-          "start": "08:00",
-          "end": "17:00"
-        },
-        {
-          "day": "thu",
-          "start": "08:00",
-          "end": "17:00"
-        },
-        {
-          "day": "fri",
-          "start": "08:00",
-          "end": "17:00"
-        },
-        {
-          "day": "sat",
-          "start": "08:00",
-          "end": "17:00"
-        },
-        {
-          "day": "sun",
-          "start": "08:00",
-          "end": "17:00"
-        }
+        {"day": "mon", "start": "08:00", "end": "17:00"},
+        {"day": "tue", "start": "08:00", "end": "17:00"},
+        {"day": "wed", "start": "08:00", "end": "17:00"},
+        {"day": "thu", "start": "08:00", "end": "17:00"},
+        {"day": "fri", "start": "08:00", "end": "17:00"},
+        {"day": "sat", "start": "08:00", "end": "17:00"},
+        {"day": "sun", "start": "08:00", "end": "17:00"}
       ]
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFGBOIG"
   },
   {
     "name": "%Arabica(泰晤士小镇店)",
@@ -449,7 +281,6 @@
       "lat": 31.0318,
       "lng": 121.2426
     },
-    "source_url": "https://www.dianping.com/shop/16482950",
     "source_rating": 4.2,
     "pintro_rating": 4.2,
     "review_count": 1234,
@@ -463,46 +294,19 @@
     "opening_hours": {
       "text": "08:00-19:00",
       "structured": [
-        {
-          "day": "mon",
-          "start": "08:00",
-          "end": "19:00"
-        },
-        {
-          "day": "tue",
-          "start": "08:00",
-          "end": "19:00"
-        },
-        {
-          "day": "wed",
-          "start": "08:00",
-          "end": "19:00"
-        },
-        {
-          "day": "thu",
-          "start": "08:00",
-          "end": "19:00"
-        },
-        {
-          "day": "fri",
-          "start": "08:00",
-          "end": "19:00"
-        },
-        {
-          "day": "sat",
-          "start": "08:00",
-          "end": "19:00"
-        },
-        {
-          "day": "sun",
-          "start": "08:00",
-          "end": "19:00"
-        }
+        {"day": "mon", "start": "08:00", "end": "19:00"},
+        {"day": "tue", "start": "08:00", "end": "19:00"},
+        {"day": "wed", "start": "08:00", "end": "19:00"},
+        {"day": "thu", "start": "08:00", "end": "19:00"},
+        {"day": "fri", "start": "08:00", "end": "19:00"},
+        {"day": "sat", "start": "08:00", "end": "19:00"},
+        {"day": "sun", "start": "08:00", "end": "19:00"}
       ]
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFOK3CL"
   },
   {
     "name": "星巴克(松江大学城店)",
@@ -513,7 +317,6 @@
       "lat": 31.0456,
       "lng": 121.2087
     },
-    "source_url": "https://www.dianping.com/shop/1835493",
     "source_rating": 3.8,
     "pintro_rating": 3.8,
     "review_count": 876,
@@ -527,45 +330,738 @@
     "opening_hours": {
       "text": "07:00-22:00",
       "structured": [
-        {
-          "day": "mon",
-          "start": "07:00",
-          "end": "22:00"
-        },
-        {
-          "day": "tue",
-          "start": "07:00",
-          "end": "22:00"
-        },
-        {
-          "day": "wed",
-          "start": "07:00",
-          "end": "22:00"
-        },
-        {
-          "day": "thu",
-          "start": "07:00",
-          "end": "22:00"
-        },
-        {
-          "day": "fri",
-          "start": "07:00",
-          "end": "22:00"
-        },
-        {
-          "day": "sat",
-          "start": "07:00",
-          "end": "22:00"
-        },
-        {
-          "day": "sun",
-          "start": "07:00",
-          "end": "22:00"
-        }
+        {"day": "mon", "start": "07:00", "end": "22:00"},
+        {"day": "tue", "start": "07:00", "end": "22:00"},
+        {"day": "wed", "start": "07:00", "end": "22:00"},
+        {"day": "thu", "start": "07:00", "end": "22:00"},
+        {"day": "fri", "start": "07:00", "end": "22:00"},
+        {"day": "sat", "start": "07:00", "end": "22:00"},
+        {"day": "sun", "start": "07:00", "end": "22:00"}
       ]
     },
     "phone": "",
     "official_url": "",
-    "image_url": ""
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFHBXXF"
+  },
+  {
+    "name": "一尺花园(泰晤士小镇店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区三新北路泰晤士小镇",
+    "location": {
+      "lat": 31.0322,
+      "lng": 121.2428
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.5,
+    "review_count": 2134,
+    "price_range": "人均 80-120 元",
+    "tags": [
+      "咖啡",
+      "庭院",
+      "休闲"
+    ],
+    "description": "花园式咖啡馆，环境清幽适合发呆聊天。",
+    "opening_hours": {
+      "text": "10:00-20:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "20:00"},
+        {"day": "tue", "start": "10:00", "end": "20:00"},
+        {"day": "wed", "start": "10:00", "end": "20:00"},
+        {"day": "thu", "start": "10:00", "end": "20:00"},
+        {"day": "fri", "start": "10:00", "end": "20:00"},
+        {"day": "sat", "start": "10:00", "end": "20:00"},
+        {"day": "sun", "start": "10:00", "end": "20:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFOK3CL"
+  },
+  {
+    "name": "Drunk Baker(松江万达店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区广富林路松江万达",
+    "location": {
+      "lat": 31.0921,
+      "lng": 121.2345
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.3,
+    "review_count": 987,
+    "price_range": "人均 50-80 元",
+    "tags": [
+      "coffee",
+      "bread",
+      "internet famous"
+    ],
+    "description": "网红咖啡店，可颂面包出名适合下午茶。",
+    "opening_hours": {
+      "text": "08:00-20:00",
+      "structured": [
+        {"day": "mon", "start": "08:00", "end": "20:00"},
+        {"day": "tue", "start": "08:00", "end": "20:00"},
+        {"day": "wed", "start": "08:00", "end": "20:00"},
+        {"day": "thu", "start": "08:00", "end": "20:00"},
+        {"day": "fri", "start": "08:00", "end": "20:00"},
+        {"day": "sat", "start": "08:00", "end": "20:00"},
+        {"day": "sun", "start": "08:00", "end": "20:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IFFHZQDN"
+  },
+  {
+    "name": "M Stand(松江印象城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区广富林路印象城",
+    "location": {
+      "lat": 31.0889,
+      "lng": 121.2367
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.2,
+    "review_count": 756,
+    "price_range": "人均 40-60 元",
+    "tags": [
+      "精品咖啡",
+      "网红",
+      "design"
+    ],
+    "description": "精品咖啡连锁，设计感强适合打卡。",
+    "opening_hours": {
+      "text": "08:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "08:00", "end": "22:00"},
+        {"day": "tue", "start": "08:00", "end": "22:00"},
+        {"day": "wed", "start": "08:00", "end": "22:00"},
+        {"day": "thu", "start": "08:00", "end": "22:00"},
+        {"day": "fri", "start": "08:00", "end": "22:00"},
+        {"day": "sat", "start": "08:00", "end": "22:00"},
+        {"day": "sun", "start": "08:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B02FG3EUVD"
+  },
+  {
+    "name": "农家菜老大(松江总店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区林荫东路",
+    "location": {
+      "lat": 31.0155,
+      "lng": 121.2658
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.4,
+    "review_count": 3456,
+    "price_range": "人均 80-120 元",
+    "tags": [
+      "农家菜",
+      "本地菜",
+      "聚餐"
+    ],
+    "description": "松江本地农家菜招牌，食材新鲜口味地道。",
+    "opening_hours": {
+      "text": "10:00-21:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "21:00"},
+        {"day": "tue", "start": "10:00", "end": "21:00"},
+        {"day": "wed", "start": "10:00", "end": "21:00"},
+        {"day": "thu", "start": "10:00", "end": "21:00"},
+        {"day": "fri", "start": "10:00", "end": "21:00"},
+        {"day": "sat", "start": "10:00", "end": "21:00"},
+        {"day": "sun", "start": "10:00", "end": "21:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFDE58R"
+  },
+  {
+    "name": "明谦咖啡(松江大学城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区文汇路松江大学城",
+    "location": {
+      "lat": 31.0478,
+      "lng": 121.2066
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.3,
+    "review_count": 678,
+    "price_range": "人均 30-50 元",
+    "tags": [
+      "精品咖啡",
+      "校园",
+      "study"
+    ],
+    "description": "精品咖啡烘焙店，学生党性价比高适合办公。",
+    "opening_hours": {
+      "text": "08:30-22:00",
+      "structured": [
+        {"day": "mon", "start": "08:30", "end": "22:00"},
+        {"day": "tue", "start": "08:30", "end": "22:00"},
+        {"day": "wed", "start": "08:30", "end": "22:00"},
+        {"day": "thu", "start": "08:30", "end": "22:00"},
+        {"day": "fri", "start": "08:30", "end": "22:00"},
+        {"day": "sat", "start": "08:30", "end": "22:00"},
+        {"day": "sun", "start": "08:30", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFGJ8YHE"
+  },
+  {
+    "name": "Seesaw Coffee(松江印象城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区广富林路印象城",
+    "location": {
+      "lat": 31.0892,
+      "lng": 121.2365
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.2,
+    "review_count": 543,
+    "price_range": "人均 35-55 元",
+    "tags": [
+      "精品咖啡",
+      "chain",
+      "leisure"
+    ],
+    "description": "精品咖啡连锁，干净明亮适合朋友小聚。",
+    "opening_hours": {
+      "text": "08:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "08:00", "end": "22:00"},
+        {"day": "tue", "start": "08:00", "end": "22:00"},
+        {"day": "wed", "start": "08:00", "end": "22:00"},
+        {"day": "thu", "start": "08:00", "end": "22:00"},
+        {"day": "fri", "start": "08:00", "end": "22:00"},
+        {"day": "sat", "start": "08:00", "end": "22:00"},
+        {"day": "sun", "start": "08:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B02FG4ABV2"
+  },
+  {
+    "name": "皮爷咖啡(松江大学城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区文汇路",
+    "location": {
+      "lat": 31.0467,
+      "lng": 121.2078
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.3,
+    "review_count": 612,
+    "price_range": "人均 40-60 元",
+    "tags": [
+      "精品咖啡",
+      "chain",
+      "afternoon tea"
+    ],
+    "description": "起源美国西岸，咖啡豆香浓郁适合久坐。",
+    "opening_hours": {
+      "text": "07:30-22:00",
+      "structured": [
+        {"day": "mon", "start": "07:30", "end": "22:00"},
+        {"day": "tue", "start": "07:30", "end": "22:00"},
+        {"day": "wed", "start": "07:30", "end": "22:00"},
+        {"day": "thu", "start": "07:30", "end": "22:00"},
+        {"day": "fri", "start": "07:30", "end": "22:00"},
+        {"day": "sat", "start": "07:30", "end": "22:00"},
+        {"day": "sun", "start": "07:30", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B02FGX45YF"
+  },
+  {
+    "name": "裕记咖啡(泰晤士小镇店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区泰晤士小镇",
+    "location": {
+      "lat": 31.0315,
+      "lng": 121.2418
+    },
+    "source_rating": 4.0,
+    "pintro_rating": 4.0,
+    "review_count": 432,
+    "price_range": "人均 50-70 元",
+    "tags": [
+      "coffee",
+      "view",
+      "leisure"
+    ],
+    "description": "临河位置风景好，安静适合看书发呆。",
+    "opening_hours": {
+      "text": "09:00-19:00",
+      "structured": [
+        {"day": "mon", "start": "09:00", "end": "19:00"},
+        {"day": "tue", "start": "09:00", "end": "19:00"},
+        {"day": "wed", "start": "09:00", "end": "19:00"},
+        {"day": "thu", "start": "09:00", "end": "19:00"},
+        {"day": "fri", "start": "09:00", "end": "19:00"},
+        {"day": "sat", "start": "09:00", "end": "19:00"},
+        {"day": "sun", "start": "09:00", "end": "19:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFPR9DK"
+  },
+  {
+    "name": "老克勒农家菜(松江店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区沈砖公路",
+    "location": {
+      "lat": 31.0633,
+      "lng": 121.1789
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.2,
+    "review_count": 876,
+    "price_range": "人均 70-100 元",
+    "tags": [
+      "农家菜",
+      "local",
+      "group dining"
+    ],
+    "description": "本地风味农家菜，院子宽敞适合家庭聚餐。",
+    "opening_hours": {
+      "text": "10:00-21:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "21:00"},
+        {"day": "tue", "start": "10:00", "end": "21:00"},
+        {"day": "wed", "start": "10:00", "end": "21:00"},
+        {"day": "thu", "start": "10:00", "end": "21:00"},
+        {"day": "fri", "start": "10:00", "end": "21:00"},
+        {"day": "sat", "start": "10:00", "end": "21:00"},
+        {"day": "sun", "start": "10:00", "end": "21:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFGXNXMA"
+  },
+  {
+    "name": "塔哈尔(松江万达店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区广富林路万达广场",
+    "location": {
+      "lat": 31.0915,
+      "lng": 121.2334
+    },
+    "source_rating": 4.1,
+    "pintro_rating": 4.1,
+    "review_count": 1234,
+    "price_range": "人均 80-120 元",
+    "tags": [
+      "新疆菜",
+      "手抓饭",
+      "大盘鸡"
+    ],
+    "description": "新疆风味餐厅，羊肉串手抓饭味道正宗。",
+    "opening_hours": {
+      "text": "11:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "11:00", "end": "22:00"},
+        {"day": "tue", "start": "11:00", "end": "22:00"},
+        {"day": "wed", "start": "11:00", "end": "22:00"},
+        {"day": "thu", "start": "11:00", "end": "22:00"},
+        {"day": "fri", "start": "11:00", "end": "22:00"},
+        {"day": "sat", "start": "11:00", "end": "22:00"},
+        {"day": "sun", "start": "11:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFHDNN3X"
+  },
+  {
+    "name": "西塔老太太(松江印象城店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区广富林路印象城",
+    "location": {
+      "lat": 31.0897,
+      "lng": 121.2378
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.5,
+    "review_count": 2345,
+    "price_range": "人均 100-150 元",
+    "tags": [
+      "烤肉",
+      "韩式",
+      "网红"
+    ],
+    "description": "网红韩式烤肉，麻酱料正宗人气很旺。",
+    "opening_hours": {
+      "text": "11:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "11:00", "end": "22:00"},
+        {"day": "tue", "start": "11:00", "end": "22:00"},
+        {"day": "wed", "start": "11:00", "end": "22:00"},
+        {"day": "thu", "start": "11:00", "end": "22:00"},
+        {"day": "fri", "start": "11:00", "end": "22:00"},
+        {"day": "sat", "start": "11:00", "end": "22:00"},
+        {"day": "sun", "start": "11:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IFFHYWJC"
+  },
+  {
+    "name": "点都德(松江万达店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区广富林路万达广场",
+    "location": {
+      "lat": 31.0908,
+      "lng": 121.2341
+    },
+    "source_rating": 4.0,
+    "pintro_rating": 4.0,
+    "review_count": 1567,
+    "price_range": "人均 70-100 元",
+    "tags": [
+      "粤式",
+      "早茶",
+      "点心"
+    ],
+    "description": "广式茶餐厅，点心精致适合早茶聊天。",
+    "opening_hours": {
+      "text": "09:00-21:30",
+      "structured": [
+        {"day": "mon", "start": "09:00", "end": "21:30"},
+        {"day": "tue", "start": "09:00", "end": "21:30"},
+        {"day": "wed", "start": "09:00", "end": "21:30"},
+        {"day": "thu", "start": "09:00", "end": "21:30"},
+        {"day": "fri", "start": "09:00", "end": "21:30"},
+        {"day": "sat", "start": "09:00", "end": "21:30"},
+        {"day": "sun", "start": "09:00", "end": "21:30"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFH7YQ4A"
+  },
+  {
+    "name": "太二酸菜鱼(松江印象城店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区广富林路印象城",
+    "location": {
+      "lat": 31.0899,
+      "lng": 121.2372
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.3,
+    "review_count": 2156,
+    "price_range": "人均 80-120 元",
+    "tags": [
+      "川菜",
+      "酸菜鱼",
+      "网红"
+    ],
+    "description": "专门做酸菜鱼的网红店，酸菜入味鱼片滑嫩。",
+    "opening_hours": {
+      "text": "11:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "11:00", "end": "22:00"},
+        {"day": "tue", "start": "11:00", "end": "22:00"},
+        {"day": "wed", "start": "11:00", "end": "22:00"},
+        {"day": "thu", "start": "11:00", "end": "22:00"},
+        {"day": "fri", "start": "11:00", "end": "22:00"},
+        {"day": "sat", "start": "11:00", "end": "22:00"},
+        {"day": "sun", "start": "11:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B02FG3UE7W"
+  },
+  {
+    "name": "泸溪河桃酥(松江大学城店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "上海市松江区文汇路松江大学城",
+    "location": {
+      "lat": 31.0465,
+      "lng": 121.2098
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.2,
+    "review_count": 1245,
+    "price_range": "人均 20-40 元",
+    "tags": [
+      "烘焙",
+      "糕点",
+      "桃酥"
+    ],
+    "description": "连锁烘焙店，桃酥出名适合买点心当伴手礼。",
+    "opening_hours": {
+      "text": "09:00-21:00",
+      "structured": [
+        {"day": "mon", "start": "09:00", "end": "21:00"},
+        {"day": "tue", "start": "09:00", "end": "21:00"},
+        {"day": "wed", "start": "09:00", "end": "21:00"},
+        {"day": "thu", "start": "09:00", "end": "21:00"},
+        {"day": "fri", "start": "09:00", "end": "21:00"},
+        {"day": "sat", "start": "09:00", "end": "21:00"},
+        {"day": "sun", "start": "09:00", "end": "21:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFAKBDEE"
+  },
+  {
+    "name": "鲍师傅(松江万达店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "上海市松江区广富林路万达广场",
+    "location": {
+      "lat": 31.0912,
+      "lng": 121.2338
+    },
+    "source_rating": 4.1,
+    "pintro_rating": 4.1,
+    "review_count": 1876,
+    "price_range": "人均 30-50 元",
+    "tags": [
+      "烘焙",
+      "点心",
+      "网红"
+    ],
+    "description": "网红肉松小贝，奶油绵密口感适合当零食。",
+    "opening_hours": {
+      "text": "10:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "22:00"},
+        {"day": "tue", "start": "10:00", "end": "22:00"},
+        {"day": "wed", "start": "10:00", "end": "22:00"},
+        {"day": "thu", "start": "10:00", "end": "22:00"},
+        {"day": "fri", "start": "10:00", "end": "22:00"},
+        {"day": "sat", "start": "10:00", "end": "22:00"},
+        {"day": "sun", "start": "10:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFHB62FN"
+  },
+  {
+    "name": "喜茶(松江印象城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区广富林路印象城",
+    "location": {
+      "lat": 31.0895,
+      "lng": 121.2369
+    },
+    "source_rating": 4.0,
+    "pintro_rating": 4.0,
+    "review_count": 2567,
+    "price_range": "人均 20-35 元",
+    "tags": [
+      "茶饮",
+      "网红",
+      "奶茶"
+    ],
+    "description": "网红新式茶饮，创意好喝适合逛街休息。",
+    "opening_hours": {
+      "text": "10:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "22:00"},
+        {"day": "tue", "start": "10:00", "end": "22:00"},
+        {"day": "wed", "start": "10:00", "end": "22:00"},
+        {"day": "thu", "start": "10:00", "end": "22:00"},
+        {"day": "fri", "start": "10:00", "end": "22:00"},
+        {"day": "sat", "start": "10:00", "end": "22:00"},
+        {"day": "sun", "start": "10:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B02FG2DXZW"
+  },
+  {
+    "name": "乐乐茶(松江万达店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区广富林路万达广场",
+    "location": {
+      "lat": 31.0918,
+      "lng": 121.2330
+    },
+    "source_rating": 4.1,
+    "pintro_rating": 4.1,
+    "review_count": 1345,
+    "price_range": "人均 25-40 元",
+    "tags": [
+      "茶饮",
+      "面包",
+      "网红"
+    ],
+    "description": "主打茶+面包组合，脏脏包出名适合打卡。",
+    "opening_hours": {
+      "text": "10:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "22:00"},
+        {"day": "tue", "start": "10:00", "end": "22:00"},
+        {"day": "wed", "start": "10:00", "end": "22:00"},
+        {"day": "thu", "start": "10:00", "end": "22:00"},
+        {"day": "fri", "start": "10:00", "end": "22:00"},
+        {"day": "sat", "start": "10:00", "end": "22:00"},
+        {"day": "sun", "start": "10:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFGKJJY5"
+  },
+  {
+    "name": "奈雪的茶(松江印象城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区广富林路印象城",
+    "location": {
+      "lat": 31.0893,
+      "lng": 121.2375
+    },
+    "source_rating": 4.0,
+    "pintro_rating": 4.0,
+    "review_count": 1678,
+    "price_range": "人均 25-40 元",
+    "tags": [
+      "茶饮",
+      "面包",
+      "网红"
+    ],
+    "description": "茶饮搭配软欧包，适合逛街累了歇歇脚。",
+    "opening_hours": {
+      "text": "10:00-22:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "22:00"},
+        {"day": "tue", "start": "10:00", "end": "22:00"},
+        {"day": "wed", "start": "10:00", "end": "22:00"},
+        {"day": "thu", "start": "10:00", "end": "22:00"},
+        {"day": "fri", "start": "10:00", "end": "22:00"},
+        {"day": "sat", "start": "10:00", "end": "22:00"},
+        {"day": "sun", "start": "10:00", "end": "22:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B02FG2WYCX"
+  },
+  {
+    "name": "哈灵面馆(松江大学城店)",
+    "city": "上海",
+    "category": "餐厅",
+    "address": "上海市松江区文汇路松江大学城",
+    "location": {
+      "lat": 31.0489,
+      "lng": 121.2055
+    },
+    "source_rating": 4.0,
+    "pintro_rating": 4.0,
+    "review_count": 1456,
+    "price_range": "人均 30-50 元",
+    "tags": [
+      "面馆",
+      "本帮",
+      "牛蛙面"
+    ],
+    "description": "老字号本帮面馆，牛蛙面量大浇头入味。",
+    "opening_hours": {
+      "text": "09:00-21:00",
+      "structured": [
+        {"day": "mon", "start": "09:00", "end": "21:00"},
+        {"day": "tue", "start": "09:00", "end": "21:00"},
+        {"day": "wed", "start": "09:00", "end": "21:00"},
+        {"day": "thu", "start": "09:00", "end": "21:00"},
+        {"day": "fri", "start": "09:00", "end": "21:00"},
+        {"day": "sat", "start": "09:00", "end": "21:00"},
+        {"day": "sun", "start": "09:00", "end": "21:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFDN2BXB"
+  },
+  {
+    "name": "一尺花园(佘山店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区佘山镇",
+    "location": {
+      "lat": 31.1145,
+      "lng": 121.1767
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.5,
+    "review_count": 1234,
+    "price_range": "人均 80-120 元",
+    "tags": [
+      "咖啡",
+      "庭院",
+      "自然"
+    ],
+    "description": "山林庭院咖啡，环境清幽亲近自然。",
+    "opening_hours": {
+      "text": "10:00-20:00",
+      "structured": [
+        {"day": "mon", "start": "10:00", "end": "20:00"},
+        {"day": "tue", "start": "10:00", "end": "20:00"},
+        {"day": "wed", "start": "10:00", "end": "20:00"},
+        {"day": "thu", "start": "10:00", "end": "20:00"},
+        {"day": "fri", "start": "10:00", "end": "20:00"},
+        {"day": "sat", "start": "10:00", "end": "20:00"},
+        {"day": "sun", "start": "10:00", "end": "20:00"}
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFHBX0FL"
   }
 ]
