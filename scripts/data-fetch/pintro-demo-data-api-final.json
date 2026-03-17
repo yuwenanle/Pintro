@@ -1,0 +1,2740 @@
+[
+  {
+    "name": "一尺花园(静安花房店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "石门一路116号中邦集团三楼(近兴业太古汇地下停车场)",
+    "location": {
+      "lat": 31.22668,
+      "lng": 121.463428
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(静安花房店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-37561121",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0H0PUGXMR",
+    "amap_id": "B0H0PUGXMR"
+  },
+  {
+    "name": "一尺花园(古城公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "人民路317号古城公园丹凤楼(近古城1号门)",
+    "location": {
+      "lat": 31.228673,
+      "lng": 121.49481
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(古城公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370710152",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0HB2HX4P3",
+    "amap_id": "B0HB2HX4P3"
+  },
+  {
+    "name": "一尺花园(世博文化公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "世博大道2200号",
+    "location": {
+      "lat": 31.180085,
+      "lng": 121.469585
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(世博文化公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15301672179",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0K63SNIU3",
+    "amap_id": "B0K63SNIU3"
+  },
+  {
+    "name": "一尺花园(李氏民宅店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "泾南路34号(北洋泾路地铁站1号口直行260米)",
+    "location": {
+      "lat": 31.241082,
+      "lng": 121.554158
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(李氏民宅店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15316517650",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KGTSCM5S",
+    "amap_id": "B0KGTSCM5S"
+  },
+  {
+    "name": "一尺花园(安和花园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "新华路179弄(近上影国际立体停车场)",
+    "location": {
+      "lat": 31.202199,
+      "lng": 121.428934
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(安和花园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-68538765",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0H035SCCA",
+    "amap_id": "B0H035SCCA"
+  },
+  {
+    "name": "一尺花园(牡丹园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "兰谷路500号",
+    "location": {
+      "lat": 31.321283,
+      "lng": 121.594926
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(牡丹园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15317129279",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JADSE94B",
+    "amap_id": "B0JADSE94B"
+  },
+  {
+    "name": "一尺花园(上海金桥店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "金桥路535号EKA天物第19幢",
+    "location": {
+      "lat": 31.265278,
+      "lng": 121.576833
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(上海金桥店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15316525157",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J30SA0YA",
+    "amap_id": "B0J30SA0YA"
+  },
+  {
+    "name": "一尺花园(桃浦中央绿地店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "敦煌路450弄63号",
+    "location": {
+      "lat": 31.279465,
+      "lng": 121.372456
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场"
+    ],
+    "description": "一尺花园(桃浦中央绿地店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370650803",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I1VUZ4PZ",
+    "amap_id": "B0I1VUZ4PZ"
+  },
+  {
+    "name": "一尺花园(前滩休闲公园店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "前滩大道700弄5号6号(休闲公园13号门)",
+    "location": {
+      "lat": 31.149178,
+      "lng": 121.463862
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场"
+    ],
+    "description": "一尺花园(前滩休闲公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19352131073",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LARUBDQX",
+    "amap_id": "B0LARUBDQX"
+  },
+  {
+    "name": "一尺花园(前滩友城公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "前耀路185号(近友城公园1号门)",
+    "location": {
+      "lat": 31.160447,
+      "lng": 121.47352
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(前滩友城公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15316035182",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LGF7RSDR",
+    "amap_id": "B0LGF7RSDR"
+  },
+  {
+    "name": "一尺花园(周浦文化公园店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "周邓公路6851号(2号门直行100米到中心广场后右转直行约300米)",
+    "location": {
+      "lat": 31.111898,
+      "lng": 121.595832
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场"
+    ],
+    "description": "一尺花园(周浦文化公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15301916059",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KA551F6H",
+    "amap_id": "B0KA551F6H"
+  },
+  {
+    "name": "一尺花园(颍川寄庐店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "四川北路989弄8号楼(四川北路地铁站3号口步行230米)",
+    "location": {
+      "lat": 31.25064,
+      "lng": 121.484174
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(颍川寄庐店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19301462083",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0L6CSCVFB",
+    "amap_id": "B0L6CSCVFB"
+  },
+  {
+    "name": "一尺花园(康桥店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "康沈路669号",
+    "location": {
+      "lat": 31.134488,
+      "lng": 121.573803
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场|餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(康桥店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19301494068",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KRKUDPV6",
+    "amap_id": "B0KRKUDPV6"
+  },
+  {
+    "name": "一尺花园(清溪府店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西街160号(近高桥西街停车场、第七人民医院停车场)",
+    "location": {
+      "lat": 31.343139,
+      "lng": 121.580508
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(清溪府店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370710156",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JB5Z62RQ",
+    "amap_id": "B0JB5Z62RQ"
+  },
+  {
+    "name": "一尺花园(新场古镇店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "海泉街46号(近新场古镇游客中心停车场)",
+    "location": {
+      "lat": 31.02558,
+      "lng": 121.64459
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(新场古镇店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19121503836",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IBGSQTF8",
+    "amap_id": "B0IBGSQTF8"
+  },
+  {
+    "name": "一尺花园(美兰湖店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "罗芬路555弄21号22号(门店旁地面停车场)",
+    "location": {
+      "lat": 31.398297,
+      "lng": 121.357216
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(美兰湖店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15800471717",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IBY78TVV",
+    "amap_id": "B0IBY78TVV"
+  },
+  {
+    "name": "一尺花园(矿坑花园店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "宝杨路1弄7号吴淞炮台湾湿地公园内矿坑石屋",
+    "location": {
+      "lat": 31.402481,
+      "lng": 121.505533
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(矿坑花园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19916753951",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LA5UKCTG",
+    "amap_id": "B0LA5UKCTG"
+  },
+  {
+    "name": "一尺花园(滨江森林公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "崇景路9号滨江森林公园二期内",
+    "location": {
+      "lat": 31.377694,
+      "lng": 121.531658
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(滨江森林公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19352140169",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KRFCSBH3",
+    "amap_id": "B0KRFCSBH3"
+  },
+  {
+    "name": "一尺花园(江镇河岸店)",
+    "city": "上海",
+    "category": "商店",
+    "address": "江镇西街71号林隐艺术中心(地面停车场)",
+    "location": {
+      "lat": 31.171467,
+      "lng": 121.74361
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场"
+    ],
+    "description": "一尺花园(江镇河岸店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15317293212",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JDYROSSA",
+    "amap_id": "B0JDYROSSA"
+  },
+  {
+    "name": "一尺花园(宝伦堂店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "开江中路368号",
+    "location": {
+      "lat": 31.111649,
+      "lng": 121.276006
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(宝伦堂店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15316760161",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J2PS70AW",
+    "amap_id": "B0J2PS70AW"
+  },
+  {
+    "name": "一尺花园(院士故里店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "新场古镇港西街66号(近开心文体公园停车场)",
+    "location": {
+      "lat": 31.025582,
+      "lng": 121.644595
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(院士故里店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15317976703",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J2DSVC9H",
+    "amap_id": "B0J2DSVC9H"
+  },
+  {
+    "name": "一尺花园(大零号湾店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "剑川路953号(近零号湾地面停车场)",
+    "location": {
+      "lat": 31.025983,
+      "lng": 121.421025
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(大零号湾店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15316899325",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JU3HC27Y",
+    "amap_id": "B0JU3HC27Y"
+  },
+  {
+    "name": "一尺花园(香樟花园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "衡山路2号甲(常熟路地铁站7号口步行390米,近桃江路地面停车场)",
+    "location": {
+      "lat": 31.209404,
+      "lng": 121.449852
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(香樟花园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370710153",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I2F7QXXJ",
+    "amap_id": "B0I2F7QXXJ"
+  },
+  {
+    "name": "一尺花园(乡悦华亭店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "霜竹公路518号华亭人家",
+    "location": {
+      "lat": 31.48528,
+      "lng": 121.291466
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场|餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(乡悦华亭店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370640061",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0K3AH985V",
+    "amap_id": "B0K3AH985V"
+  },
+  {
+    "name": "一尺花园(南园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "青村镇青溪老街1号停车场南园内",
+    "location": {
+      "lat": 30.921875,
+      "lng": 121.582748
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(南园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13386011149",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I6T7PDRK",
+    "amap_id": "B0I6T7PDRK"
+  },
+  {
+    "name": "一尺花园(陶家宅1号店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "王桥路999号陶家宅1号",
+    "location": {
+      "lat": 31.211512,
+      "lng": 121.701253
+    },
+    "source_rating": 4.8,
+    "pintro_rating": 5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(陶家宅1号店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18901659591",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFKM8UF3",
+    "amap_id": "B0FFKM8UF3"
+  },
+  {
+    "name": "一尺花园(定海神针店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "云海路59号15-18层",
+    "location": {
+      "lat": 31.414457,
+      "lng": 121.487344
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场|餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(定海神针店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19921803152",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LBCHDD4T",
+    "amap_id": "B0LBCHDD4T"
+  },
+  {
+    "name": "一尺花园(广富林店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "广富林路3260弄朱雀门集贤坊01-03栋",
+    "location": {
+      "lat": 31.06007,
+      "lng": 121.195143
+    },
+    "source_rating": 4.8,
+    "pintro_rating": 5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(广富林店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-57723500;17717239035",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0H1OCR62J",
+    "amap_id": "B0H1OCR62J"
+  },
+  {
+    "name": "一尺花园(筒仓店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "课植园路339弄9号楼1层(地下停车场E区)",
+    "location": {
+      "lat": 31.113644,
+      "lng": 121.05851
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "甜品店",
+      "甜品店"
+    ],
+    "description": "一尺花园(筒仓店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370650512",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JG2MADY4",
+    "amap_id": "B0JG2MADY4"
+  },
+  {
+    "name": "一尺花园(淞沪铁路月台店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "长江路258号B3幢1-2层",
+    "location": {
+      "lat": 31.349136,
+      "lng": 121.498755
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(淞沪铁路月台店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19302144026",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LGDDIVA8",
+    "amap_id": "B0LGDDIVA8"
+  },
+  {
+    "name": "一尺花园(滴水湖东岸店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "环湖东一路510号",
+    "location": {
+      "lat": 30.898762,
+      "lng": 121.954287
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场|餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(滴水湖东岸店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15301963572",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J1ZCORFB",
+    "amap_id": "B0J1ZCORFB"
+  },
+  {
+    "name": "一尺花园(临港书院店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "老芦公路 1055 弄 2 号楼(院内有停车场)",
+    "location": {
+      "lat": 30.954942,
+      "lng": 121.865426
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(临港书院店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370790151",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I07CN9OX",
+    "amap_id": "B0I07CN9OX"
+  },
+  {
+    "name": "一尺花园(乐高乐园度假区店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "枫泾镇乐纷路268号V9幢102号商铺",
+    "location": {
+      "lat": 30.881474,
+      "lng": 121.096429
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "住宿服务",
+      "住宿服务相关",
+      "住宿服务相关"
+    ],
+    "description": "一尺花园(乐高乐园度假区店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18017876172",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LRM5XFM3",
+    "amap_id": "B0LRM5XFM3"
+  },
+  {
+    "name": "一尺花园(露营主题店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "洪运路398号",
+    "location": {
+      "lat": 30.920035,
+      "lng": 121.687072
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "体育休闲服务",
+      "休闲场所",
+      "休闲场所"
+    ],
+    "description": "一尺花园(露营主题店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15316791921",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JG1ZD7FS",
+    "amap_id": "B0JG1ZD7FS"
+  },
+  {
+    "name": "一尺花园(世纪公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "花木路809号世纪公园内(近7号门,步行至门店三到五分钟)",
+    "location": {
+      "lat": 31.211988,
+      "lng": 121.548384
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(世纪公园店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370710151",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IK3MPJNK",
+    "amap_id": "B0IK3MPJNK"
+  },
+  {
+    "name": "一尺花园(滴水湖西岸店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "滴水湖环湖西一路858号(滴水湖地铁站2号口步行330米)",
+    "location": {
+      "lat": 30.903855,
+      "lng": 121.929895
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(滴水湖西岸店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18017767309",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J0NHGTUR",
+    "amap_id": "B0J0NHGTUR"
+  },
+  {
+    "name": "一尺花园素食工坊(马氏民宅店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "高行镇兰谷路500弄(近园区地面停车场)",
+    "location": {
+      "lat": 31.322855,
+      "lng": 121.595846
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "一尺花园(马氏民宅店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18021065103",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0L2DB7M3P",
+    "amap_id": "B0L2DB7M3P"
+  },
+  {
+    "name": "一尺花园鲜酿工坊",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "茸兴路101号(门店地面停车场)",
+    "location": {
+      "lat": 31.032672,
+      "lng": 121.250348
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.9,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(一尺花园鲜酿工坊)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19117316761",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IRUU1X0F",
+    "amap_id": "B0IRUU1X0F"
+  },
+  {
+    "name": "一尺花园(蔡以台读书楼店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "枫泾镇友好街盛家弄4号(近枫泾古镇景区第2停车场)",
+    "location": {
+      "lat": 30.886596,
+      "lng": 121.012233
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "花鸟鱼虫市场",
+      "花卉市场|餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "一尺花园(蔡以台读书楼店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15301809382",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JRDCBU6R",
+    "amap_id": "B0JRDCBU6R"
+  },
+  {
+    "name": "一尺花园(九棵树未来艺术中心店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "树桓路199弄8号(九棵树未来艺术中心地面停车场)",
+    "location": {
+      "lat": 30.940423,
+      "lng": 121.484413
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "甜品店",
+      "甜品店"
+    ],
+    "description": "一尺花园(九棵树未来艺术中心店)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-50800373",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0HAK1JFWH",
+    "amap_id": "B0HAK1JFWH"
+  },
+  {
+    "name": "One Step Coffee一尺之间(零碳主题店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "腾越路2号杨树浦电厂遗迹公园(近上海国际时尚中心停车场)",
+    "location": {
+      "lat": 31.267906,
+      "lng": 121.55773
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "One Step Coffee一尺之间(零碳主题店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15317112736",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J217IWL7",
+    "amap_id": "B0J217IWL7"
+  },
+  {
+    "name": "One Step Coffee一尺之间(和平公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "大连路与控江路交叉口和平公园三号出入口旁(近和平公园停车场)",
+    "location": {
+      "lat": 31.270511,
+      "lng": 121.506072
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "One Step Coffee一尺之间(和平公园店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15301676075",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J29C695P",
+    "amap_id": "B0J29C695P"
+  },
+  {
+    "name": "One Step Coffee一尺之间(刘海粟美术馆)",
+    "city": "上海",
+    "category": "其他",
+    "address": "延安西路1609号刘海粟美术馆内",
+    "location": {
+      "lat": 31.209507,
+      "lng": 121.419427
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.4,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "One Step Coffee一尺之间(刘海粟美术馆)，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "17744464989",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LUSU4YI9",
+    "amap_id": "B0LUSU4YI9"
+  },
+  {
+    "name": "一尺花园(食物研发中心)",
+    "city": "上海",
+    "category": "其他",
+    "address": "王桥路999号1029B负一楼",
+    "location": {
+      "lat": 31.215172,
+      "lng": 121.698445
+    },
+    "source_rating": 3.5,
+    "pintro_rating": 3.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "科教文化服务",
+      "科研机构",
+      "科研机构"
+    ],
+    "description": "一尺花园(食物研发中心)，庭院环境清幽，适合周末发呆朋友小聚。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": [],
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KDZ5GWGS",
+    "amap_id": "B0KDZ5GWGS"
+  },
+  {
+    "name": "星巴克(人民公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路189号(近人民广场9号出口)",
+    "location": {
+      "lat": 31.231675,
+      "lng": 121.470875
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(人民公园店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-60782939;021-63271930;4008206998",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B00155H8SM",
+    "amap_id": "B00155H8SM"
+  },
+  {
+    "name": "Crave Bakery&Coffee",
+    "city": "上海",
+    "category": "其他",
+    "address": "西藏中路88号(人民广场地铁站1号口步行270米)",
+    "location": {
+      "lat": 31.229975,
+      "lng": 121.477875
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "糕饼店",
+      "糕饼店"
+    ],
+    "description": "Crave Bakery&Coffee，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13817025184",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JUTAWJV5",
+    "amap_id": "B0JUTAWJV5"
+  },
+  {
+    "name": "Tims天好咖啡(中区广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "黄陂北路227号中区广场1层02店铺",
+    "location": {
+      "lat": 31.229282,
+      "lng": 121.470685
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Tims天好咖啡(中区广场店)，贝果咖啡不错，早餐好去处。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63353866",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFKKQ5G5",
+    "amap_id": "B0FFKKQ5G5"
+  },
+  {
+    "name": "八角屿octacoffee",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "黄陂北路195号-1(人民广场地铁站11号口步行410米)",
+    "location": {
+      "lat": 31.228985,
+      "lng": 121.471005
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "八角屿octacoffee，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13122426991",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0G271GLCM",
+    "amap_id": "B0G271GLCM"
+  },
+  {
+    "name": "BeanStar比星咖啡(上海人广来福士店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路268号人广来福士七层07-07室",
+    "location": {
+      "lat": 31.232165,
+      "lng": 121.476524
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "BeanStar比星咖啡(上海人广来福士店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18939852052",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I2MLHVE6",
+    "amap_id": "B0I2MLHVE6"
+  },
+  {
+    "name": "Marmalade",
+    "city": "上海",
+    "category": "其他",
+    "address": "北海路261号(人民广场地铁站1号口步行270米)",
+    "location": {
+      "lat": 31.230262,
+      "lng": 121.47814
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "Marmalade，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18555966310",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0HKOAD2KK",
+    "amap_id": "B0HKOAD2KK"
+  },
+  {
+    "name": "星巴克(西藏路店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路289号1楼(人民广场地铁站20号口步行70米)",
+    "location": {
+      "lat": 31.233311,
+      "lng": 121.474593
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(西藏路店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-31836131",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B00156EVJJ",
+    "amap_id": "B00156EVJJ"
+  },
+  {
+    "name": "库迪咖啡(新世界城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路2-68号新世界城地下2层(人民广场地铁7号口处)",
+    "location": {
+      "lat": 31.234449,
+      "lng": 121.473496
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "库迪咖啡(新世界城店)，性价比高，日常咖啡便宜好喝。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13621796115",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JD21MN0E",
+    "amap_id": "B0JD21MN0E"
+  },
+  {
+    "name": "CARINO BAKERY&CAFE(上海来福士广场店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "西藏中路268号上海来福士广场B1层B1-17",
+    "location": {
+      "lat": 31.232425,
+      "lng": 121.476562
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "糕饼店",
+      "糕饼店"
+    ],
+    "description": "CARINO BAKERY&CAFE(上海来福士广场店)，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "17701623831",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J1SCYZ4M",
+    "amap_id": "B0J1SCYZ4M"
+  },
+  {
+    "name": "贝瑞咖啡(人民公园店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "地铁站17-18号口方向",
+    "location": {
+      "lat": 31.233227,
+      "lng": 121.474158
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.4,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "贝瑞咖啡(人民公园店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15026716914;19301276401",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0GKZ46WMF",
+    "amap_id": "B0GKZ46WMF"
+  },
+  {
+    "name": "石藤咖啡(人民广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "威海路12弄2-44号江阴小区",
+    "location": {
+      "lat": 31.228401,
+      "lng": 121.470765
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "石藤咖啡(人民广场店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "18721439961",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFL645J5",
+    "amap_id": "B0FFL645J5"
+  },
+  {
+    "name": "Peet's Coffee 皮爷咖啡(南京路步行街店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "六合路69号第一百货商业中心B馆F1层",
+    "location": {
+      "lat": 31.235749,
+      "lng": 121.474325
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Peet's Coffee 皮爷咖啡(南京路步行街店)，深度烘焙香味浓郁，咖啡爱好者推荐。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "17887908099",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J0P9AQCJ",
+    "amap_id": "B0J0P9AQCJ"
+  },
+  {
+    "name": "星巴克(来福士2F店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路268号来福士广场02-05室",
+    "location": {
+      "lat": 31.231892,
+      "lng": 121.476594
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(来福士2F店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63353210",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFJBC1V8",
+    "amap_id": "B0FFJBC1V8"
+  },
+  {
+    "name": "梵高艺术咖啡馆·Van Gogh SENSES Cafe(明天广场店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "南京西路389号明天广场F2层",
+    "location": {
+      "lat": 31.230243,
+      "lng": 121.470094
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "梵高艺术咖啡馆·Van Gogh SENSES Cafe(明天广场店)，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13916388836;18901901799",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFGD0QWA",
+    "amap_id": "B0FFGD0QWA"
+  },
+  {
+    "name": "Manner Coffee(上海来福士广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路268号01层101D",
+    "location": {
+      "lat": 31.232272,
+      "lng": 121.47716
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Manner Coffee(上海来福士广场店)，性价比精品咖啡，性价比高日常刚需。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": [],
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0H32547UG",
+    "amap_id": "B0H32547UG"
+  },
+  {
+    "name": "luckin coffee 瑞幸咖啡(长江新能源店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "九江路675-685号长江新能源大厦1层",
+    "location": {
+      "lat": 31.234182,
+      "lng": 121.477585
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "休闲餐饮场所",
+      "休闲餐饮场所"
+    ],
+    "description": "luckin coffee 瑞幸咖啡(长江新能源店)，性价比高方便快捷，随手买一杯很方便。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4000100100",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFJ8Z091",
+    "amap_id": "B0FFJ8Z091"
+  },
+  {
+    "name": "国际饭店大堂咖啡吧",
+    "city": "上海",
+    "category": "其他",
+    "address": "国际饭店大堂(人民广场地铁站9号口步行80米)",
+    "location": {
+      "lat": 31.23259,
+      "lng": 121.47145
+    },
+    "source_rating": 4.1,
+    "pintro_rating": 4.2,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "国际饭店大堂咖啡吧，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63275225",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFJI2YLL",
+    "amap_id": "B0FFJI2YLL"
+  },
+  {
+    "name": "肯悦咖啡和平店",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路290号",
+    "location": {
+      "lat": 31.232751,
+      "lng": 121.47605
+    },
+    "source_rating": 4.1,
+    "pintro_rating": 4.3,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "肯悦咖啡和平店，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63527287",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0L19BFIEO",
+    "amap_id": "B0L19BFIEO"
+  },
+  {
+    "name": "星巴克咖啡(迪美广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "人民大道221号B1层236-238号单元",
+    "location": {
+      "lat": 31.228141,
+      "lng": 121.473389
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克咖啡(迪美广场店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-60782939;021-63231589;4008206998",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFGYUGT8",
+    "amap_id": "B0FFGYUGT8"
+  },
+  {
+    "name": "Costa Coffee(上海华美达店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京东路719号南新雅大酒店1层(近贵州路)",
+    "location": {
+      "lat": 31.23455,
+      "lng": 121.476796
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Costa Coffee(上海华美达店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63512916",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFG0Z4RZ",
+    "amap_id": "B0FFG0Z4RZ"
+  },
+  {
+    "name": "Manner Coffee(腾飞元创大厦店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "九江路686号腾飞元创大厦F1层",
+    "location": {
+      "lat": 31.234463,
+      "lng": 121.477592
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Manner Coffee(腾飞元创大厦店)，性价比精品咖啡，性价比高日常刚需。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15221320076",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0G0DXG32G",
+    "amap_id": "B0G0DXG32G"
+  },
+  {
+    "name": "瑞幸咖啡(鸿祥大厦店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "黄河路21号鸿祥大厦一层102室",
+    "location": {
+      "lat": 31.233594,
+      "lng": 121.471008
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "瑞幸咖啡(鸿祥大厦店)，性价比高方便快捷，随手买一杯很方便。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4000100100",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFKSCT97",
+    "amap_id": "B0FFKSCT97"
+  },
+  {
+    "name": "由心咖啡(来福士广场店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "西藏中路268号来福士办公楼2F",
+    "location": {
+      "lat": 31.233084,
+      "lng": 121.476742
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.3,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "由心咖啡(来福士广场店)，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-61768193",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFIHLPLG",
+    "amap_id": "B0FFIHLPLG"
+  },
+  {
+    "name": "分号咖啡(人民广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "九江路675号长江新能源大厦广西北路门",
+    "location": {
+      "lat": 31.23387,
+      "lng": 121.477615
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "分号咖啡(人民广场店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13002143661",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I3VOEJP3",
+    "amap_id": "B0I3VOEJP3"
+  },
+  {
+    "name": "星巴克(来福士办公楼店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路268号来福士广场办公楼2层大堂L1-02",
+    "location": {
+      "lat": 31.232645,
+      "lng": 121.476998
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(来福士办公楼店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-33311357",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFGVNFE",
+    "amap_id": "B0FFFGVNFE"
+  },
+  {
+    "name": "STAGE DOOR日咖夜酒(人广店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "广西北路240号(人民广场地铁站14号口步行230米)",
+    "location": {
+      "lat": 31.233137,
+      "lng": 121.477934
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "体育休闲服务",
+      "娱乐场所",
+      "酒吧"
+    ],
+    "description": "STAGE DOOR日咖夜酒(人广店)，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19121243815",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KUSRVZDV",
+    "amap_id": "B0KUSRVZDV"
+  },
+  {
+    "name": "Manner Coffee(仙乐斯广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路388号仙乐斯广场L1层",
+    "location": {
+      "lat": 31.231458,
+      "lng": 121.468924
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Manner Coffee(仙乐斯广场店)，性价比精品咖啡，性价比高日常刚需。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13166188465",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFM4VUCR",
+    "amap_id": "B0FFM4VUCR"
+  },
+  {
+    "name": "luckin coffee 瑞幸咖啡(高盛商厦店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路180号高盛商厦B1层",
+    "location": {
+      "lat": 31.231172,
+      "lng": 121.47694
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.4,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "luckin coffee 瑞幸咖啡(高盛商厦店)，性价比高方便快捷，随手买一杯很方便。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4000100100",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0L01AFR3D",
+    "amap_id": "B0L01AFR3D"
+  },
+  {
+    "name": "星巴克臻选(世茂广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京东路829号G05商铺",
+    "location": {
+      "lat": 31.234548,
+      "lng": 121.475928
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克臻选(世茂广场店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63520052",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I1T7D6BN",
+    "amap_id": "B0I1T7D6BN"
+  },
+  {
+    "name": "MStand(新世界城店)",
+    "city": "上海",
+    "category": "其他",
+    "address": "南京西路2号新世界城L1层",
+    "location": {
+      "lat": 31.235588,
+      "lng": 121.473977
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "MStand(新世界城店)，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13120926792",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0I12S90PN",
+    "amap_id": "B0I12S90PN"
+  },
+  {
+    "name": "星巴克(黄浦永新广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路128号永新广场1F",
+    "location": {
+      "lat": 31.23399,
+      "lng": 121.472262
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(黄浦永新广场店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63012393;4008206998",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFF61IAO",
+    "amap_id": "B0FFF61IAO"
+  },
+  {
+    "name": "诚物玩味",
+    "city": "上海",
+    "category": "商店",
+    "address": "延安东路447至451号商铺",
+    "location": {
+      "lat": 31.228575,
+      "lng": 121.478781
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.4,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "购物服务",
+      "专卖店",
+      "专营店"
+    ],
+    "description": "诚物玩味，商品丰富值得逛逛，买到心仪好物。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13774231671",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LA3S8XB7",
+    "amap_id": "B0LA3S8XB7"
+  },
+  {
+    "name": "大满咖啡(中福城二期店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "浙江中路215弄1号底层",
+    "location": {
+      "lat": 31.233338,
+      "lng": 121.479004
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "大满咖啡(中福城二期店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13621910238;15316007981",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JDUAMS4Q",
+    "amap_id": "B0JDUAMS4Q"
+  },
+  {
+    "name": "瑞幸咖啡(中福城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "汉口路692号中福城B座一层",
+    "location": {
+      "lat": 31.233735,
+      "lng": 121.477216
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "瑞幸咖啡(中福城店)，性价比高方便快捷，随手买一杯很方便。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4000100100",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JG2XHI0V",
+    "amap_id": "B0JG2XHI0V"
+  },
+  {
+    "name": "CUBIC 3 三立方咖啡(福州路店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "福州路666号华鑫海欣大厦F2层",
+    "location": {
+      "lat": 31.23251,
+      "lng": 121.477793
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "CUBIC 3 三立方咖啡(福州路店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19302173559",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KU37E88N",
+    "amap_id": "B0KU37E88N"
+  },
+  {
+    "name": "MIKAKU(MINI店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "云南北路20号(人民广场地铁站19号口步行400米)",
+    "location": {
+      "lat": 31.236781,
+      "lng": 121.475291
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "MIKAKU(MINI店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13167181003",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFKTTCYV",
+    "amap_id": "B0FFKTTCYV"
+  },
+  {
+    "name": "星巴克(新世界店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路2-68号3F北中庭",
+    "location": {
+      "lat": 31.235348,
+      "lng": 121.473616
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(新世界店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-53830612;021-63128320;4008206998",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0HGO9VFQ3",
+    "amap_id": "B0HGO9VFQ3"
+  },
+  {
+    "name": "Resume Coffee芮苏咖啡(人广店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "汉口路692号(派出所对面)",
+    "location": {
+      "lat": 31.233785,
+      "lng": 121.477352
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Resume Coffee芮苏咖啡(人广店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": [],
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFJFCPBR",
+    "amap_id": "B0FFJFCPBR"
+  },
+  {
+    "name": "Geographer地理学家咖啡(牯岭路店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "西藏中路525号雅居乐国际广场",
+    "location": {
+      "lat": 31.236335,
+      "lng": 121.473117
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Geographer地理学家咖啡(牯岭路店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13262831236",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0LGD7J4DJ",
+    "amap_id": "B0LGD7J4DJ"
+  },
+  {
+    "name": "瑞幸咖啡(仙乐斯广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路388号仙乐斯广场负一层",
+    "location": {
+      "lat": 31.231558,
+      "lng": 121.469036
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.4,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "瑞幸咖啡(仙乐斯广场店)，性价比高方便快捷，随手买一杯很方便。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4000100100",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFKX4OPH",
+    "amap_id": "B0FFKX4OPH"
+  },
+  {
+    "name": "CUBIC 3 三立方咖啡(仲益大厦店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路580号仲益大厦148铺",
+    "location": {
+      "lat": 31.231162,
+      "lng": 121.466084
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "CUBIC 3 三立方咖啡(仲益大厦店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19370968932",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0IR05TYCX",
+    "amap_id": "B0IR05TYCX"
+  },
+  {
+    "name": "Bug Cafe&Bar",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京东路街道浙江中路145号",
+    "location": {
+      "lat": 31.232253,
+      "lng": 121.479618
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Bug Cafe&Bar，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "13002102918",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0KAHA12LY",
+    "amap_id": "B0KAHA12LY"
+  },
+  {
+    "name": "星巴克(明天广场店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路399号明天广场1层(近黄陂北路)",
+    "location": {
+      "lat": 31.230375,
+      "lng": 121.469693
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克(明天广场店)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63232771",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B00155MA6P",
+    "amap_id": "B00155MA6P"
+  },
+  {
+    "name": "雾雨咖啡店",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "云南北路18号",
+    "location": {
+      "lat": 31.236793,
+      "lng": 121.475288
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "雾雨咖啡店，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "15221145141",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JABZUXUY",
+    "amap_id": "B0JABZUXUY"
+  },
+  {
+    "name": "汇佳桌游咖啡馆(人民广场一店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "汉口路643号3层336",
+    "location": {
+      "lat": 31.233429,
+      "lng": 121.479061
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.5,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "体育休闲服务",
+      "娱乐场所",
+      "棋牌室|餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "汇佳桌游咖啡馆(人民广场一店)，咖啡味道不错，适合下午茶歇放松。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63516612;18621831688",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFFL2YME",
+    "amap_id": "B0FFFL2YME"
+  },
+  {
+    "name": "瑞幸咖啡(上海第一百货店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京西路2-68号新世界城四层15号",
+    "location": {
+      "lat": 31.235326,
+      "lng": 121.473876
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.7,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "瑞幸咖啡(上海第一百货店)，性价比高方便快捷，随手买一杯很方便。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4000100100",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0JU3YW3R7",
+    "amap_id": "B0JU3YW3R7"
+  },
+  {
+    "name": "上海南新雅皇冠假日酒店·香榭大堂吧",
+    "city": "上海",
+    "category": "其他",
+    "address": "九江路700号上海南新雅皇冠假日酒店1楼大堂",
+    "location": {
+      "lat": 31.234653,
+      "lng": 121.47699
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.3,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关"
+    ],
+    "description": "上海南新雅皇冠假日酒店·香榭大堂吧，值得顺路打卡体验一下。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-63500000",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFHIW4IX",
+    "amap_id": "B0FFHIW4IX"
+  },
+  {
+    "name": "Tims天好咖啡(第一百货店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "六合路69号第一百货商业中心B馆F1层",
+    "location": {
+      "lat": 31.235666,
+      "lng": 121.474885
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.4,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "Tims天好咖啡(第一百货店)，贝果咖啡不错，早餐好去处。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "4008002561",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0J0Z94O9E",
+    "amap_id": "B0J0Z94O9E"
+  },
+  {
+    "name": "星巴克咖啡(第一百货商业中心C馆4F)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京东路830号第一百货C馆4F或者C馆1楼",
+    "location": {
+      "lat": 31.234394,
+      "lng": 121.47564
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.8,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "星巴克咖啡"
+    ],
+    "description": "星巴克咖啡(第一百货商业中心C馆4F)，环境安静适合聊天办公，咖啡稳定出品。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "021-53830612",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0FFF00PLH",
+    "amap_id": "B0FFF00PLH"
+  },
+  {
+    "name": "库迪咖啡(永安百货店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "南京东路635号永安百货(金华路九江路)",
+    "location": {
+      "lat": 31.234598,
+      "lng": 121.478195
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.6,
+    "review_count": 200,
+    "price_range": "",
+    "tags": [
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅"
+    ],
+    "description": "库迪咖啡(永安百货店)，性价比高，日常咖啡便宜好喝。",
+    "opening_hours": {
+      "text": "",
+      "structured": []
+    },
+    "phone": "19101788172",
+    "official_url": "",
+    "image_url": "",
+    "source_url": "https://www.amap.com/poi/B0K2O99OQ7",
+    "amap_id": "B0K2O99OQ7"
+  }
+]
