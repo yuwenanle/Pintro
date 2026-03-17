@@ -1,0 +1,47 @@
+从以下大众点评店铺页面内容中提取信息，输出严格JSON格式：
+{
+  "name": "",         // 店名
+  "city": "",        // 所在城市
+  "category": "",    // 地点大类型：餐厅/景点/博物馆/咖啡馆/酒店/商店/体验
+  "address": "",     // 完整地址
+  "lat": 0,          // 纬度（数字）
+  "lng": 0,          // 经度（数字）
+  "source_rating": 0,// 原始平台评分（数字，1-5）
+  "review_count": 0, // 点评数量（数字）
+  "price_range": "", // 平均消费价格区间，如"人均 50-100"，没有就填空字符串
+  "tags": [],        // 分类/特色标签数组，每个标签2-4字
+  "source_description": "", // 原始简介
+  "opening_hours_text": "", // 原始营业时间文本，没有就填空
+  "opening_hours_structured": [], // 结构化营业时间，每项包含day(mon/tue/wed/thu/fri/sat/sun), start, end，没有就填空数组
+  "phone": "",       // 联系电话，没有就填空
+  "official_url": "" // 官方网站，没有就填空
+}
+
+页面内容：
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>大众点评网</title><meta name="keyword" content=""><meta name="description" content=""><meta name="for" content="meituan.com"><meta name="lx:category" content="dianping_nova"><meta name="lx:appnm" content="dp_operate"><meta name="lx:autopv" content="off"><link rel="stylesheet" type="text/css" href="//s3plus.sankuai.com/static-prod01/com.sankuai.dpaccountweb.maccount-files/5ab0e9d/css/index.css" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="//s3plus.sankuai.com/static-prod01/com.sankuai.dpaccountweb.maccount-files/5ab0e9d/css/pclogin/index.css" crossorigin="anonymous"><script async="" type="text/javascript" src="https://msp.meituan.net/h5guard-files/package-v1.js"></script><script src="//s3plus.sankuai.com/static-prod01/com.sankuai.dpaccountweb.maccount-files/5ab0e9d/js/jsencrypt.min.js" crossorigin="anonymous"></script><script type="text/javascript" src="https://s0.meituan.net/mxx/yoda/yoda.seed.js" crossorigin="anonymous" defer=""></script><link rel="dns-prefetch" href="//lx.meituan.net"><link rel="dns-prefetch" href="//wreport1.meituan.net"><link rel="dns-prefetch" href="//report.meituan.com"><link rel="dns-prefetch" href="//mc.meituan.net"><link rel="dns-prefetch" href="//p0.meituan.net"><link rel="dns-prefetch" href="//p1.meituan.net"><link rel="dns-prefetch" href="//s0.meituan.net"><link rel="dns-prefetch" href="//s1.meituan.net"><link rel="dns-prefetch" href="//s3.meituan.net"><link rel="dns-prefetch" href="//m.51ping.com"><link rel="dns-prefetch" href="//www.dpfile.com"><link rel="dns-prefetch" href="//s3plus.sankuai.com"><link rel="dns-prefetch" href="//msstest.sankuai.com"><script>!(function (win, doc, ns) {
+    var cacheFunName = '_MeiTuanALogObject';
+    win[cacheFunName] = ns;
+    if (!win[ns]) {
+        var _LX = function () {
+            _LX.q.push(arguments);
+            return _LX;
+        };
+        _LX.q = _LX.q || [];
+        _LX.l = +new Date();
+        win[ns] = _LX;
+    }
+})(window, document, 'LXAnalytics');</script><script>"use strict";!function(){var e=0<arguments.length&&void 0!==arguments[0]?arguments[0]:"_Owl_",a=window;a[e]||(a[e]={isRunning:!1,isReady:!1,preTasks:[],dataSet:[],pageData:[],disableMutaObserver:!1,observer:null,use:function(e,t){this.isReady&&a.Owl&&a.Owl[e](t),this.preTasks.push({api:e,data:[t]})},add:function(e){this.dataSet.push(e)},run:function(){var t=this;if(!this.isRunning){this.isRunning=!0;var e=a.onerror;a.onerror=function(){this.isReady||this.add({type:"jsError",data:arguments}),e&&e.apply(a,arguments)}.bind(this),(a.addEventListener||a.attachEvent)("error",function(e){t.isReady||t.add({type:"resError",data:[e]})},!0);var i=window.MutationObserver||window.WebKitMutationObserver||window.MozMutationObserver,r=window.performance||window.WebKitPerformance;if(i&&r){var n=-1,s=window.navigator.userAgent;if(-1<s.indexOf("compatible")&&-1<s.indexOf("MSIE")?(new RegExp("MSIE (\\d+\\.\\d+);").test(s),n=parseFloat(RegExp.$1)):-1<s.indexOf("Trident")&&-1<s.indexOf("rv:11.0")&&(n=11),-1!==n&&n<=11)return void(this.disableMutaObserver=!0);try{this.observer=new i(function(e){t.pageData.push({mutations:e,startTime:r.now()})}),this.observer.observe(document,{childList:!0,subtree:!0})}catch(e){console.log("mutationObserver err")}}else this.disableMutaObserver=!0}}},a[e].run())}();</script><script charset="utf-8" src="//s3.meituan.net/v1/mss_eb9ea9cfff9840198c3ae909b17b4270/production/logan-websdk/async_dependencies.787c36adfcd0290faef6.js" crossorigin="anonymous"></script><script charset="utf-8" src="//s3.meituan.net/v1/mss_eb9ea9cfff9840198c3ae909b17b4270/production/logan-websdk/vendors~report_log~save_log.0c8668ae554b71ac2976.js" crossorigin="anonymous"></script><script charset="utf-8" src="//s3.meituan.net/v1/mss_eb9ea9cfff9840198c3ae909b17b4270/production/logan-websdk/vendors~save_log.de08abe17dc35c49636f.js" crossorigin="anonymous"></script><script charset="utf-8" src="//s3.meituan.net/v1/mss_eb9ea9cfff9840198c3ae909b17b4270/production/logan-websdk/vendors~encryption.b734ef077fa7005e8674.js" crossorigin="anonymous"></script></head><body class="main" id="main"><script crossorigin="anonymous" src="//s3.meituan.net/v1/mss_eb9ea9cfff9840198c3ae909b17b4270/production/logan-websdk/logan_2.1.5.js"></script><script crossorigin="anonymous" src="//www.dpfile.com/app/owl/static/owl_1.9.3.js"></script><script>window.Owl && Owl.start({
+    project: 'com.sankuai.dpaccountweb.maccount', // 项目名
+    devMode: false,                 // 数据上报环境，true - 线下，false - 线上
+    webVersion: '1.0.0',                          // 应用版本号
+    logan:{
+        enable: true,
+        Logan: window.Logan,
+        reportTrigger: document.getElementById('reportBtn')
+    }
+});
+window.Logan && Logan.config({
+    devMode: false, 
+})</script><script src="//lx.meituan.net/lx.js" type="text/javascript" charset="utf-8" crossorigin="anonymous" async=""> </script><script type="text/javascript" src="https://appsec-mobile.meituan.com/h5guard/H5guard.js?v=1773733606597" crossorigin="anonymous"></script><script>H5guard.init({});</script>
+      <div id="app"><div class="pc" data-reactroot=""><div class="logo-wrapper"><img src="//p0.meituan.net/dppclogin/eb8b5352f99809d07449f3289e78beb417299.png"><span class="sub-logo">登录</span></div><div class="main-content"><div class="login-wrap-prod"><div class="login-box"><div class="icon-wrapper" style="display:flex"><div class="pc-icon"></div></div><div class="pc-subtitle">APP扫码，享七天免登录</div><div class="scan-side"><img class="qrcode-img" src="blob:https://account.dianping.com/d20dddc1-755d-41d1-9adb-1e9dae4288c2"><div class="qrcode-invalid-cover" style="display:none"><div class="cover"></div><p>二维码已失效</p><div class="btn-refresh">请点击刷新</div></div><div class="qrcode-risk-cover" style="display:none"><div class="cover"></div><img src="https://p0.meituan.net/dppclogin/d8bf152b38388feed5920ebdda8005af3663.png" alt=""><p>抱歉，登录失败</p><div class="hint">点击右上角切换登录方式试试~</div></div><div class="scan-content"><div class="icon-scan"></div><div class="content"><p>打开<span class="strong">大众点评APP</span></p><p>扫描二维码登录</p></div></div></div><div class="bottom-area" style="display:block"><span class="bottom-password-login">账号登录/注册</span><span class="report" id="reportBtn">遇到问题</span></div></div></div></div><div class="footer-container"><div id="channel-footer" class="channel-footer"><p class="links"> <a target="_blank" href="https://about.meituan.com" rel="nofollow">关于我们</a>| <a target="_blank" href="https://dpapp-appeal.meituan.com/#/shopCreditRegulationPC" rel="nofollow">商户诚信公约</a>| <a target="_blank" href="https://rules-center.meituan.com/?from=dianpingPC" rel="nofollow">规则中心</a>| <a target="_blank" href="https://about.meituan.com/news/report" rel="nofollow">媒体报道</a>| <a target="_blank" href="https://e.dianping.com/claimcpc/page/index?source=dp" rel="nofollow">商户入驻</a>| <a target="_blank" href="//www.dianping.com/business/" rel="nofollow">推广服务</a>| <a target="_blank" href="https://join.dianping.com/" rel="nofollow">人才招聘</a>| <span class="links-container"> <a class="ext-links" href="javascript:void(0);" rel="nofollow">最新咨询</a>| </span> <a target="_blank" rel="nofollow" href="https://about.meituan.com/contact?source=dp">联系我们</a>| <a target="_blank" href="http://www.dianping.com/app/download">应用下载</a> </p><div class="ext-container Hide"><div class="link-items Hide"><a target="_blank" href="//www.dianping.com/discovery/"><span>资讯评论精选</span></a></div></div><p class="rights"><span style="margin-right:10px">©2003-2022 dianping.com, All Rights Reserved.</span><span>本站发布的所有内容，未经许可，不得转载，详见<a rel="nofollow" class="G" href="https://rules-center.meituan.com/rules-detail/69">《知识产权声明》</a>。</span></p></div></div></div></div>
+      <script>window.AppData = {"env":"prod","baseUrl":"https:\u002F\u002Fm.dianping.com","redir":"https%3A\u002F\u002Fwww.dianping.com\u002Fshop\u002F16539535","countrycode":"86","countryList":[{"letter":"热门","countrie // 限制长度，避免超出上下文

@@ -1,0 +1,40 @@
+# Pintro 抓取URL列表 - 上海松江区
+# 每行一个URL，以#开头的行是注释会被忽略
+
+# --- 景点 ---
+# 广富林文化遗址 (携程)
+https://you.ctrip.com/sight/guangfulinwenhuayizhi15948189.html
+
+# 辰山植物园 (携程)
+https://you.ctrip.com/sight/chenshanbotanicalgarden103793.html
+
+# 泰晤士小镇 (携程)
+https://you.ctrip.com/sight/taiwushxiaozhen499732.html
+
+# 上海欢乐谷 (携程)
+https://you.ctrip.com/sight/shanghaihappyvalley1256.html
+
+# 朱家角古镇 (携程)
+https://you.ctrip.com/sight/zhujiaxiaoguzhen103792.html
+
+# 佘山国家森林公园 (携程)
+https://you.ctrip.com/sight/sheshanguojiasenlingongyuan103796.html
+
+# 上海影视乐园 (携程)
+https://you.ctrip.com/sight/shanghaiyinghileyuan103801.html
+
+# 韩湘水博园 (携程)
+https://you.ctrip.com/sight/hanxiangshuiboyuan103802.html
+
+# --- 餐饮 ---
+# %Arabica(泰晤士小镇店) (大众点评，试试能否打开)
+https://www.dianping.com/shop/16482950
+
+# 星巴克(松江大学城店)
+https://www.dianping.com/shop/1835493
+
+# 沈大成(松江万达店)
+https://www.dianping.com/shop/17803070
+
+# 绿廊咖啡(泰晤士小镇店)
+https://www.dianping.com/shop/11523664

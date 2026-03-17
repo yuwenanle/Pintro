@@ -1,0 +1,15 @@
+
+{
+  "name": "pintro-data-fetch",
+  "version": "1.0.0",
+  "description": "Pintro data fetching and AI cleaning demo",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "lodash": "^4.17.21"
+  },
+  "keywords": ["pintro", "data-fetch"]
+}

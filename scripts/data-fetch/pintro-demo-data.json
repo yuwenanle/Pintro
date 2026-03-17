@@ -1,0 +1,561 @@
+
+[
+  {
+    "name": "辰山植物园",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区辰花公路3888号",
+    "location": {
+      "lat": 31.0836,
+      "lng": 121.1842
+    },
+    "source_rating": 4.7,
+    "pintro_rating": 4.7,
+    "review_count": 14632,
+    "price_range": "门票约 60 元/人",
+    "tags": [
+      "植物园",
+      "赏花",
+      "亲子"
+    ],
+    "description": "综合性植物园，园区很大，适合周末踏青赏花看风景。",
+    "opening_hours": {
+      "text": "08:00-17:30",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "08:00",
+          "end": "17:30"
+        },
+        {
+          "day": "tue",
+          "start": "08:00",
+          "end": "17:30"
+        },
+        {
+          "day": "wed",
+          "start": "08:00",
+          "end": "17:30"
+        },
+        {
+          "day": "thu",
+          "start": "08:00",
+          "end": "17:30"
+        },
+        {
+          "day": "fri",
+          "start": "08:00",
+          "end": "17:30"
+        },
+        {
+          "day": "sat",
+          "start": "08:00",
+          "end": "17:30"
+        },
+        {
+          "day": "sun",
+          "start": "08:00",
+          "end": "17:30"
+        }
+      ]
+    },
+    "phone": "021-37792288",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "广富林文化遗址",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区广轩路与银泽路交叉口",
+    "location": {
+      "lat": 31.0242,
+      "lng": 121.2564
+    },
+    "source_rating": 4.6,
+    "pintro_rating": 4.6,
+    "review_count": 9876,
+    "price_range": "门票约 60-80 元/人",
+    "tags": [
+      "文化遗址",
+      "历史景点",
+      "文博园"
+    ],
+    "description": "展示上海千年历史文化，公园依水而建风景优美。",
+    "opening_hours": {
+      "text": "09:00-17:00",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "day": "tue",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "day": "wed",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "day": "thu",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "day": "fri",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "day": "sat",
+          "start": "09:00",
+          "end": "17:00"
+        },
+        {
+          "day": "sun",
+          "start": "09:00",
+          "end": "17:00"
+        }
+      ]
+    },
+    "phone": "021-57800000",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "泰晤士小镇",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区三新北路900弄",
+    "location": {
+      "lat": 31.0326,
+      "lng": 121.2435
+    },
+    "source_rating": 4.4,
+    "pintro_rating": 4.4,
+    "review_count": 8654,
+    "price_range": "免费开放",
+    "tags": [
+      "欧式小镇",
+      "拍照打卡",
+      "休闲"
+    ],
+    "description": "英伦风建筑小镇，适合散步拍照，钟书阁很有名。",
+    "opening_hours": {
+      "text": "全天开放",
+      "structured": []
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "上海欢乐谷",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区林湖路888号",
+    "location": {
+      "lat": 31.0965,
+      "lng": 121.1978
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.5,
+    "review_count": 23451,
+    "price_range": "门票约 230 元/人",
+    "tags": [
+      "主题乐园",
+      "过山车",
+      "亲子"
+    ],
+    "description": "大型主题游乐园，超多刺激过山车适合玩一整天。",
+    "opening_hours": {
+      "text": "09:30-21:00",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "09:30",
+          "end": "21:00"
+        },
+        {
+          "day": "tue",
+          "start": "09:30",
+          "end": "21:00"
+        },
+        {
+          "day": "wed",
+          "start": "09:30",
+          "end": "21:00"
+        },
+        {
+          "day": "thu",
+          "start": "09:30",
+          "end": "21:00"
+        },
+        {
+          "day": "fri",
+          "start": "09:30",
+          "end": "21:00"
+        },
+        {
+          "day": "sat",
+          "start": "09:00",
+          "end": "22:00"
+        },
+        {
+          "day": "sun",
+          "start": "09:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "phone": "021-33552222",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "朱家角古镇",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市青浦区朱家角镇淀湖路",
+    "location": {
+      "lat": 31.1089,
+      "lng": 121.0976
+    },
+    "source_rating": 4.5,
+    "pintro_rating": 4.5,
+    "review_count": 15678,
+    "price_range": "免费开放，小景点联票约 30 元",
+    "tags": [
+      "水乡古镇",
+      "美食街",
+      "历史古镇"
+    ],
+    "description": "保存完好的江南水乡古镇，尝尝扎肉河鲜很惬意。",
+    "opening_hours": {
+      "text": "全天开放",
+      "structured": []
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "佘山国家森林公园",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区外青松公路9511号",
+    "location": {
+      "lat": 31.1167,
+      "lng": 121.1854
+    },
+    "source_rating": 4.3,
+    "pintro_rating": 4.3,
+    "review_count": 7654,
+    "price_range": "门票约 免费-30 元",
+    "tags": [
+      "森林公园",
+      "徒步爬山",
+      "自然风景"
+    ],
+    "description": "上海少有的爬山好去处，空气清新适合徒步。",
+    "opening_hours": {
+      "text": "08:00-16:30",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "08:00",
+          "end": "16:30"
+        },
+        {
+          "day": "tue",
+          "start": "08:00",
+          "end": "16:30"
+        },
+        {
+          "day": "wed",
+          "start": "08:00",
+          "end": "16:30"
+        },
+        {
+          "day": "thu",
+          "start": "08:00",
+          "end": "16:30"
+        },
+        {
+          "day": "fri",
+          "start": "08:00",
+          "end": "16:30"
+        },
+        {
+          "day": "sat",
+          "start": "08:00",
+          "end": "16:30"
+        },
+        {
+          "day": "sun",
+          "start": "08:00",
+          "end": "16:30"
+        }
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "上海影视乐园",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市松江区车墩镇北松公路4915号",
+    "location": {
+      "lat": 30.9987,
+      "lng": 121.3021
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.2,
+    "review_count": 5432,
+    "price_range": "门票约 80 元/人",
+    "tags": [
+      "影视基地",
+      "民国风",
+      "拍照"
+    ],
+    "description": "老上海风情建筑，适合拍民国风照片逛逛。",
+    "opening_hours": {
+      "text": "08:30-16:30",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "08:30",
+          "end": "16:30"
+        },
+        {
+          "day": "tue",
+          "start": "08:30",
+          "end": "16:30"
+        },
+        {
+          "day": "wed",
+          "start": "08:30",
+          "end": "16:30"
+        },
+        {
+          "day": "thu",
+          "start": "08:30",
+          "end": "16:30"
+        },
+        {
+          "day": "fri",
+          "start": "08:30",
+          "end": "16:30"
+        },
+        {
+          "day": "sat",
+          "start": "08:30",
+          "end": "16:30"
+        },
+        {
+          "day": "sun",
+          "start": "08:30",
+          "end": "16:30"
+        }
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "韩湘水博园",
+    "city": "上海",
+    "category": "景点",
+    "address": "上海市闵行区江川西路3998号",
+    "location": {
+      "lat": 31.0268,
+      "lng": 121.3145
+    },
+    "source_rating": 4.1,
+    "pintro_rating": 4.1,
+    "review_count": 3215,
+    "price_range": "门票约 36 元/人",
+    "tags": [
+      "生态园",
+      "古桥",
+      "休闲"
+    ],
+    "description": "水多桥多，适合散步休闲看古桥风景。",
+    "opening_hours": {
+      "text": "08:00-17:00",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "08:00",
+          "end": "17:00"
+        },
+        {
+          "day": "tue",
+          "start": "08:00",
+          "end": "17:00"
+        },
+        {
+          "day": "wed",
+          "start": "08:00",
+          "end": "17:00"
+        },
+        {
+          "day": "thu",
+          "start": "08:00",
+          "end": "17:00"
+        },
+        {
+          "day": "fri",
+          "start": "08:00",
+          "end": "17:00"
+        },
+        {
+          "day": "sat",
+          "start": "08:00",
+          "end": "17:00"
+        },
+        {
+          "day": "sun",
+          "start": "08:00",
+          "end": "17:00"
+        }
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "%Arabica(泰晤士小镇店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区泰晤士小镇600号",
+    "location": {
+      "lat": 31.0318,
+      "lng": 121.2426
+    },
+    "source_rating": 4.2,
+    "pintro_rating": 4.2,
+    "review_count": 1234,
+    "price_range": "人均 40-50 元",
+    "tags": [
+      "咖啡",
+      "网红打卡",
+      "观景"
+    ],
+    "description": "网红咖啡店，临湖位置风景好适合拍照。",
+    "opening_hours": {
+      "text": "08:00-19:00",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "08:00",
+          "end": "19:00"
+        },
+        {
+          "day": "tue",
+          "start": "08:00",
+          "end": "19:00"
+        },
+        {
+          "day": "wed",
+          "start": "08:00",
+          "end": "19:00"
+        },
+        {
+          "day": "thu",
+          "start": "08:00",
+          "end": "19:00"
+        },
+        {
+          "day": "fri",
+          "start": "08:00",
+          "end": "19:00"
+        },
+        {
+          "day": "sat",
+          "start": "08:00",
+          "end": "19:00"
+        },
+        {
+          "day": "sun",
+          "start": "08:00",
+          "end": "19:00"
+        }
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  },
+  {
+    "name": "星巴克(松江大学城店)",
+    "city": "上海",
+    "category": "咖啡馆",
+    "address": "上海市松江区松江大学城",
+    "location": {
+      "lat": 31.0456,
+      "lng": 121.2087
+    },
+    "source_rating": 3.8,
+    "pintro_rating": 3.8,
+    "review_count": 876,
+    "price_range": "人均 30-40 元",
+    "tags": [
+      "咖啡",
+      "连锁",
+      "自习"
+    ],
+    "description": "连锁咖啡店，环境安静适合自习办公。",
+    "opening_hours": {
+      "text": "07:00-22:00",
+      "structured": [
+        {
+          "day": "mon",
+          "start": "07:00",
+          "end": "22:00"
+        },
+        {
+          "day": "tue",
+          "start": "07:00",
+          "end": "22:00"
+        },
+        {
+          "day": "wed",
+          "start": "07:00",
+          "end": "22:00"
+        },
+        {
+          "day": "thu",
+          "start": "07:00",
+          "end": "22:00"
+        },
+        {
+          "day": "fri",
+          "start": "07:00",
+          "end": "22:00"
+        },
+        {
+          "day": "sat",
+          "start": "07:00",
+          "end": "22:00"
+        },
+        {
+          "day": "sun",
+          "start": "07:00",
+          "end": "22:00"
+        }
+      ]
+    },
+    "phone": "",
+    "official_url": "",
+    "image_url": ""
+  }
+]
