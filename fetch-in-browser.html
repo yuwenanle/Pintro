@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pintro - 高德POI数据抓取（浏览器端）</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 900px; margin: 20px auto; padding: 0 20px; line-height: 1.6; }
+h1 { color: #333; }
+.log { background: #f5f5f5; padding: 10px 15px; border-radius: 6px; margin: 10px 0; max-height: 400px; overflow-y: auto; }
+.log p { margin: 4px 0; padding: 0; }
+.success { color: #009933; }
+.error { color: #cc0000; }
+.info { color: #3333cc; }
+.buttons { margin: 20px 0; }
+button { padding: 10px 20px; font-size: 16px; margin-right: 10px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 4px; }
+button:hover { background: #0056b3; }
+button:disabled { background: #cccccc; cursor: not-allowed; }
+#result { white-space: pre-wrap; word-break: break-all; }
+</style>
+</head>
+<body>
+<h1>Pintro - 高德POI数据抓取（浏览器端）</h1>
+<p>说明：在浏览器中直接调用高德Web API抓取上海松江区POI数据，绕过服务器IP白名单问题。</p>
+
+<div class="buttons">
+  <button id="startBtn" onclick="startFetch()">开始抓取</button>
+  <button id="downloadBtn" onclick="downloadResult()" disabled>下载JSON结果</button>
+</div>
+
+<div id="log" class="log"></div>
+
+<h3>最终结果：</h3>
+<div id="result" class="log"></div>
+
+<script>
+const CONFIG = {
+  key: '2d4f60de38352d277dbd384826213154',
+  keywords: ['一尺花园', '咖啡', '农家菜', '景点', '网红', '松江特色'],
+  city: '上海',
+  citycode: '310117', // 松江区
+};
+
+let result = [];
+let completed = false;
+
+function log(msg, type = 'info') {
+  const logDiv = document.getElementById('log');
+  const p = document.createElement('p');
+  p.className = type;
+  p.textContent = msg;
+  logDiv.appendChild(p);
+  logDiv.scrollTop = logDiv.scrollHeight;
+}
+
+async function httpGet(url) {
+  return new Promise((resolve, reject) => {
+    fetch(url)
+      .then(res => res.json())
+      .then(data => resolve(data))
+      .catch(err => reject(err));
+  });
+}
+
+async function searchPOI(keyword, page = 1) {
+  const url = `https://restapi.amap.com/v3/place/text?key=${CONFIG.key}&keywords=${encodeURIComponent(keyword)}&city=${encodeURIComponent(CONFIG.city)}&citylimit=true&page=${page}&page_size=25&output=json`;
+  const data = await httpGet(url);
+  return data;
+}
+
+async function getPOIDetail(id) {
+  const url = `https://restapi.amap.com/v3/place/detail?key=${CONFIG.key}&id=${id}&output=json`;
+  const data = await httpGet(url);
+  return data;
+}
+
+function getCategoryFromType(typeStr) {
+  if (!typeStr) return '其他';
+  const lower = typeStr.toLowerCase();
+  if (lower.includes('咖啡') || lower.includes('咖啡馆')) return '咖啡馆';
+  if (lower.includes('餐厅') || lower.includes('小吃') || lower.includes('美食')) return '餐厅';
+  if (lower.includes('景点') || lower.includes('公园') || lower.includes('风景区')) return '景点';
+  if (lower.includes('购物') || lower.includes('商店')) return '商店';
+  if (lower.includes('酒店') || lower.includes('宾馆')) return '酒店';
+  if (lower.includes('博物馆') || lower.includes('展览')) return '博物馆';
+  return '其他';
+}
+
+function parseOpeningHours(openingText) {
+  if (!openingText) {
+    return { text: '', structured: [] };
+  }
+  const text = openingText.trim();
+  const structured = [];
+  
+  const timeMatch = text.match(/(\d{1,2}:\d{2})-(\d{1,2}:\d{2})/);
+  if (timeMatch && !text.match(/周|一|二|三|四|五|六|日/)) {
+    const days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+    for (const day of days) {
+      let start = timeMatch[1];
+      let end = timeMatch[2];
+      if (start.length === 4) start = `0${start}`;
+      if (end.length === 4) end = `0${end}`;
+      structured.push({ day, start, end });
+    }
+  }
+
+  return { text, structured };
+}
+
+function convertPOI(poi, detail) {
+  const [lng, lat] = poi.location.split(',').map(parseFloat);
+  
+  let sourceRating = 0;
+  let reviewCount = 0;
+  if (poi.biz_ext) {
+    sourceRating = parseFloat(poi.biz_ext.rating) || 0;
+    reviewCount = parseInt(poi.biz_ext.cost) || 0;
+  }
+  
+  let priceRange = '';
+  if (poi.cost !== undefined && poi.cost !== '') {
+    priceRange = `人均 ${poi.cost} 元`;
+  }
+
+  const tags = [];
+  if (poi.type) {
+    poi.type.split(';').slice(0, 5).forEach(t => {
+      const clean = t.trim();
+      if (clean) tags.push(clean);
+    });
+  }
+
+  let openingHoursText = '';
+  if (detail && detail.pois && detail.pois[0]) {
+    openingHoursText = detail.pois[0].open_time || '';
+  }
+
+  let tel = '';
+  if (poi.tel) {
+    tel = poi.tel;
+  }
+
+  return {
+    name: poi.name,
+    city: CONFIG.city,
+    category: getCategoryFromType(poi.type),
+    address: poi.address || '',
+    location: { lat, lng },
+    source_rating: sourceRating || 3.5,
+    pintro_rating: 0,
+    review_count: reviewCount || 0,
+    price_range: priceRange,
+    tags: tags.filter(t => t && t.length > 0).slice(0, 5),
+    description: '',
+    opening_hours: parseOpeningHours(openingHoursText),
+    phone: tel,
+    official_url: '',
+    image_url: '',
+    source_url: `https://www.amap.com/poi/${poi.id}`,
+    amap_id: poi.id,
+  };
+}
+
+function deduplicate(items) {
+  const result = [];
+  const map = new Map();
+
+  for (const item of items) {
+    const key = `${item.name}-${item.address}`.toLowerCase().replace(/\s+/g, ' ');
+    let foundSimilar = false;
+    for (const [existingKey] of map.entries()) {
+      if (existingKey.includes(item.name.toLowerCase()) || 
+          item.name.toLowerCase().includes(existingKey.toLowerCase())) {
+        foundSimilar = true;
+        break;
+      }
+    }
+    if (!foundSimilar) {
+      map.set(key, item);
+    }
+  }
+
+  for (const item of map.values()) {
+    result.push(item);
+  }
+
+  return result;
+}
+
+async function startFetch() {
+  const startBtn = document.getElementById('startBtn');
+  const downloadBtn = document.getElementById('downloadBtn');
+  startBtn.disabled = true;
+  downloadBtn.disabled = true;
+  
+  log('=== Pintro 浏览器端数据抓取开始 ===', 'info');
+  log(`目标城市: ${CONFIG.city} 松江区，关键词: ${CONFIG.keywords.join(', ')}`, 'info');
+  
+  result = [];
+  let totalSearched = 0;
+  
+  for (const keyword of CONFIG.keywords) {
+    log(`\n--- 搜索关键词: ${keyword} ---`, 'info');
+    
+    let page = 1;
+    let hasMore = true;
+
+    while (hasMore) {
+      try {
+        const searchResult = await searchPOI(keyword, page);
+        
+        if (searchResult.status !== '1') {
+          log(`API错误: ${searchResult.infocode} - ${searchResult.info}`, 'error');
+          hasMore = false;
+          break;
+        }
+
+        if (!searchResult.pois || searchResult.pois.length === 0) {
+          log(`[完成] 关键词 ${keyword} 没有更多结果`, 'info');
+          hasMore = false;
+          break;
+        }
+
+        log(`[成功] 页 ${page}: 返回 ${searchResult.pois.length} 个POI`, 'success');
+        totalSearched += searchResult.pois.length;
+
+        for (const poi of searchResult.pois) {
+          try {
+            const detail = await getPOIDetail(poi.id);
+            const converted = convertPOI(poi, detail);
+            result.push(converted);
+            log(`  ✓ ${converted.name} (${converted.category})`, 'success');
+          } catch (e) {
+            log(`  ✗ 获取 ${poi.name} 详情失败: ${e.message}`, 'error');
+          }
+          // 限流，避免Qps限制
+          await new Promise(resolve => setTimeout(resolve, 300));
+        }
+
+        if (searchResult.pois.length < 25) {
+          hasMore = false;
+        } else {
+          page++;
+        }
+      } catch (e) {
+        log(`请求失败: ${e.message}`, 'error');
+        hasMore = false;
+        break;
+      }
+    }
+  }
+
+  // 去重
+  const finalResult = deduplicate(result);
+  
+  log(`\n=== 全部完成 ===`, 'info');
+  log(`获取POI总数: ${result.length}`, 'info');
+  log(`去重后: ${finalResult.length}`, 'success');
+  
+  result = finalResult;
+  completed = true;
+  
+  document.getElementById('result').textContent = JSON.stringify(result, null, 2);
+  startBtn.disabled = false;
+  downloadBtn.disabled = false;
+  
+  log(`\n抓取完成，请点击"下载JSON结果"下载文件`, 'info');
+}
+
+function downloadResult() {
+  if (!completed || result.length === 0) {
+    alert('还没有抓取完成结果');
+    return;
+  }
+  
+  const blob = new Blob([JSON.stringify(result, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'pintro-demo-data-api.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+</script>
+</body>
+</html>
