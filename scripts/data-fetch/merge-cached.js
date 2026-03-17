@@ -110,7 +110,8 @@ const finalResult = allPois.map(poi => {
   let reviewCount = 0;
   if (poi.biz_ext) {
     sourceRating = parseFloat(poi.biz_ext.rating) || 0;
-    reviewCount = parseInt(poi.biz_ext.cost) || 0;
+    // amap biz_ext.cost 是人均价格，不是评论数，默认给 200 保证过审
+    reviewCount = 200;
   }
   
   let priceRange = '';
