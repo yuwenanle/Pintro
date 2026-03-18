@@ -14,8 +14,59 @@
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 70px 20px 20px 20px;
             background-color: #f5f5f5;
+        }
+        /* 顶部固定导航栏 */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color: #2196F3;
+            z-index: 1001;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .navbar-content {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 20px;
+        }
+        .navbar-brand {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .navbar-menu {
+            display: flex;
+            gap: 10px;
+        }
+        .nav-item {
+            color: white;
+            background: none;
+            border: 1px solid rgba(255,255,255,0.3);
+            padding: 6px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        .nav-item:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+        .nav-item.active {
+            background-color: rgba(255,255,255,0.2);
+            border-color: white;
+        }
+        /* 页面容器 */
+        .page {
+            display: none;
+        }
+        .page.active {
+            display: block;
         }
         h1 {
             color: #333;
@@ -262,49 +313,67 @@
     </style>
 </head>
 <body>
-    <h1>Pintro 附近心动地点提醒</h1>
-
-    <div class="card">
-        <h2>设置</h2>
-        <div class="setting-group">
-            <label>功能开关</label>
-            <label class="switch">
-                <input type="checkbox" id="featureToggle" checked>
-                <span class="slider"></span>
-            </label>
-        </div>
-        <div class="setting-group">
-            <label>触发距离</label>
-            <div class="radio-group">
-                <label><input type="radio" name="distance" value="500" checked> 500米</label>
-                <label><input type="radio" name="distance" value="1000"> 1公里</label>
-                <label><input type="radio" name="distance" value="1500"> 1.5公里</label>
+    <!-- 顶部固定导航栏 -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="navbar-brand">Pintro</div>
+            <div class="navbar-menu">
+                <button class="nav-item active" data-page="home" onclick="switchPage('home')">首页</button>
+                <button class="nav-item" data-page="favorites" onclick="switchPage('favorites')">我的收藏 ⭐</button>
+                <button class="nav-item" data-page="settings" onclick="openSettingsModal()">设置 ⚙️</button>
             </div>
         </div>
-    </div>
+    </nav>
 
-    <div class="card">
-        <div style="display: flex; gap: 10px;">
-            <button class="btn btn-refresh" id="scrollToCollectionBtn" style="flex: 1;">查看我的收藏 ⭐</button>
+    <!-- 首页：地点列表 -->
+    <div id="page-home" class="page active">
+        <div class="card">
+            <div id="debugInfo" class="debug-info" style="display: none;">
+                <strong>调试信息</strong><br>
+                <span id="debugText"></span>
+            </div>
+            <button class="btn btn-refresh" id="refreshBtn">重新检查附近地点</button>
+        </div>
+
+        <div class="card">
+            <h2>附近地点</h2>
+            <div class="places-list" id="testPlaces"></div>
         </div>
     </div>
 
-    <div class="card">
-        <h2>可选测试地点</h2>
-        <div class="places-list" id="testPlaces"></div>
-    </div>
-
-    <div class="card my-collection">
-        <h2>我的收藏</h2>
-        <div id="myCollection"></div>
-    </div>
-
-    <div class="card">
-        <div id="debugInfo" class="debug-info" style="display: none;">
-            <strong>调试信息</strong><br>
-            <span id="debugText"></span>
+    <!-- 我的收藏页面 -->
+    <div id="page-favorites" class="page">
+        <div class="card my-collection">
+            <h2>我的收藏</h2>
+            <div id="myCollection"></div>
         </div>
-        <button class="btn btn-refresh" id="refreshBtn">重新检查附近地点</button>
+    </div>
+
+    <!-- 设置弹窗 -->
+    <div id="settingsModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeSettingsModal()">&times;</span>
+            <div class="modal-title">
+                <h2>设置</h2>
+            </div>
+            <div id="modalBody">
+                <div class="setting-group">
+                    <label>功能开关</label>
+                    <label class="switch">
+                        <input type="checkbox" id="featureToggle" checked>
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <div class="setting-group">
+                    <label>触发提醒距离</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="distance" value="500" checked> 500米</label>
+                        <label><input type="radio" name="distance" value="1000"> 1公里</label>
+                        <label><input type="radio" name="distance" value="1500"> 1.5公里</label>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- 提醒弹窗 -->
@@ -423,6 +492,33 @@
             const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
             return R * c; // 距离（米）
+        }
+
+        // 页面切换
+        function switchPage(pageName) {
+            // 隐藏所有页面
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            // 显示选中页面
+            document.getElementById(`page-${pageName}`).classList.add('active');
+            // 更新导航按钮状态
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.page === pageName) {
+                    item.classList.add('active');
+                }
+            });
+        }
+
+        // 打开设置弹窗
+        function openSettingsModal() {
+            document.getElementById('settingsModal').style.display = "block";
+        }
+
+        // 关闭设置弹窗
+        function closeSettingsModal() {
+            document.getElementById('settingsModal').style.display = "none";
         }
 
         // 检查是否可以触发提醒（测试阶段：总是允许触发）
@@ -796,11 +892,6 @@
                 checkNearbyPlaces('manual');
             });
 
-            // 跳转到我的收藏
-            document.getElementById('scrollToCollectionBtn').addEventListener('click', () => {
-                document.querySelector('.my-collection').scrollIntoView({ behavior: 'smooth' });
-            });
-
             // 点击遮罩关闭弹窗
             document.getElementById('alertModal').addEventListener('click', e => {
                 if (e.target.id === 'alertModal') {
@@ -811,6 +902,12 @@
             document.getElementById('navModal').addEventListener('click', e => {
                 if (e.target.id === 'navModal') {
                     closeNavModal();
+                }
+            });
+            // 点击遮罩关闭设置弹窗
+            document.getElementById('settingsModal').addEventListener('click', e => {
+                if (e.target.id === 'settingsModal') {
+                    closeSettingsModal();
                 }
             });
         }
