@@ -667,15 +667,16 @@
                     }
                 });
 
-                // 只有手动检查才提示"没有找到"，自动初始化检查不打扰
-                if (checkType === 'manual' && collection.length > 0 && nearbyPlaces.length === 0) {
-                    showInfoAlert("附近没有发现你收藏的心动地点");
+                // 只有找到附近地点才弹出提醒
+                if (nearbyPlaces.length === 0) {
+                    // 只有手动检查且有收藏才提示"没找到"
+                    if (checkType === 'manual' && collection.length > 0) {
+                        showInfoAlert("附近没有发现你收藏的心动地点");
+                    }
                     return;
                 }
 
-                if (nearbyPlaces.length > 0) {
-                    showAlertModal(nearbyPlaces);
-                }
+                showAlertModal(nearbyPlaces);
             }, error => {
                 let errorMsg = "获取位置失败，请检查位置权限";
                 switch(error.code) {
