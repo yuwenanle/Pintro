@@ -213,6 +213,40 @@
             color: #666;
             word-break: break-all;
         }
+        .nav-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            min-width: 200px;
+        }
+        .btn-nav {
+            background-color: #2196F3;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+        }
+        .btn-nav:hover {
+            opacity: 0.8;
+        }
+        .place-meta {
+            font-size: 12px;
+            color: #888;
+            margin-top: 4px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .tag {
+            background-color: #f0f0f0;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 11px;
+        }
+        .btn-navigate {
+            background-color: #4CAF50;
+            color: white;
+            white-space: nowrap;
+        }
     </style>
 </head>
 <body>
@@ -263,6 +297,24 @@
                 <h2 id="modalTitle"></h2>
             </div>
             <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <!-- 导航选择弹窗 -->
+    <div id="navModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeNavModal()">&times;</span>
+            <div class="modal-title">
+                <h2>选择地图APP导航</h2>
+                <p id="navModalSubtitle"></p>
+            </div>
+            <div id="navModalBody">
+                <div class="nav-buttons">
+                    <button class="btn btn-nav" onclick="openNavigation('amap')">高德地图</button>
+                    <button class="btn btn-nav" onclick="openNavigation('baidu')">百度地图</button>
+                    <button class="btn btn-nav" onclick="openNavigation('apple')">苹果地图</button>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -356,6 +408,63 @@
             localStorage.setItem(STORAGE_KEYS.LAST_TRIGGER, JSON.stringify(lastTrigger));
         }
 
+        // 当前待导航的地点
+        let currentNavigatePlace = null;
+
+        // 打开导航选择弹窗
+        function showNavigateModal(place) {
+            currentNavigatePlace = place;
+            const modal = document.getElementById('navModal');
+            const subtitle = document.getElementById('navModalSubtitle');
+            subtitle.textContent = `目的地：${place.name}`;
+            modal.style.display = "block";
+        }
+
+        // 关闭导航选择弹窗
+        function closeNavModal() {
+            document.getElementById('navModal').style.display = "none";
+            currentNavigatePlace = null;
+        }
+
+        // 打开具体导航
+        function openNavigation(mapType) {
+            if (!currentNavigatePlace) return;
+            
+            const { lat, lng, name } = currentNavigatePlace;
+            let url = '';
+            
+            switch(mapType) {
+                case 'amap':
+                    // 高德地图
+                    url = `iosamap://navi?sourceApplication=Pintro&lat=${lat}&lon=${lng}&name=${encodeURIComponent(name)}`;
+                    break;
+                case 'baidu':
+                    // 百度地图
+                    url = `baidumap://map/direction?destination=name:${encodeURIComponent(name)}|latlng:${lat},${lng}&mode=driving`;
+                    break;
+                case 'apple':
+                    // 苹果地图
+                    url = `http://maps.apple.com/?daddr=${lat},${lng}&q=${encodeURIComponent(name)}`;
+                    break;
+            }
+            
+            // 打开URL
+            window.location.href = url;
+            setTimeout(() => {
+                closeNavModal();
+                closeModal();
+            }, 100);
+        }
+
+        // 格式化距离显示
+        function formatDistance(distance) {
+            if (distance < 1000) {
+                return `${Math.round(distance)} 米`;
+            } else {
+                return `${(distance / 1000).toFixed(1)} 公里`;
+            }
+        }
+
         // 获取当前位置并检查
         // checkType: 'auto' | 'manual' - 自动检查限制24小时，手动检查不限制
         function checkNearbyPlaces(checkType = 'auto') {
@@ -373,6 +482,12 @@
                 const currentLng = position.coords.longitude;
                 const collection = getCollection();
                 const triggerDistance = settings.triggerDistance;
+
+                // 保存当前用户位置，用于渲染各个地点的距离
+                currentUserLocation = { lat: currentLat, lng: currentLng };
+                // 重新渲染列表，显示距离
+                renderTestPlaces();
+                renderCollection();
 
                 // 显示调试信息
                 const debugContainer = document.getElementById('debugInfo');
@@ -451,6 +566,7 @@
                     <div class="alert alert-success">
                         <strong>${place.name}</strong> 就在你附近 ${place.distance} 米处
                         <p style="margin-top: 8px; font-size: 14px;">${place.description}</p>
+                        <button class="btn btn-navigate" onclick="showNavigateModal(${JSON.stringify(place).replace(/"/g, '&quot;')})" style="margin-top: 12px;">开始导航</button>
                     </div>
                 `;
             } else {
@@ -461,6 +577,7 @@
                         <div class="alert alert-success">
                             <strong>${place.name}</strong> - ${place.distance} 米
                             <p style="margin-top: 4px; font-size: 14px;">${place.description}</p>
+                            <button class="btn btn-navigate" onclick="showNavigateModal(${JSON.stringify(place).replace(/"/g, '&quot;')})" style="margin-top: 8px;">开始导航</button>
                         </div>
                     `;
                 });
@@ -485,6 +602,9 @@
             modal.style.display = "block";
         }
 
+        // 保存当前用户位置，用于渲染距离
+        let currentUserLocation = null;
+
         // 渲染测试地点列表
         function renderTestPlaces() {
             const container = document.getElementById('testPlaces');
@@ -493,16 +613,45 @@
 
             TEST_PLACES.forEach(place => {
                 const isCollected = collection.includes(place.id);
+                let distanceHtml = '';
+                if (currentUserLocation) {
+                    const distance = calculateDistance(
+                        currentUserLocation.lat,
+                        currentUserLocation.lng,
+                        place.lat,
+                        place.lng
+                    );
+                    distanceHtml = `<div class="place-meta"><span class="distance">距离: ${formatDistance(distance)}</span></div>`;
+                }
+
+                // 构建meta信息（分类、评分）
+                let metaHtml = '';
+                if (place.category || place.source_rating !== undefined) {
+                    metaHtml = '<div class="place-meta">';
+                    if (place.category) {
+                        metaHtml += `<span class="tag">${place.category}</span>`;
+                    }
+                    if (place.source_rating !== undefined && place.source_rating > 0) {
+                        metaHtml += `<span class="tag">⭐ ${place.source_rating}</span>`;
+                    }
+                    metaHtml += '</div>';
+                }
+
                 html += `
                     <div class="place-item">
                         <div class="place-info">
                             <h3>${place.name}</h3>
                             <p>${place.description}</p>
+                            ${metaHtml}
+                            ${distanceHtml}
                         </div>
-                        ${isCollected 
-                            ? `<button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderTestPlaces();">移除收藏</button>`
-                            : `<button class="btn btn-add" onclick="addToCollection(${place.id}); renderTestPlaces();">添加收藏</button>`
-                        }
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <button class="btn btn-navigate" onclick="showNavigateModal(${JSON.stringify(place).replace(/"/g, '&quot;')})">导航</button>
+                            ${isCollected 
+                                ? `<button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderTestPlaces(); renderCollection();">移除收藏</button>`
+                                : `<button class="btn btn-add" onclick="addToCollection(${place.id}); renderTestPlaces(); renderCollection();">添加收藏</button>`
+                            }
+                        </div>
                     </div>
                 `;
             });
@@ -524,13 +673,43 @@
             collection.forEach(placeId => {
                 const place = TEST_PLACES.find(p => p.id === placeId);
                 if (!place) return;
+
+                let distanceHtml = '';
+                if (currentUserLocation) {
+                    const distance = calculateDistance(
+                        currentUserLocation.lat,
+                        currentUserLocation.lng,
+                        place.lat,
+                        place.lng
+                    );
+                    distanceHtml = `<div class="place-meta"><span class="distance">距离: ${formatDistance(distance)}</span></div>`;
+                }
+
+                // 构建meta信息（分类、评分）
+                let metaHtml = '';
+                if (place.category || place.source_rating !== undefined) {
+                    metaHtml = '<div class="place-meta">';
+                    if (place.category) {
+                        metaHtml += `<span class="tag">${place.category}</span>`;
+                    }
+                    if (place.source_rating !== undefined && place.source_rating > 0) {
+                        metaHtml += `<span class="tag">⭐ ${place.source_rating}</span>`;
+                    }
+                    metaHtml += '</div>';
+                }
+
                 html += `
                     <div class="place-item">
                         <div class="place-info">
                             <h3>${place.name}</h3>
                             <p>${place.description}</p>
+                            ${metaHtml}
+                            ${distanceHtml}
                         </div>
-                        <button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderCollection(); renderTestPlaces();">移除</button>
+                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                            <button class="btn btn-navigate" onclick="showNavigateModal(${JSON.stringify(place).replace(/"/g, '&quot;')})">导航</button>
+                            <button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderCollection(); renderTestPlaces();">移除</button>
+                        </div>
                     </div>
                 `;
             });
@@ -563,6 +742,12 @@
             document.getElementById('alertModal').addEventListener('click', e => {
                 if (e.target.id === 'alertModal') {
                     closeModal();
+                }
+            });
+            // 点击遮罩关闭导航弹窗
+            document.getElementById('navModal').addEventListener('click', e => {
+                if (e.target.id === 'navModal') {
+                    closeNavModal();
                 }
             });
         }
