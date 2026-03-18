@@ -432,30 +432,41 @@
             
             const { lat, lng, name } = currentNavigatePlace;
             let url = '';
+            let webFallbackUrl = '';
             
             switch(mapType) {
                 case 'amap':
                     // 高德地图 - 从当前位置导航到目的地
-                    // 兼容iOS和Android：起点留空表示使用当前位置
-                    url = `amap://navi?sourceApplication=Pintro&lat=${lat}&lon=${lng}&poiname=${encodeURIComponent(name)}&dev=0`;
+                    // iOS URL Scheme
+                    url = `iosamap://navi?sourceApplication=Pintro&lat=${lat}&lon=${lng}&poiname=${encodeURIComponent(name)}&dev=0`;
+                    // 网页 fallback
+                    webFallbackUrl = `https://uri.amap.com/marker?position=${lng},${lat}&name=${encodeURIComponent(name)}&src=Pintro`;
                     break;
                 case 'baidu':
                     // 百度地图 - 从当前位置导航到目的地
-                    // origin留空表示当前位置
                     url = `baidumap://map/direction?destination=${lat},${lng}|name=${encodeURIComponent(name)}&mode=driving&src=Pintro`;
+                    webFallbackUrl = `https://map.baidu.com/place/detail?output=html&coord_type=gcj02&location=${lng},${lat}&name=${encodeURIComponent(name)}`;
                     break;
                 case 'apple':
-                    // 苹果地图 - 从当前位置导航到目的地
+                    // 苹果地图 - 直接打开http链接，系统会处理
                     url = `http://maps.apple.com/?daddr=${lat},${lng}&q=${encodeURIComponent(name)}&dirflg=d`;
+                    webFallbackUrl = url;
                     break;
             }
             
-            // 打开URL
+            // 尝试打开URL Scheme，如果失败就fallback到网页
+            const startTime = Date.now();
             window.location.href = url;
+            
+            // 如果一段时间后页面还在这里，说明打开失败，跳转到网页版
             setTimeout(() => {
+                if (document.hidden === false && Date.now() - startTime < 2000) {
+                    // 打开失败，跳转到网页版
+                    window.location.href = webFallbackUrl;
+                }
                 closeNavModal();
                 closeModal();
-            }, 100);
+            }, 1500);
         }
 
         // 格式化距离显示
