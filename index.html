@@ -279,7 +279,7 @@
             { id: 8, name: "广富林文化遗址", description: "松江历史文化景点", lat: 31.0350, lng: 121.2110 },
             { id: 9, name: "辰山植物园", description: "大型植物观赏园", lat: 31.0515, lng: 121.1810 },
             { id: 10, name: "泰晤士小镇", description: "欧式风情小镇", lat: 31.0210, lng: 121.2040 },
-            { id: 11, name: "熵网网球中心", description: "网球场 · 松江区网球场榜第3名", lat: 31.0463, lng: 121.2360 }
+            { id: 11, name: "熵网网球中心", description: "网球场 · 松江区网球场榜第3名", lat: 31.0458, lng: 121.2372 }
         ];
 
         // localStorage 键
@@ -355,18 +355,9 @@
             return R * c; // 距离（米）
         }
 
-        // 检查是否可以触发提醒（24小时内不重复）
+        // 检查是否可以触发提醒（测试阶段：总是允许触发）
         function canTrigger(placeId) {
-            const saved = localStorage.getItem(STORAGE_KEYS.LAST_TRIGGER);
-            if (!saved) return true;
-            
-            const lastTrigger = JSON.parse(saved);
-            const lastTime = lastTrigger[placeId];
-            if (!lastTime) return true;
-
-            const now = Date.now();
-            const hoursPassed = (now - lastTime) / (1000 * 60 * 60);
-            return hoursPassed >= 24;
+            return true;
         }
 
         // 记录触发时间
