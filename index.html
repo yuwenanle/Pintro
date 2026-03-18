@@ -23,9 +23,10 @@
             top: 0;
             left: 0;
             right: 0;
-            background-color: #2196F3;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
             z-index: 1001;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
         }
         .navbar-content {
             max-width: 800px;
@@ -33,33 +34,34 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 12px 20px;
+            padding: 10px 20px;
         }
         .navbar-brand {
-            color: white;
+            color: #333333;
             font-size: 18px;
-            font-weight: bold;
+            font-weight: 600;
         }
         .navbar-menu {
             display: flex;
-            gap: 10px;
+            gap: 4px;
         }
         .nav-item {
-            color: white;
+            color: #666666;
             background: none;
-            border: 1px solid rgba(255,255,255,0.3);
+            border: none;
             padding: 6px 12px;
-            border-radius: 6px;
+            border-radius: 4px;
             cursor: pointer;
             font-size: 14px;
-            transition: all 0.3s;
+            transition: all 0.2s;
         }
         .nav-item:hover {
-            background-color: rgba(255,255,255,0.2);
+            background-color: #f5f5f5;
+            color: #333333;
         }
         .nav-item.active {
-            background-color: rgba(255,255,255,0.2);
-            border-color: white;
+            background-color: #e3f2fd;
+            color: #1976d2;
         }
         /* 页面容器 */
         .page {
@@ -665,12 +667,15 @@
                     }
                 });
 
-                if (nearbyPlaces.length === 0) {
+                // 只有收藏不为空且没有找到附近地点才提示
+                if (collection.length > 0 && nearbyPlaces.length === 0) {
                     showInfoAlert("附近没有发现你收藏的心动地点");
                     return;
                 }
 
-                showAlertModal(nearbyPlaces);
+                if (nearbyPlaces.length > 0) {
+                    showAlertModal(nearbyPlaces);
+                }
             }, error => {
                 let errorMsg = "获取位置失败，请检查位置权限";
                 switch(error.code) {
