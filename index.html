@@ -204,6 +204,18 @@
             text-align: center;
             padding: 20px;
         }
+        .star-btn {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 4px 8px;
+            color: #ccc;
+            transition: color 0.3s;
+        }
+        .star-btn.collected {
+            color: #FFC107;
+        }
         .debug-info {
             background-color: #f0f8ff;
             padding: 10px;
@@ -359,6 +371,18 @@
         // 保存收藏列表
         function saveCollection(collection) {
             localStorage.setItem(STORAGE_KEYS.COLLECTION, JSON.stringify(collection));
+        }
+
+        // 切换收藏状态
+        function toggleFavorite(placeId) {
+            const collection = getCollection();
+            const index = collection.indexOf(placeId);
+            if (index === -1) {
+                collection.push(placeId);
+            } else {
+                collection.splice(index, 1);
+            }
+            saveCollection(collection);
         }
 
         // 添加到收藏
@@ -624,7 +648,17 @@
             const collection = getCollection();
             let html = '';
 
-            TEST_PLACES.forEach(place => {
+            // 如果有当前位置，按距离由近到远排序
+            let sortedPlaces = [...TEST_PLACES];
+            if (currentUserLocation) {
+                sortedPlaces.sort((a, b) => {
+                    const distA = calculateDistance(currentUserLocation.lat, currentUserLocation.lng, a.lat, a.lng);
+                    const distB = calculateDistance(currentUserLocation.lat, currentUserLocation.lng, b.lat, b.lng);
+                    return distA - distB;
+                });
+            }
+
+            sortedPlaces.forEach(place => {
                 const isCollected = collection.includes(place.id);
                 let distanceHtml = '';
                 if (currentUserLocation) {
@@ -658,12 +692,13 @@
                             ${metaHtml}
                             ${distanceHtml}
                         </div>
-                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-end;">
                             <button class="btn btn-navigate" onclick="showNavigateModal(${JSON.stringify(place).replace(/"/g, '&quot;')})">导航</button>
-                            ${isCollected 
-                                ? `<button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderTestPlaces(); renderCollection();">移除收藏</button>`
-                                : `<button class="btn btn-add" onclick="addToCollection(${place.id}); renderTestPlaces(); renderCollection();">添加收藏</button>`
-                            }
+                            <button class="star-btn ${isCollected ? 'collected' : ''}" 
+                                    onclick="toggleFavorite(${place.id}); renderTestPlaces(); renderCollection();"
+                                    title="${isCollected ? '取消收藏' : '添加收藏'}">
+                                ${isCollected ? '★' : '☆'}
+                            </button>
                         </div>
                     </div>
                 `;
@@ -719,9 +754,13 @@
                             ${metaHtml}
                             ${distanceHtml}
                         </div>
-                        <div style="display: flex; flex-direction: column; gap: 8px;">
+                        <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-end;">
                             <button class="btn btn-navigate" onclick="showNavigateModal(${JSON.stringify(place).replace(/"/g, '&quot;')})">导航</button>
-                            <button class="btn btn-remove" onclick="removeFromCollection(${place.id}); renderCollection(); renderTestPlaces();">移除</button>
+                            <button class="star-btn collected" 
+                                    onclick="toggleFavorite(${place.id}); renderTestPlaces(); renderCollection();"
+                                    title="取消收藏">
+                                ★
+                            </button>
                         </div>
                     </div>
                 `;
