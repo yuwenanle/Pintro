@@ -204,6 +204,15 @@
             text-align: center;
             padding: 20px;
         }
+        .debug-info {
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 12px;
+            color: #666;
+            word-break: break-all;
+        }
     </style>
 </head>
 <body>
@@ -239,6 +248,10 @@
     </div>
 
     <div class="card">
+        <div id="debugInfo" class="debug-info" style="display: none;">
+            <strong>调试信息</strong><br>
+            <span id="debugText"></span>
+        </div>
         <button class="btn btn-refresh" id="refreshBtn">重新检查附近地点</button>
     </div>
 
@@ -364,7 +377,8 @@
         }
 
         // 获取当前位置并检查
-        function checkNearbyPlaces() {
+        // checkType: 'auto' | 'manual' - 自动检查限制24小时，手动检查不限制
+        function checkNearbyPlaces(checkType = 'auto') {
             if (!settings.enabled) {
                 return;
             }
@@ -380,10 +394,30 @@
                 const collection = getCollection();
                 const triggerDistance = settings.triggerDistance;
 
+                // 显示调试信息
+                const debugContainer = document.getElementById('debugInfo');
+                const debugText = document.getElementById('debugText');
+                debugContainer.style.display = 'block';
+                debugText.innerHTML = `当前位置: 纬度 ${currentLat.toFixed(6)}, 经度 ${currentLng.toFixed(6)}<br>收藏地点数量: ${collection.length}`;
+
+                // 如果有收藏，计算每个收藏的距离并显示
+                if (collection.length > 0) {
+                    let debugHtml = '<br>各收藏地点距离:<br>';
+                    collection.forEach(placeId => {
+                        const place = TEST_PLACES.find(p => p.id === placeId);
+                        if (place) {
+                            const dist = Math.round(calculateDistance(currentLat, currentLng, place.lat, place.lng));
+                            debugHtml += `${place.name}: ${dist} 米 (触发距离: ${triggerDistance} 米)<br>`;
+                        }
+                    });
+                    debugText.innerHTML += debugHtml;
+                }
+
                 const nearbyPlaces = [];
 
                 collection.forEach(placeId => {
-                    if (!canTrigger(placeId)) return;
+                    // 手动检查时不限制触发频率，总是检查
+                    if (!canTrigger(placeId) && checkType === 'auto') return;
 
                     const place = TEST_PLACES.find(p => p.id === placeId);
                     if (!place) return;
@@ -391,7 +425,9 @@
                     const distance = calculateDistance(currentLat, currentLng, place.lat, place.lng);
                     if (distance <= triggerDistance) {
                         nearbyPlaces.push({...place, distance: Math.round(distance)});
-                        recordTrigger(placeId);
+                        if (checkType === 'auto') {
+                            recordTrigger(placeId);
+                        }
                     }
                 });
 
@@ -540,7 +576,7 @@
 
             // 重新检查按钮
             document.getElementById('refreshBtn').addEventListener('click', () => {
-                checkNearbyPlaces();
+                checkNearbyPlaces('manual');
             });
 
             // 点击遮罩关闭弹窗
