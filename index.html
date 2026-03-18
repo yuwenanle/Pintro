@@ -898,19 +898,19 @@
                 checkNearbyPlaces('manual');
             });
 
-            // 点击遮罩关闭弹窗
+            // 点击遮罩关闭弹窗 - 提醒
             document.getElementById('alertModal').addEventListener('click', e => {
                 if (e.target.id === 'alertModal') {
                     closeModal();
                 }
             });
-            // 点击遮罩关闭导航弹窗
+            // 点击遮罩关闭弹窗 - 导航选择
             document.getElementById('navModal').addEventListener('click', e => {
                 if (e.target.id === 'navModal') {
                     closeNavModal();
                 }
             });
-            // 点击遮罩关闭设置弹窗
+            // 点击遮罩关闭弹窗 - 设置
             document.getElementById('settingsModal').addEventListener('click', e => {
                 if (e.target.id === 'settingsModal') {
                     closeSettingsModal();
