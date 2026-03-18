@@ -435,16 +435,17 @@
             
             switch(mapType) {
                 case 'amap':
-                    // 高德地图
-                    url = `iosamap://navi?sourceApplication=Pintro&lat=${lat}&lon=${lng}&name=${encodeURIComponent(name)}`;
+                    // 高德地图 - 从当前位置导航到目的地
+                    // Android
+                    url = `amapuri://route/plan/?destLatitude=${lat}&destLongitude=${lng}&destName=${encodeURIComponent(name)}&dev=0`;
                     break;
                 case 'baidu':
-                    // 百度地图
-                    url = `baidumap://map/direction?destination=name:${encodeURIComponent(name)}|latlng:${lat},${lng}&mode=driving`;
+                    // 百度地图 - 从当前位置导航到目的地
+                    url = `baidumap://map/direction?destination=name:${encodeURIComponent(name)}|latlng:${lat},${lng}&mode=driving&src=com.pintro.app`;
                     break;
                 case 'apple':
-                    // 苹果地图
-                    url = `http://maps.apple.com/?daddr=${lat},${lng}&q=${encodeURIComponent(name)}`;
+                    // 苹果地图 - 从当前位置导航到目的地
+                    url = `http://maps.apple.com/?daddr=${lat},${lng}&q=${encodeURIComponent(name)}&dirflg=d`;
                     break;
             }
             
