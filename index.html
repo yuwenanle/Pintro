@@ -667,8 +667,8 @@
                     }
                 });
 
-                // 只有收藏不为空且没有找到附近地点才提示
-                if (collection.length > 0 && nearbyPlaces.length === 0) {
+                // 只有手动检查才提示"没有找到"，自动初始化检查不打扰
+                if (checkType === 'manual' && collection.length > 0 && nearbyPlaces.length === 0) {
                     showInfoAlert("附近没有发现你收藏的心动地点");
                     return;
                 }
