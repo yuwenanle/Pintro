@@ -267,20 +267,8 @@
     </div>
 
     <script>
-        // 内置测试地点（上海松江区）
-        const TEST_PLACES = [
-            { id: 1, name: "农家菜老大 (三迪店)", description: "松江本地农家菜", lat: 31.0160, lng: 121.2380 },
-            { id: 2, name: "松江万达广场", description: "松江综合购物中心", lat: 31.0075, lng: 121.2460 },
-            { id: 3, name: "一尺花园鲜酿工坊", description: "花园式餐厅酒吧", lat: 31.0280, lng: 121.2590 },
-            { id: 4, name: "松江赫贤学校", description: "国际化学校", lat: 31.0510, lng: 121.2380 },
-            { id: 5, name: "松江印象城", description: "大型商业综合体", lat: 31.0195, lng: 121.2615 },
-            { id: 6, name: "五龙广场", description: "松江新城商业中心", lat: 31.0120, lng: 121.2415 },
-            { id: 7, name: "恒都广场", description: "商业生活综合体", lat: 31.0030, lng: 121.2290 },
-            { id: 8, name: "广富林文化遗址", description: "松江历史文化景点", lat: 31.0350, lng: 121.2110 },
-            { id: 9, name: "辰山植物园", description: "大型植物观赏园", lat: 31.0515, lng: 121.1810 },
-            { id: 10, name: "泰晤士小镇", description: "欧式风情小镇", lat: 31.0210, lng: 121.2040 },
-            { id: 11, name: "熵网网球中心", description: "网球场 · 松江区网球场榜第3名", lat: 31.0472, lng: 121.2445 }
-        ];
+        // 测试地点数据，从 pintro-demo-data.json 加载
+        let TEST_PLACES = [];
 
         // localStorage 键
         const STORAGE_KEYS = {
@@ -582,16 +570,43 @@
         // 初始化页面
         function init() {
             loadSettings();
-            renderTestPlaces();
-            renderCollection();
             bindEvents();
+            
+            // 从JSON文件加载地点数据
+            fetch('./pintro-demo-data.json')
+                .then(response => response.json())
+                .then(data => {
+                    // 转换数据格式，添加id
+                    TEST_PLACES = data.map((item, index) => ({
+                        id: index + 1,
+                        name: item.name,
+                        description: `${item.category} · ${item.address}`,
+                        lat: item.location.lat,
+                        lng: item.location.lng
+                    }));
+                    // 另外添加熵网网球中心（用户新增）
+                    TEST_PLACES.push({
+                        id: TEST_PLACES.length + 1,
+                        name: "熵网网球中心",
+                        description: "网球场 · 松江区网球场榜第3名",
+                        lat: 31.0458,
+                        lng: 121.2372
+                    });
+                    
+                    renderTestPlaces();
+                    renderCollection();
 
-            // 页面加载完成后自动检查一次
-            if (settings.enabled) {
-                setTimeout(() => {
-                    checkNearbyPlaces();
-                }, 500);
-            }
+                    // 页面加载完成后自动检查一次
+                    if (settings.enabled) {
+                        setTimeout(() => {
+                            checkNearbyPlaces('auto');
+                        }, 500);
+                    }
+                })
+                .catch(error => {
+                    console.error('加载地点数据失败:', error);
+                    alert('加载地点数据失败，请刷新页面重试');
+                });
         }
 
         // 启动
