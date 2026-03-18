@@ -515,6 +515,9 @@
 
         // 打开设置弹窗
         function openSettingsModal() {
+            // 关闭其它弹窗
+            closeModal();
+            closeNavModal();
             document.getElementById('settingsModal').style.display = "block";
         }
 
@@ -541,6 +544,10 @@
 
         // 打开导航选择弹窗
         function showNavigateModal(place) {
+            // 关闭其它弹窗
+            closeModal();
+            closeSettingsModal();
+
             currentNavigatePlace = place;
             const modal = document.getElementById('navModal');
             const subtitle = document.getElementById('navModalSubtitle');
@@ -700,6 +707,10 @@
 
         // 显示提醒弹窗
         function showAlertModal(places) {
+            // 关闭其它弹窗
+            closeSettingsModal();
+            closeNavModal();
+
             const modal = document.getElementById('alertModal');
             const title = document.getElementById('modalTitle');
             const body = document.getElementById('modalBody');
@@ -739,6 +750,10 @@
 
         // 显示普通信息弹窗
         function showInfoAlert(message) {
+            // 关闭其它弹窗
+            closeSettingsModal();
+            closeNavModal();
+
             const modal = document.getElementById('alertModal');
             const title = document.getElementById('modalTitle');
             const body = document.getElementById('modalBody');
