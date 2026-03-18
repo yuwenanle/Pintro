@@ -145,10 +145,10 @@ async function getPOIDetail(id) {
     return JSON.parse(fs.readFileSync(cachePath, 'utf-8'));
   }
 
-  const params = { id };
+  const params = { id, extensions: 'all' };
   const url = buildUrl('/v3/place/detail', params);
   
-  console.log(`[API详情] ${id}`);
+  console.log(`[API详情] ${id} (extensions=all 获取photos)`);
   const result = await httpGet(url);
   
   fs.writeFileSync(cachePath, JSON.stringify(result, null, 2));

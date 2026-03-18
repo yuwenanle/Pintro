@@ -312,6 +312,13 @@
             color: white;
             white-space: nowrap;
         }
+        .place-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 <body>
@@ -807,9 +814,15 @@
                     metaHtml += '</div>';
                 }
 
+                let placeImageHtml = '';
+                if (place.photos && place.photos.length > 0) {
+                    placeImageHtml = `<img class="place-image" src="${place.photos[0].url}" alt="${place.photos[0].title || place.name}">`;
+                }
+
                 html += `
                     <div class="place-item">
                         <div class="place-info">
+                            ${placeImageHtml}
                             <h3>${place.name}</h3>
                             <p>${place.description}</p>
                             ${metaHtml}
@@ -869,9 +882,15 @@
                     metaHtml += '</div>';
                 }
 
+                let placeImageHtml = '';
+                if (place.photos && place.photos.length > 0) {
+                    placeImageHtml = `<img class="place-image" src="${place.photos[0].url}" alt="${place.photos[0].title || place.name}">`;
+                }
+
                 html += `
                     <div class="place-item">
                         <div class="place-info">
+                            ${placeImageHtml}
                             <h3>${place.name}</h3>
                             <p>${place.description}</p>
                             ${metaHtml}
@@ -946,9 +965,12 @@
                     TEST_PLACES = data.map((item, index) => ({
                         id: index + 1,
                         name: item.name,
+                        category: item.category,
                         description: `${item.category} · ${item.address}`,
                         lat: item.location.lat,
-                        lng: item.location.lng
+                        lng: item.location.lng,
+                        source_rating: item.source_rating,
+                        photos: item.photos || []
                     }));
                     // 另外添加熵网网球中心（用户新增）
                     TEST_PLACES.push({
