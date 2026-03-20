@@ -69,7 +69,7 @@ async function searchPOI(keyword, page = 1) {
 }
 
 async function getPOIDetail(id) {
-  const url = `https://restapi.amap.com/v3/place/detail?key=${CONFIG.key}&id=${id}&output=json`;
+  const url = `https://restapi.amap.com/v3/place/detail?key=${CONFIG.key}&id=${id}&extensions=all&output=json`;
   const data = await httpGet(url);
   return data;
 }
@@ -156,7 +156,7 @@ function convertPOI(poi, detail) {
     opening_hours: parseOpeningHours(openingHoursText),
     phone: tel,
     official_url: '',
-    image_url: '',
+    photos: detail && detail.pois && detail.pois[0] && detail.pois[0].photos ? detail.pois[0].photos : [],
     source_url: `https://www.amap.com/poi/${poi.id}`,
     amap_id: poi.id,
   };
